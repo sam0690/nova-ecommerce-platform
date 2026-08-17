@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+data/
+logs/
+docs/SETUP.md
+CLAUDE.md
+PROGRESS.md
