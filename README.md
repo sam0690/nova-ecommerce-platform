@@ -143,5 +143,6 @@ docker-compose.yml     Postgres 16 + named volume + healthcheck
 requirements.txt       psycopg 3, python-dotenv, requests
 ```
 
-Most directories are empty placeholders — Git doesn't track empty directories, so they
-won't survive a clone. Each is created by the step that needs it.
+Most directories are placeholders holding only a `README.md` — Git doesn't track empty
+directories, so a one-line README is what makes them survive a clone. Each gets real
+content from the step that needs it.
