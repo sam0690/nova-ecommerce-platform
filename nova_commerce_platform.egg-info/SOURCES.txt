@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+nova_commerce_platform.egg-info/PKG-INFO
+nova_commerce_platform.egg-info/SOURCES.txt
+nova_commerce_platform.egg-info/dependency_links.txt
+nova_commerce_platform.egg-info/requires.txt
+nova_commerce_platform.egg-info/top_level.txt
