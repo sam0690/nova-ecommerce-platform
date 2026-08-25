@@ -1,0 +1,5 @@
+order_id,customer_id,product_id,product_name,category,quantity,unit_price,amount,status,order_date
+ORD-TEST-001,1,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-01T10:00:00+00:00
+ORD-TEST-002,1,1,Wireless Mouse,Electronics,1,-29.99,-29.99,completed,2026-08-01T10:05:00+00:00
+ORD-TEST-003,1,1,Wireless Mouse,Electronics,1,29.99,29.99,banana,2026-08-01T10:10:00+00:00
+ORD-TEST-004,1,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,not-a-date

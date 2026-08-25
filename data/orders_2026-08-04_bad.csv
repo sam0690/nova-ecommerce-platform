@@ -1,0 +1,1001 @@
+order_id,customer_id,product_id,product_name,category,quantity,unit_price,amount,status,order_date
+ORD-006501,2,9,Denim Jeans,Clothing,3,59.99,179.97,refunded,2026-08-04T18:48:53+00:00
+ORD-006502,2,1,Wireless Mouse,Electronics,2,29.99,-50.00,completed,2026-08-04T14:45:21+00:00
+ORD-006503,2,8,Cotton T-Shirt,Clothing,4,19.99,79.96,unknown_status,2026-08-04T00:08:34+00:00
+ORD-006504,10,4,Coffee Maker,Home,4,79.99,319.96,cancelled,not-a-valid-date
+ORD-006505,8,4,Coffee Maker,Home,2,79.99,-50.00,completed,2026-08-04T01:20:46+00:00
+ORD-006506,10,2,Mechanical Keyboard,Electronics,4,89.99,359.96,refunded,2026-08-04T03:52:54+00:00
+ORD-006507,10,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-04T10:07:22+00:00
+ORD-006508,5,3,USB-C Hub,Electronics,1,49.99,49.99,cancelled,2026-08-04T09:45:33+00:00
+ORD-006509,10,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T12:10:02+00:00
+ORD-006510,4,8,Cotton T-Shirt,Clothing,3,19.99,59.97,pending,not-a-valid-date
+ORD-006511,7,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T20:33:29+00:00
+ORD-006512,10,6,Running Shoes,Sports,2,99.99,199.98,completed,2026-08-04T08:19:50+00:00
+ORD-006513,4,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T07:41:11+00:00
+ORD-006514,5,4,Coffee Maker,Home,1,79.99,79.99,pending,2026-08-04T02:01:01+00:00
+ORD-006515,4,7,Yoga Mat,Sports,4,24.99,99.96,refunded,2026-08-04T12:40:10+00:00
+ORD-006516,8,2,Mechanical Keyboard,Electronics,5,89.99,449.95,pending,2026-08-04T17:23:22+00:00
+ORD-006517,10,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,2026-08-04T07:52:51+00:00
+ORD-006518,9,7,Yoga Mat,Sports,2,24.99,49.98,refunded,not-a-valid-date
+ORD-006519,6,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T20:23:40+00:00
+ORD-006520,3,6,Running Shoes,Sports,2,99.99,199.98,refunded,2026-08-04T22:38:11+00:00
+ORD-006521,2,7,Yoga Mat,Sports,5,24.99,124.95,cancelled,2026-08-04T16:30:06+00:00
+ORD-006522,10,2,Mechanical Keyboard,Electronics,2,89.99,-50.00,pending,2026-08-04T09:57:25+00:00
+ORD-006523,8,8,Cotton T-Shirt,Clothing,5,19.99,99.95,unknown_status,2026-08-04T14:13:05+00:00
+ORD-006524,9,1,Wireless Mouse,Electronics,3,29.99,89.97,completed,2026-08-04T13:14:48+00:00
+ORD-006525,8,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T11:37:48+00:00
+ORD-006526,3,2,Mechanical Keyboard,Electronics,1,89.99,89.99,cancelled,2026-08-04T14:08:52+00:00
+ORD-006527,9,1,Wireless Mouse,Electronics,4,29.99,119.96,pending,2026-08-04T21:23:17+00:00
+ORD-006528,5,6,Running Shoes,Sports,3,99.99,-50.00,refunded,2026-08-04T14:18:50+00:00
+ORD-006529,8,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T21:41:54+00:00
+ORD-006530,6,2,Mechanical Keyboard,Electronics,3,89.99,269.97,cancelled,2026-08-04T22:52:44+00:00
+ORD-006531,10,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T08:24:08+00:00
+ORD-006532,2,5,Desk Lamp,Home,2,34.99,69.98,refunded,2026-08-04T17:18:36+00:00
+ORD-006533,6,7,Yoga Mat,Sports,5,24.99,124.95,cancelled,2026-08-04T05:29:40+00:00
+ORD-006534,1,3,USB-C Hub,Electronics,5,49.99,249.95,cancelled,2026-08-04T23:36:33+00:00
+ORD-006535,7,1,Wireless Mouse,Electronics,5,29.99,149.95,completed,2026-08-04T06:19:18+00:00
+ORD-006536,2,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-04T02:55:12+00:00
+ORD-006537,2,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T15:26:31+00:00
+ORD-006538,4,2,Mechanical Keyboard,Electronics,5,89.99,449.95,unknown_status,2026-08-04T16:44:10+00:00
+ORD-006539,3,10,Python Programming Book,Books,5,39.99,-50.00,completed,2026-08-04T02:58:54+00:00
+ORD-006540,9,1,Wireless Mouse,Electronics,1,29.99,29.99,pending,not-a-valid-date
+ORD-006541,7,4,Coffee Maker,Home,5,79.99,399.95,completed,2026-08-04T11:01:48+00:00
+ORD-006542,3,9,Denim Jeans,Clothing,4,59.99,239.96,pending,2026-08-04T17:24:21+00:00
+ORD-006543,5,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T02:14:02+00:00
+ORD-006544,8,9,Denim Jeans,Clothing,1,59.99,59.99,pending,2026-08-04T17:58:42+00:00
+ORD-006545,7,7,Yoga Mat,Sports,3,24.99,74.97,completed,2026-08-04T11:32:31+00:00
+ORD-006546,2,10,Python Programming Book,Books,2,39.99,79.98,pending,2026-08-04T04:36:13+00:00
+ORD-006547,4,3,USB-C Hub,Electronics,1,49.99,49.99,completed,not-a-valid-date
+ORD-006548,8,7,Yoga Mat,Sports,3,24.99,74.97,refunded,2026-08-04T04:25:33+00:00
+ORD-006549,3,2,Mechanical Keyboard,Electronics,2,89.99,179.98,unknown_status,2026-08-04T01:03:28+00:00
+ORD-006550,7,5,Desk Lamp,Home,1,34.99,34.99,pending,2026-08-04T22:51:25+00:00
+ORD-006551,6,7,Yoga Mat,Sports,5,24.99,124.95,completed,2026-08-04T06:53:28+00:00
+ORD-006552,5,7,Yoga Mat,Sports,4,24.99,99.96,completed,2026-08-04T15:49:16+00:00
+ORD-006553,10,4,Coffee Maker,Home,2,79.99,159.98,completed,2026-08-04T08:12:14+00:00
+ORD-006554,3,10,Python Programming Book,Books,2,39.99,79.98,cancelled,2026-08-04T23:58:42+00:00
+ORD-006555,7,3,USB-C Hub,Electronics,5,49.99,249.95,refunded,2026-08-04T05:25:53+00:00
+ORD-006556,10,2,Mechanical Keyboard,Electronics,2,89.99,179.98,unknown_status,2026-08-04T13:51:17+00:00
+ORD-006557,10,10,Python Programming Book,Books,3,39.99,119.97,cancelled,2026-08-04T22:01:40+00:00
+ORD-006558,3,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T11:23:48+00:00
+ORD-006559,9,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T10:58:09+00:00
+ORD-006560,7,4,Coffee Maker,Home,4,79.99,319.96,completed,2026-08-04T19:44:17+00:00
+ORD-006561,4,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T11:15:15+00:00
+ORD-006562,1,1,Wireless Mouse,Electronics,4,29.99,119.96,completed,2026-08-04T09:22:31+00:00
+ORD-006563,8,6,Running Shoes,Sports,5,99.99,499.95,unknown_status,2026-08-04T18:11:34+00:00
+ORD-006564,1,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T21:37:14+00:00
+ORD-006565,8,3,USB-C Hub,Electronics,4,49.99,-50.00,completed,2026-08-04T19:19:12+00:00
+ORD-006566,3,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T03:34:00+00:00
+ORD-006567,8,5,Desk Lamp,Home,4,34.99,-50.00,pending,2026-08-04T08:34:11+00:00
+ORD-006568,7,7,Yoga Mat,Sports,2,24.99,49.98,completed,2026-08-04T14:26:54+00:00
+ORD-006569,6,4,Coffee Maker,Home,2,79.99,159.98,cancelled,2026-08-04T06:55:37+00:00
+ORD-006570,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,cancelled,2026-08-04T00:14:39+00:00
+ORD-006571,10,6,Running Shoes,Sports,5,99.99,499.95,unknown_status,2026-08-04T21:27:38+00:00
+ORD-006572,4,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T20:47:54+00:00
+ORD-006573,2,10,Python Programming Book,Books,3,39.99,119.97,unknown_status,2026-08-04T12:36:24+00:00
+ORD-006574,2,8,Cotton T-Shirt,Clothing,3,19.99,59.97,completed,2026-08-04T03:06:25+00:00
+ORD-006575,8,8,Cotton T-Shirt,Clothing,2,19.99,39.98,completed,2026-08-04T14:15:16+00:00
+ORD-006576,3,4,Coffee Maker,Home,5,79.99,399.95,cancelled,2026-08-04T15:29:56+00:00
+ORD-006577,2,7,Yoga Mat,Sports,4,24.99,99.96,completed,2026-08-04T15:41:43+00:00
+ORD-006578,5,3,USB-C Hub,Electronics,3,49.99,149.97,pending,2026-08-04T20:13:45+00:00
+ORD-006579,1,4,Coffee Maker,Home,2,79.99,159.98,completed,2026-08-04T01:06:54+00:00
+ORD-006580,1,6,Running Shoes,Sports,4,99.99,399.96,pending,2026-08-04T09:04:29+00:00
+ORD-006581,5,10,Python Programming Book,Books,2,39.99,79.98,pending,not-a-valid-date
+ORD-006582,2,8,Cotton T-Shirt,Clothing,2,19.99,39.98,completed,2026-08-04T06:14:10+00:00
+ORD-006583,4,8,Cotton T-Shirt,Clothing,5,19.99,99.95,completed,2026-08-04T19:06:21+00:00
+ORD-006584,7,3,USB-C Hub,Electronics,4,49.99,199.96,unknown_status,2026-08-04T08:21:24+00:00
+ORD-006585,3,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T05:26:15+00:00
+ORD-006586,2,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T00:14:22+00:00
+ORD-006587,3,1,Wireless Mouse,Electronics,5,29.99,149.95,refunded,2026-08-04T10:44:16+00:00
+ORD-006588,3,5,Desk Lamp,Home,1,34.99,34.99,refunded,not-a-valid-date
+ORD-006589,7,7,Yoga Mat,Sports,2,24.99,49.98,cancelled,2026-08-04T22:54:34+00:00
+ORD-006590,6,2,Mechanical Keyboard,Electronics,2,89.99,179.98,unknown_status,2026-08-04T22:44:41+00:00
+ORD-006591,6,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T00:40:01+00:00
+ORD-006592,10,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,not-a-valid-date
+ORD-006593,3,9,Denim Jeans,Clothing,3,59.99,179.97,refunded,2026-08-04T04:41:34+00:00
+ORD-006594,1,3,USB-C Hub,Electronics,2,49.99,99.98,pending,2026-08-04T01:44:06+00:00
+ORD-006595,3,7,Yoga Mat,Sports,1,24.99,24.99,pending,2026-08-04T16:26:57+00:00
+ORD-006596,3,4,Coffee Maker,Home,3,79.99,-50.00,pending,2026-08-04T01:23:38+00:00
+ORD-006597,5,4,Coffee Maker,Home,3,79.99,239.97,unknown_status,2026-08-04T05:10:57+00:00
+ORD-006598,2,6,Running Shoes,Sports,2,99.99,199.98,refunded,2026-08-04T20:54:36+00:00
+ORD-006599,1,10,Python Programming Book,Books,2,39.99,79.98,completed,2026-08-04T20:23:53+00:00
+ORD-006600,2,7,Yoga Mat,Sports,4,24.99,99.96,refunded,2026-08-04T08:03:01+00:00
+ORD-006601,9,7,Yoga Mat,Sports,5,24.99,124.95,refunded,2026-08-04T14:02:09+00:00
+ORD-006602,4,5,Desk Lamp,Home,1,34.99,34.99,completed,2026-08-04T09:03:21+00:00
+ORD-006603,5,5,Desk Lamp,Home,3,34.99,-50.00,completed,2026-08-04T10:08:16+00:00
+ORD-006604,7,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,2026-08-04T15:52:13+00:00
+ORD-006605,1,10,Python Programming Book,Books,4,39.99,159.96,cancelled,2026-08-04T00:09:21+00:00
+ORD-006606,1,5,Desk Lamp,Home,3,34.99,104.97,completed,2026-08-04T20:06:33+00:00
+ORD-006607,7,6,Running Shoes,Sports,1,99.99,-50.00,cancelled,2026-08-04T17:49:59+00:00
+ORD-006608,9,10,Python Programming Book,Books,4,39.99,159.96,completed,not-a-valid-date
+ORD-006609,2,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T03:29:28+00:00
+ORD-006610,10,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,not-a-valid-date
+ORD-006611,4,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T03:35:38+00:00
+ORD-006612,6,6,Running Shoes,Sports,2,99.99,199.98,pending,2026-08-04T12:03:59+00:00
+ORD-006613,9,4,Coffee Maker,Home,2,79.99,159.98,completed,2026-08-04T04:50:53+00:00
+ORD-006614,4,6,Running Shoes,Sports,5,99.99,499.95,refunded,not-a-valid-date
+ORD-006615,6,8,Cotton T-Shirt,Clothing,3,19.99,59.97,cancelled,2026-08-04T08:33:23+00:00
+ORD-006616,7,1,Wireless Mouse,Electronics,3,29.99,89.97,pending,2026-08-04T18:05:35+00:00
+ORD-006617,6,6,Running Shoes,Sports,2,99.99,199.98,completed,2026-08-04T21:41:34+00:00
+ORD-006618,6,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T04:12:59+00:00
+ORD-006619,7,6,Running Shoes,Sports,3,99.99,299.97,unknown_status,2026-08-04T18:26:33+00:00
+ORD-006620,9,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T20:06:13+00:00
+ORD-006621,2,7,Yoga Mat,Sports,1,24.99,24.99,refunded,2026-08-04T08:02:53+00:00
+ORD-006622,1,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T21:23:32+00:00
+ORD-006623,9,1,Wireless Mouse,Electronics,3,29.99,89.97,completed,2026-08-04T13:03:41+00:00
+ORD-006624,9,10,Python Programming Book,Books,4,39.99,159.96,refunded,2026-08-04T04:17:11+00:00
+ORD-006625,3,2,Mechanical Keyboard,Electronics,3,89.99,269.97,pending,2026-08-04T04:46:42+00:00
+ORD-006626,6,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T10:44:28+00:00
+ORD-006627,10,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,2026-08-04T12:50:19+00:00
+ORD-006628,8,8,Cotton T-Shirt,Clothing,3,19.99,59.97,completed,2026-08-04T16:11:56+00:00
+ORD-006629,10,2,Mechanical Keyboard,Electronics,2,89.99,-50.00,pending,2026-08-04T16:21:19+00:00
+ORD-006630,7,5,Desk Lamp,Home,3,34.99,104.97,pending,2026-08-04T17:01:47+00:00
+ORD-006631,2,8,Cotton T-Shirt,Clothing,3,19.99,59.97,completed,2026-08-04T11:50:16+00:00
+ORD-006632,10,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,2026-08-04T20:00:23+00:00
+ORD-006633,1,9,Denim Jeans,Clothing,5,59.99,299.95,completed,2026-08-04T16:55:16+00:00
+ORD-006634,2,6,Running Shoes,Sports,2,99.99,199.98,pending,2026-08-04T06:36:34+00:00
+ORD-006635,10,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T18:59:38+00:00
+ORD-006636,4,1,Wireless Mouse,Electronics,1,29.99,29.99,cancelled,2026-08-04T18:42:53+00:00
+ORD-006637,3,8,Cotton T-Shirt,Clothing,4,19.99,79.96,pending,2026-08-04T02:33:40+00:00
+ORD-006638,7,1,Wireless Mouse,Electronics,4,29.99,119.96,completed,2026-08-04T10:13:20+00:00
+ORD-006639,10,2,Mechanical Keyboard,Electronics,2,89.99,179.98,refunded,2026-08-04T20:50:05+00:00
+ORD-006640,8,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T04:36:39+00:00
+ORD-006641,4,6,Running Shoes,Sports,4,99.99,399.96,pending,2026-08-04T01:46:15+00:00
+ORD-006642,9,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T19:41:50+00:00
+ORD-006643,9,3,USB-C Hub,Electronics,5,49.99,249.95,refunded,2026-08-04T13:18:26+00:00
+ORD-006644,5,9,Denim Jeans,Clothing,1,59.99,59.99,pending,2026-08-04T19:52:58+00:00
+ORD-006645,4,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T14:24:54+00:00
+ORD-006646,1,10,Python Programming Book,Books,1,39.99,39.99,refunded,2026-08-04T23:29:07+00:00
+ORD-006647,5,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T21:23:09+00:00
+ORD-006648,5,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T23:23:42+00:00
+ORD-006649,8,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T01:34:24+00:00
+ORD-006650,3,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T15:30:42+00:00
+ORD-006651,4,6,Running Shoes,Sports,3,99.99,299.97,cancelled,2026-08-04T23:49:06+00:00
+ORD-006652,2,8,Cotton T-Shirt,Clothing,3,19.99,59.97,refunded,2026-08-04T20:40:54+00:00
+ORD-006653,6,1,Wireless Mouse,Electronics,3,29.99,89.97,pending,2026-08-04T09:05:00+00:00
+ORD-006654,10,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T11:59:33+00:00
+ORD-006655,7,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T20:50:12+00:00
+ORD-006656,9,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T16:24:00+00:00
+ORD-006657,9,8,Cotton T-Shirt,Clothing,3,19.99,59.97,unknown_status,2026-08-04T15:10:09+00:00
+ORD-006658,4,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T11:15:57+00:00
+ORD-006659,1,1,Wireless Mouse,Electronics,4,29.99,119.96,refunded,2026-08-04T07:39:52+00:00
+ORD-006660,7,2,Mechanical Keyboard,Electronics,4,89.99,359.96,completed,2026-08-04T16:57:19+00:00
+ORD-006661,1,4,Coffee Maker,Home,3,79.99,239.97,unknown_status,2026-08-04T23:56:31+00:00
+ORD-006662,7,9,Denim Jeans,Clothing,5,59.99,299.95,pending,2026-08-04T07:56:02+00:00
+ORD-006663,9,3,USB-C Hub,Electronics,2,49.99,99.98,cancelled,2026-08-04T07:11:09+00:00
+ORD-006664,4,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T08:36:11+00:00
+ORD-006665,6,10,Python Programming Book,Books,5,39.99,199.95,pending,2026-08-04T21:59:29+00:00
+ORD-006666,3,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T01:34:24+00:00
+ORD-006667,6,2,Mechanical Keyboard,Electronics,2,89.99,179.98,pending,2026-08-04T14:17:37+00:00
+ORD-006668,6,3,USB-C Hub,Electronics,4,49.99,199.96,cancelled,2026-08-04T08:39:41+00:00
+ORD-006669,8,2,Mechanical Keyboard,Electronics,3,89.99,269.97,pending,2026-08-04T22:41:06+00:00
+ORD-006670,4,5,Desk Lamp,Home,5,34.99,-50.00,pending,2026-08-04T01:57:09+00:00
+ORD-006671,8,4,Coffee Maker,Home,3,79.99,239.97,completed,2026-08-04T17:33:06+00:00
+ORD-006672,6,5,Desk Lamp,Home,4,34.99,139.96,completed,not-a-valid-date
+ORD-006673,6,4,Coffee Maker,Home,3,79.99,239.97,cancelled,2026-08-04T11:25:51+00:00
+ORD-006674,1,8,Cotton T-Shirt,Clothing,1,19.99,19.99,completed,2026-08-04T05:25:03+00:00
+ORD-006675,5,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T17:07:18+00:00
+ORD-006676,5,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T11:15:23+00:00
+ORD-006677,7,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T17:06:57+00:00
+ORD-006678,10,3,USB-C Hub,Electronics,1,49.99,49.99,pending,2026-08-04T20:03:42+00:00
+ORD-006679,3,10,Python Programming Book,Books,1,39.99,39.99,refunded,2026-08-04T23:06:53+00:00
+ORD-006680,1,1,Wireless Mouse,Electronics,4,29.99,119.96,refunded,2026-08-04T11:49:48+00:00
+ORD-006681,3,7,Yoga Mat,Sports,1,24.99,24.99,pending,2026-08-04T05:36:01+00:00
+ORD-006682,1,9,Denim Jeans,Clothing,2,59.99,119.98,cancelled,2026-08-04T23:53:31+00:00
+ORD-006683,7,7,Yoga Mat,Sports,3,24.99,74.97,cancelled,2026-08-04T10:18:50+00:00
+ORD-006684,6,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T09:20:42+00:00
+ORD-006685,6,6,Running Shoes,Sports,3,99.99,299.97,completed,2026-08-04T21:08:24+00:00
+ORD-006686,6,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T07:43:39+00:00
+ORD-006687,8,1,Wireless Mouse,Electronics,4,29.99,119.96,cancelled,2026-08-04T18:08:48+00:00
+ORD-006688,3,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T23:31:34+00:00
+ORD-006689,10,7,Yoga Mat,Sports,2,24.99,49.98,completed,2026-08-04T20:59:30+00:00
+ORD-006690,1,5,Desk Lamp,Home,4,34.99,139.96,pending,2026-08-04T01:17:15+00:00
+ORD-006691,7,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T20:35:29+00:00
+ORD-006692,3,10,Python Programming Book,Books,1,39.99,39.99,pending,2026-08-04T06:41:23+00:00
+ORD-006693,6,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,2026-08-04T16:10:12+00:00
+ORD-006694,8,1,Wireless Mouse,Electronics,4,29.99,119.96,completed,2026-08-04T03:47:35+00:00
+ORD-006695,2,7,Yoga Mat,Sports,4,24.99,99.96,cancelled,2026-08-04T00:51:53+00:00
+ORD-006696,1,2,Mechanical Keyboard,Electronics,2,89.99,179.98,pending,2026-08-04T01:24:28+00:00
+ORD-006697,5,10,Python Programming Book,Books,2,39.99,79.98,completed,2026-08-04T09:12:21+00:00
+ORD-006698,8,8,Cotton T-Shirt,Clothing,4,19.99,79.96,pending,2026-08-04T21:48:49+00:00
+ORD-006699,2,2,Mechanical Keyboard,Electronics,4,89.99,359.96,pending,2026-08-04T06:38:17+00:00
+ORD-006700,2,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T21:24:52+00:00
+ORD-006701,10,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T23:37:19+00:00
+ORD-006702,4,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T12:16:34+00:00
+ORD-006703,3,8,Cotton T-Shirt,Clothing,1,19.99,-50.00,refunded,2026-08-04T05:48:41+00:00
+ORD-006704,3,1,Wireless Mouse,Electronics,5,29.99,149.95,pending,2026-08-04T04:35:05+00:00
+ORD-006705,3,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T10:11:04+00:00
+ORD-006706,10,1,Wireless Mouse,Electronics,3,29.99,89.97,cancelled,2026-08-04T10:24:56+00:00
+ORD-006707,8,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T19:29:42+00:00
+ORD-006708,7,9,Denim Jeans,Clothing,2,59.99,119.98,pending,2026-08-04T02:15:44+00:00
+ORD-006709,1,3,USB-C Hub,Electronics,2,49.99,99.98,completed,2026-08-04T18:52:47+00:00
+ORD-006710,9,3,USB-C Hub,Electronics,4,49.99,199.96,completed,2026-08-04T21:00:18+00:00
+ORD-006711,7,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T15:08:40+00:00
+ORD-006712,3,9,Denim Jeans,Clothing,5,59.99,299.95,cancelled,2026-08-04T11:47:53+00:00
+ORD-006713,10,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T00:28:42+00:00
+ORD-006714,8,1,Wireless Mouse,Electronics,4,29.99,119.96,pending,2026-08-04T09:39:29+00:00
+ORD-006715,6,5,Desk Lamp,Home,3,34.99,104.97,refunded,2026-08-04T06:26:24+00:00
+ORD-006716,8,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T20:01:44+00:00
+ORD-006717,9,8,Cotton T-Shirt,Clothing,4,19.99,-50.00,cancelled,2026-08-04T19:55:56+00:00
+ORD-006718,5,8,Cotton T-Shirt,Clothing,1,19.99,19.99,unknown_status,2026-08-04T22:03:49+00:00
+ORD-006719,1,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T16:40:50+00:00
+ORD-006720,9,2,Mechanical Keyboard,Electronics,2,89.99,-50.00,refunded,2026-08-04T22:23:05+00:00
+ORD-006721,7,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T05:38:44+00:00
+ORD-006722,3,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T18:39:53+00:00
+ORD-006723,2,2,Mechanical Keyboard,Electronics,4,89.99,359.96,refunded,2026-08-04T09:21:46+00:00
+ORD-006724,4,1,Wireless Mouse,Electronics,1,29.99,29.99,refunded,2026-08-04T12:26:14+00:00
+ORD-006725,1,2,Mechanical Keyboard,Electronics,5,89.99,449.95,cancelled,2026-08-04T15:26:46+00:00
+ORD-006726,9,7,Yoga Mat,Sports,4,24.99,-50.00,completed,2026-08-04T19:45:39+00:00
+ORD-006727,5,2,Mechanical Keyboard,Electronics,4,89.99,359.96,refunded,2026-08-04T13:45:45+00:00
+ORD-006728,2,10,Python Programming Book,Books,3,39.99,119.97,unknown_status,2026-08-04T23:09:18+00:00
+ORD-006729,2,10,Python Programming Book,Books,5,39.99,199.95,pending,2026-08-04T06:57:02+00:00
+ORD-006730,6,5,Desk Lamp,Home,2,34.99,69.98,unknown_status,2026-08-04T20:16:00+00:00
+ORD-006731,1,5,Desk Lamp,Home,1,34.99,34.99,completed,2026-08-04T14:31:25+00:00
+ORD-006732,10,10,Python Programming Book,Books,5,39.99,199.95,cancelled,not-a-valid-date
+ORD-006733,1,1,Wireless Mouse,Electronics,5,29.99,149.95,completed,2026-08-04T16:01:10+00:00
+ORD-006734,7,8,Cotton T-Shirt,Clothing,1,19.99,19.99,refunded,2026-08-04T18:43:48+00:00
+ORD-006735,1,2,Mechanical Keyboard,Electronics,3,89.99,269.97,unknown_status,2026-08-04T06:12:34+00:00
+ORD-006736,5,2,Mechanical Keyboard,Electronics,1,89.99,89.99,unknown_status,2026-08-04T17:09:33+00:00
+ORD-006737,9,4,Coffee Maker,Home,2,79.99,159.98,cancelled,2026-08-04T15:27:39+00:00
+ORD-006738,8,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,not-a-valid-date
+ORD-006739,1,5,Desk Lamp,Home,4,34.99,139.96,cancelled,2026-08-04T03:01:50+00:00
+ORD-006740,10,2,Mechanical Keyboard,Electronics,1,89.99,-50.00,completed,2026-08-04T01:16:25+00:00
+ORD-006741,8,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T03:51:51+00:00
+ORD-006742,6,1,Wireless Mouse,Electronics,2,29.99,59.98,completed,2026-08-04T00:25:49+00:00
+ORD-006743,10,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T10:31:27+00:00
+ORD-006744,3,3,USB-C Hub,Electronics,2,49.99,99.98,completed,2026-08-04T22:29:32+00:00
+ORD-006745,10,2,Mechanical Keyboard,Electronics,1,89.99,89.99,refunded,2026-08-04T06:16:03+00:00
+ORD-006746,8,6,Running Shoes,Sports,5,99.99,499.95,cancelled,2026-08-04T21:57:22+00:00
+ORD-006747,4,8,Cotton T-Shirt,Clothing,3,19.99,59.97,refunded,2026-08-04T23:18:06+00:00
+ORD-006748,5,6,Running Shoes,Sports,5,99.99,-50.00,cancelled,2026-08-04T16:25:53+00:00
+ORD-006749,10,6,Running Shoes,Sports,2,99.99,199.98,cancelled,2026-08-04T13:57:56+00:00
+ORD-006750,2,3,USB-C Hub,Electronics,1,49.99,49.99,refunded,2026-08-04T10:14:28+00:00
+ORD-006751,4,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T12:42:53+00:00
+ORD-006752,2,5,Desk Lamp,Home,1,34.99,34.99,pending,2026-08-04T13:20:23+00:00
+ORD-006753,4,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T22:18:15+00:00
+ORD-006754,8,7,Yoga Mat,Sports,5,24.99,124.95,refunded,2026-08-04T22:08:01+00:00
+ORD-006755,1,9,Denim Jeans,Clothing,1,59.99,59.99,cancelled,2026-08-04T13:42:57+00:00
+ORD-006756,8,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T03:13:07+00:00
+ORD-006757,9,10,Python Programming Book,Books,1,39.99,39.99,cancelled,2026-08-04T13:13:21+00:00
+ORD-006758,9,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T18:47:40+00:00
+ORD-006759,10,5,Desk Lamp,Home,3,34.99,104.97,completed,2026-08-04T21:25:00+00:00
+ORD-006760,6,9,Denim Jeans,Clothing,1,59.99,59.99,refunded,2026-08-04T07:41:53+00:00
+ORD-006761,6,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T01:38:35+00:00
+ORD-006762,1,5,Desk Lamp,Home,3,34.99,104.97,refunded,2026-08-04T12:02:25+00:00
+ORD-006763,6,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T09:24:33+00:00
+ORD-006764,10,6,Running Shoes,Sports,2,99.99,199.98,completed,2026-08-04T16:04:11+00:00
+ORD-006765,1,2,Mechanical Keyboard,Electronics,1,89.99,89.99,cancelled,not-a-valid-date
+ORD-006766,7,2,Mechanical Keyboard,Electronics,5,89.99,449.95,refunded,2026-08-04T09:06:45+00:00
+ORD-006767,6,9,Denim Jeans,Clothing,5,59.99,299.95,pending,2026-08-04T20:10:01+00:00
+ORD-006768,6,3,USB-C Hub,Electronics,1,49.99,49.99,refunded,2026-08-04T08:50:19+00:00
+ORD-006769,1,2,Mechanical Keyboard,Electronics,5,89.99,449.95,refunded,not-a-valid-date
+ORD-006770,1,4,Coffee Maker,Home,3,79.99,239.97,completed,2026-08-04T19:21:53+00:00
+ORD-006771,7,3,USB-C Hub,Electronics,2,49.99,99.98,cancelled,2026-08-04T23:54:27+00:00
+ORD-006772,8,3,USB-C Hub,Electronics,3,49.99,-50.00,pending,2026-08-04T22:26:06+00:00
+ORD-006773,9,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T10:47:43+00:00
+ORD-006774,9,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T17:37:54+00:00
+ORD-006775,5,10,Python Programming Book,Books,2,39.99,79.98,refunded,not-a-valid-date
+ORD-006776,5,5,Desk Lamp,Home,5,34.99,174.95,unknown_status,2026-08-04T19:39:16+00:00
+ORD-006777,3,7,Yoga Mat,Sports,1,24.99,24.99,pending,2026-08-04T10:43:45+00:00
+ORD-006778,9,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T17:32:27+00:00
+ORD-006779,5,8,Cotton T-Shirt,Clothing,2,19.99,-50.00,refunded,2026-08-04T02:56:04+00:00
+ORD-006780,6,8,Cotton T-Shirt,Clothing,2,19.99,39.98,completed,2026-08-04T18:10:09+00:00
+ORD-006781,10,5,Desk Lamp,Home,3,34.99,104.97,pending,2026-08-04T05:14:41+00:00
+ORD-006782,10,7,Yoga Mat,Sports,4,24.99,99.96,refunded,not-a-valid-date
+ORD-006783,8,9,Denim Jeans,Clothing,5,59.99,299.95,cancelled,2026-08-04T16:47:07+00:00
+ORD-006784,9,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T11:59:33+00:00
+ORD-006785,4,8,Cotton T-Shirt,Clothing,3,19.99,59.97,cancelled,2026-08-04T02:31:19+00:00
+ORD-006786,3,1,Wireless Mouse,Electronics,1,29.99,29.99,pending,2026-08-04T22:13:23+00:00
+ORD-006787,10,7,Yoga Mat,Sports,1,24.99,24.99,refunded,2026-08-04T11:57:10+00:00
+ORD-006788,2,3,USB-C Hub,Electronics,4,49.99,199.96,unknown_status,2026-08-04T12:07:10+00:00
+ORD-006789,10,7,Yoga Mat,Sports,2,24.99,49.98,completed,2026-08-04T18:47:04+00:00
+ORD-006790,9,2,Mechanical Keyboard,Electronics,2,89.99,179.98,cancelled,2026-08-04T10:09:02+00:00
+ORD-006791,4,5,Desk Lamp,Home,4,34.99,139.96,refunded,2026-08-04T21:59:33+00:00
+ORD-006792,2,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T04:19:35+00:00
+ORD-006793,3,7,Yoga Mat,Sports,5,24.99,124.95,pending,2026-08-04T14:38:19+00:00
+ORD-006794,1,4,Coffee Maker,Home,1,79.99,79.99,refunded,2026-08-04T16:56:32+00:00
+ORD-006795,9,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T09:11:12+00:00
+ORD-006796,7,6,Running Shoes,Sports,2,99.99,-50.00,completed,2026-08-04T03:43:07+00:00
+ORD-006797,5,3,USB-C Hub,Electronics,4,49.99,-50.00,pending,2026-08-04T23:08:37+00:00
+ORD-006798,3,1,Wireless Mouse,Electronics,2,29.99,-50.00,refunded,2026-08-04T16:01:10+00:00
+ORD-006799,3,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T23:08:47+00:00
+ORD-006800,7,5,Desk Lamp,Home,4,34.99,139.96,pending,2026-08-04T12:49:16+00:00
+ORD-006801,2,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T04:44:07+00:00
+ORD-006802,9,9,Denim Jeans,Clothing,1,59.99,59.99,pending,2026-08-04T17:53:47+00:00
+ORD-006803,1,9,Denim Jeans,Clothing,4,59.99,239.96,unknown_status,2026-08-04T19:38:44+00:00
+ORD-006804,6,2,Mechanical Keyboard,Electronics,3,89.99,269.97,cancelled,not-a-valid-date
+ORD-006805,6,7,Yoga Mat,Sports,4,24.99,99.96,refunded,2026-08-04T08:26:02+00:00
+ORD-006806,9,6,Running Shoes,Sports,3,99.99,299.97,completed,2026-08-04T02:54:33+00:00
+ORD-006807,3,3,USB-C Hub,Electronics,5,49.99,249.95,cancelled,2026-08-04T19:00:52+00:00
+ORD-006808,9,3,USB-C Hub,Electronics,1,49.99,49.99,unknown_status,2026-08-04T06:14:19+00:00
+ORD-006809,10,10,Python Programming Book,Books,1,39.99,39.99,cancelled,2026-08-04T11:30:31+00:00
+ORD-006810,9,7,Yoga Mat,Sports,5,24.99,124.95,cancelled,2026-08-04T22:03:13+00:00
+ORD-006811,3,3,USB-C Hub,Electronics,5,49.99,249.95,cancelled,2026-08-04T18:15:32+00:00
+ORD-006812,3,8,Cotton T-Shirt,Clothing,1,19.99,-50.00,completed,2026-08-04T11:57:15+00:00
+ORD-006813,10,2,Mechanical Keyboard,Electronics,2,89.99,179.98,refunded,2026-08-04T06:06:02+00:00
+ORD-006814,3,2,Mechanical Keyboard,Electronics,2,89.99,179.98,completed,2026-08-04T07:37:53+00:00
+ORD-006815,9,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T13:53:41+00:00
+ORD-006816,8,5,Desk Lamp,Home,2,34.99,69.98,refunded,2026-08-04T16:06:41+00:00
+ORD-006817,6,3,USB-C Hub,Electronics,4,49.99,199.96,pending,2026-08-04T19:43:05+00:00
+ORD-006818,8,8,Cotton T-Shirt,Clothing,2,19.99,-50.00,refunded,2026-08-04T19:16:01+00:00
+ORD-006819,9,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T00:13:44+00:00
+ORD-006820,5,8,Cotton T-Shirt,Clothing,5,19.99,-50.00,refunded,2026-08-04T08:14:47+00:00
+ORD-006821,9,1,Wireless Mouse,Electronics,4,29.99,119.96,pending,2026-08-04T06:37:34+00:00
+ORD-006822,6,4,Coffee Maker,Home,3,79.99,239.97,cancelled,2026-08-04T23:13:08+00:00
+ORD-006823,7,8,Cotton T-Shirt,Clothing,2,19.99,-50.00,pending,2026-08-04T12:27:22+00:00
+ORD-006824,1,3,USB-C Hub,Electronics,4,49.99,199.96,completed,2026-08-04T18:11:37+00:00
+ORD-006825,6,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T07:45:13+00:00
+ORD-006826,1,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T07:56:56+00:00
+ORD-006827,3,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T23:09:25+00:00
+ORD-006828,1,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T16:19:01+00:00
+ORD-006829,3,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T01:31:13+00:00
+ORD-006830,7,6,Running Shoes,Sports,3,99.99,299.97,pending,not-a-valid-date
+ORD-006831,1,8,Cotton T-Shirt,Clothing,4,19.99,79.96,cancelled,2026-08-04T23:38:17+00:00
+ORD-006832,8,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T15:07:49+00:00
+ORD-006833,5,6,Running Shoes,Sports,5,99.99,499.95,refunded,2026-08-04T15:20:24+00:00
+ORD-006834,7,8,Cotton T-Shirt,Clothing,2,19.99,39.98,cancelled,2026-08-04T19:12:39+00:00
+ORD-006835,5,7,Yoga Mat,Sports,5,24.99,124.95,cancelled,2026-08-04T00:22:11+00:00
+ORD-006836,8,9,Denim Jeans,Clothing,3,59.99,-50.00,pending,2026-08-04T15:42:02+00:00
+ORD-006837,2,3,USB-C Hub,Electronics,2,49.99,99.98,pending,2026-08-04T22:42:16+00:00
+ORD-006838,6,5,Desk Lamp,Home,5,34.99,174.95,cancelled,2026-08-04T21:55:43+00:00
+ORD-006839,1,9,Denim Jeans,Clothing,4,59.99,239.96,completed,2026-08-04T15:56:10+00:00
+ORD-006840,10,7,Yoga Mat,Sports,2,24.99,49.98,cancelled,2026-08-04T08:42:26+00:00
+ORD-006841,5,6,Running Shoes,Sports,5,99.99,499.95,unknown_status,2026-08-04T21:35:02+00:00
+ORD-006842,7,5,Desk Lamp,Home,1,34.99,34.99,completed,2026-08-04T17:46:28+00:00
+ORD-006843,4,9,Denim Jeans,Clothing,5,59.99,299.95,completed,2026-08-04T11:45:40+00:00
+ORD-006844,4,2,Mechanical Keyboard,Electronics,2,89.99,179.98,pending,2026-08-04T01:43:06+00:00
+ORD-006845,2,10,Python Programming Book,Books,5,39.99,199.95,pending,2026-08-04T01:03:12+00:00
+ORD-006846,7,9,Denim Jeans,Clothing,4,59.99,239.96,pending,2026-08-04T03:19:02+00:00
+ORD-006847,6,9,Denim Jeans,Clothing,2,59.99,119.98,refunded,2026-08-04T09:01:13+00:00
+ORD-006848,6,9,Denim Jeans,Clothing,5,59.99,299.95,completed,2026-08-04T01:56:31+00:00
+ORD-006849,2,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,2026-08-04T00:36:56+00:00
+ORD-006850,5,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T16:38:24+00:00
+ORD-006851,1,6,Running Shoes,Sports,4,99.99,399.96,pending,not-a-valid-date
+ORD-006852,9,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T06:01:58+00:00
+ORD-006853,6,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T13:52:14+00:00
+ORD-006854,10,10,Python Programming Book,Books,3,39.99,119.97,cancelled,2026-08-04T16:50:44+00:00
+ORD-006855,10,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T12:24:06+00:00
+ORD-006856,6,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T13:30:08+00:00
+ORD-006857,4,6,Running Shoes,Sports,3,99.99,-50.00,refunded,2026-08-04T23:36:45+00:00
+ORD-006858,2,10,Python Programming Book,Books,1,39.99,39.99,cancelled,2026-08-04T16:07:59+00:00
+ORD-006859,2,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T10:25:16+00:00
+ORD-006860,6,10,Python Programming Book,Books,3,39.99,119.97,pending,not-a-valid-date
+ORD-006861,8,6,Running Shoes,Sports,2,99.99,199.98,pending,2026-08-04T02:14:47+00:00
+ORD-006862,6,2,Mechanical Keyboard,Electronics,4,89.99,359.96,completed,2026-08-04T23:40:11+00:00
+ORD-006863,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,unknown_status,2026-08-04T22:54:24+00:00
+ORD-006864,5,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T10:45:18+00:00
+ORD-006865,1,3,USB-C Hub,Electronics,1,49.99,49.99,pending,2026-08-04T07:26:45+00:00
+ORD-006866,5,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T22:40:52+00:00
+ORD-006867,9,4,Coffee Maker,Home,1,79.99,79.99,pending,2026-08-04T18:40:25+00:00
+ORD-006868,6,5,Desk Lamp,Home,1,34.99,34.99,pending,2026-08-04T06:51:53+00:00
+ORD-006869,5,3,USB-C Hub,Electronics,1,49.99,49.99,cancelled,2026-08-04T06:08:09+00:00
+ORD-006870,4,1,Wireless Mouse,Electronics,2,29.99,-50.00,refunded,2026-08-04T21:13:02+00:00
+ORD-006871,5,5,Desk Lamp,Home,1,34.99,34.99,completed,2026-08-04T20:58:01+00:00
+ORD-006872,1,3,USB-C Hub,Electronics,1,49.99,49.99,cancelled,2026-08-04T20:05:09+00:00
+ORD-006873,10,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T17:24:38+00:00
+ORD-006874,1,10,Python Programming Book,Books,5,39.99,199.95,cancelled,2026-08-04T02:13:32+00:00
+ORD-006875,2,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T09:12:25+00:00
+ORD-006876,5,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T11:49:47+00:00
+ORD-006877,10,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-04T20:09:33+00:00
+ORD-006878,4,2,Mechanical Keyboard,Electronics,2,89.99,179.98,cancelled,2026-08-04T11:01:02+00:00
+ORD-006879,2,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T17:13:15+00:00
+ORD-006880,7,4,Coffee Maker,Home,5,79.99,399.95,pending,2026-08-04T22:41:51+00:00
+ORD-006881,7,8,Cotton T-Shirt,Clothing,4,19.99,79.96,completed,2026-08-04T19:54:38+00:00
+ORD-006882,5,3,USB-C Hub,Electronics,4,49.99,199.96,pending,2026-08-04T08:42:34+00:00
+ORD-006883,1,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T05:29:17+00:00
+ORD-006884,9,10,Python Programming Book,Books,1,39.99,39.99,completed,2026-08-04T07:25:14+00:00
+ORD-006885,5,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T03:21:33+00:00
+ORD-006886,10,9,Denim Jeans,Clothing,1,59.99,59.99,completed,2026-08-04T05:55:33+00:00
+ORD-006887,9,9,Denim Jeans,Clothing,5,59.99,299.95,completed,2026-08-04T23:28:25+00:00
+ORD-006888,5,10,Python Programming Book,Books,4,39.99,-50.00,cancelled,2026-08-04T15:00:23+00:00
+ORD-006889,2,4,Coffee Maker,Home,1,79.99,79.99,completed,2026-08-04T20:50:09+00:00
+ORD-006890,4,9,Denim Jeans,Clothing,2,59.99,119.98,pending,2026-08-04T02:33:08+00:00
+ORD-006891,4,6,Running Shoes,Sports,4,99.99,399.96,completed,2026-08-04T20:26:48+00:00
+ORD-006892,7,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T08:30:05+00:00
+ORD-006893,2,8,Cotton T-Shirt,Clothing,1,19.99,19.99,refunded,2026-08-04T10:56:13+00:00
+ORD-006894,4,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T23:51:17+00:00
+ORD-006895,8,10,Python Programming Book,Books,1,39.99,-50.00,cancelled,2026-08-04T18:25:45+00:00
+ORD-006896,4,6,Running Shoes,Sports,1,99.99,-50.00,pending,2026-08-04T04:04:41+00:00
+ORD-006897,5,1,Wireless Mouse,Electronics,2,29.99,59.98,cancelled,2026-08-04T09:55:08+00:00
+ORD-006898,2,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,not-a-valid-date
+ORD-006899,1,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T12:33:32+00:00
+ORD-006900,6,8,Cotton T-Shirt,Clothing,3,19.99,-50.00,refunded,2026-08-04T05:35:19+00:00
+ORD-006901,4,4,Coffee Maker,Home,1,79.99,79.99,completed,2026-08-04T13:44:16+00:00
+ORD-006902,8,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T07:07:49+00:00
+ORD-006903,8,2,Mechanical Keyboard,Electronics,1,89.99,-50.00,completed,2026-08-04T11:29:07+00:00
+ORD-006904,4,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T13:48:11+00:00
+ORD-006905,1,7,Yoga Mat,Sports,4,24.99,99.96,completed,2026-08-04T16:48:30+00:00
+ORD-006906,5,6,Running Shoes,Sports,5,99.99,499.95,refunded,not-a-valid-date
+ORD-006907,4,7,Yoga Mat,Sports,4,24.99,-50.00,pending,2026-08-04T22:00:45+00:00
+ORD-006908,1,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T02:09:28+00:00
+ORD-006909,1,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T19:02:19+00:00
+ORD-006910,5,10,Python Programming Book,Books,4,39.99,159.96,completed,not-a-valid-date
+ORD-006911,3,7,Yoga Mat,Sports,2,24.99,49.98,pending,2026-08-04T09:05:21+00:00
+ORD-006912,7,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T01:06:53+00:00
+ORD-006913,5,9,Denim Jeans,Clothing,4,59.99,239.96,pending,2026-08-04T10:40:24+00:00
+ORD-006914,8,10,Python Programming Book,Books,2,39.99,79.98,cancelled,2026-08-04T08:51:43+00:00
+ORD-006915,8,10,Python Programming Book,Books,1,39.99,-50.00,pending,2026-08-04T21:02:09+00:00
+ORD-006916,3,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,not-a-valid-date
+ORD-006917,6,6,Running Shoes,Sports,3,99.99,-50.00,completed,2026-08-04T12:57:50+00:00
+ORD-006918,7,10,Python Programming Book,Books,1,39.99,39.99,completed,2026-08-04T20:58:31+00:00
+ORD-006919,3,4,Coffee Maker,Home,3,79.99,239.97,pending,2026-08-04T18:54:36+00:00
+ORD-006920,9,7,Yoga Mat,Sports,4,24.99,99.96,pending,not-a-valid-date
+ORD-006921,10,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T14:25:54+00:00
+ORD-006922,1,3,USB-C Hub,Electronics,2,49.99,99.98,completed,2026-08-04T19:21:55+00:00
+ORD-006923,5,5,Desk Lamp,Home,2,34.99,69.98,refunded,2026-08-04T14:58:16+00:00
+ORD-006924,7,6,Running Shoes,Sports,5,99.99,499.95,refunded,2026-08-04T11:19:49+00:00
+ORD-006925,8,5,Desk Lamp,Home,5,34.99,-50.00,cancelled,2026-08-04T15:40:56+00:00
+ORD-006926,2,7,Yoga Mat,Sports,2,24.99,49.98,pending,2026-08-04T17:52:48+00:00
+ORD-006927,2,1,Wireless Mouse,Electronics,4,29.99,119.96,refunded,2026-08-04T08:18:02+00:00
+ORD-006928,10,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T06:08:26+00:00
+ORD-006929,2,8,Cotton T-Shirt,Clothing,4,19.99,79.96,cancelled,2026-08-04T01:21:31+00:00
+ORD-006930,1,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T10:59:31+00:00
+ORD-006931,2,2,Mechanical Keyboard,Electronics,3,89.99,269.97,cancelled,2026-08-04T09:12:49+00:00
+ORD-006932,2,8,Cotton T-Shirt,Clothing,2,19.99,39.98,cancelled,2026-08-04T19:48:29+00:00
+ORD-006933,2,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T02:29:30+00:00
+ORD-006934,2,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T04:18:20+00:00
+ORD-006935,7,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T07:13:04+00:00
+ORD-006936,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,refunded,2026-08-04T22:07:15+00:00
+ORD-006937,6,1,Wireless Mouse,Electronics,3,29.99,89.97,unknown_status,2026-08-04T12:26:26+00:00
+ORD-006938,7,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T06:23:16+00:00
+ORD-006939,4,7,Yoga Mat,Sports,5,24.99,124.95,refunded,2026-08-04T09:18:07+00:00
+ORD-006940,1,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T09:43:05+00:00
+ORD-006941,6,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T23:00:22+00:00
+ORD-006942,7,6,Running Shoes,Sports,5,99.99,499.95,refunded,2026-08-04T12:53:42+00:00
+ORD-006943,1,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-04T08:24:20+00:00
+ORD-006944,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,pending,2026-08-04T15:03:39+00:00
+ORD-006945,9,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T08:01:47+00:00
+ORD-006946,3,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T09:43:23+00:00
+ORD-006947,9,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T14:13:13+00:00
+ORD-006948,1,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T23:57:41+00:00
+ORD-006949,4,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T21:18:59+00:00
+ORD-006950,2,1,Wireless Mouse,Electronics,5,29.99,149.95,refunded,2026-08-04T20:53:01+00:00
+ORD-006951,2,6,Running Shoes,Sports,1,99.99,99.99,completed,2026-08-04T19:47:30+00:00
+ORD-006952,1,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T09:27:09+00:00
+ORD-006953,5,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T20:27:38+00:00
+ORD-006954,1,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T01:14:06+00:00
+ORD-006955,6,3,USB-C Hub,Electronics,4,49.99,199.96,cancelled,2026-08-04T20:46:05+00:00
+ORD-006956,10,2,Mechanical Keyboard,Electronics,3,89.99,269.97,unknown_status,2026-08-04T06:35:55+00:00
+ORD-006957,7,5,Desk Lamp,Home,5,34.99,174.95,cancelled,2026-08-04T14:05:50+00:00
+ORD-006958,8,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T03:04:41+00:00
+ORD-006959,6,7,Yoga Mat,Sports,2,24.99,49.98,pending,2026-08-04T17:16:53+00:00
+ORD-006960,2,9,Denim Jeans,Clothing,1,59.99,59.99,refunded,2026-08-04T00:26:10+00:00
+ORD-006961,5,2,Mechanical Keyboard,Electronics,4,89.99,359.96,unknown_status,2026-08-04T07:27:09+00:00
+ORD-006962,10,10,Python Programming Book,Books,3,39.99,-50.00,pending,2026-08-04T11:36:42+00:00
+ORD-006963,4,6,Running Shoes,Sports,1,99.99,99.99,pending,2026-08-04T14:54:07+00:00
+ORD-006964,9,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T10:08:23+00:00
+ORD-006965,2,2,Mechanical Keyboard,Electronics,1,89.99,-50.00,refunded,2026-08-04T01:55:49+00:00
+ORD-006966,3,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,not-a-valid-date
+ORD-006967,2,6,Running Shoes,Sports,4,99.99,399.96,pending,2026-08-04T14:44:48+00:00
+ORD-006968,5,1,Wireless Mouse,Electronics,3,29.99,89.97,cancelled,2026-08-04T20:37:03+00:00
+ORD-006969,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,cancelled,not-a-valid-date
+ORD-006970,4,6,Running Shoes,Sports,2,99.99,199.98,unknown_status,2026-08-04T19:43:37+00:00
+ORD-006971,6,3,USB-C Hub,Electronics,5,49.99,249.95,refunded,2026-08-04T17:10:49+00:00
+ORD-006972,2,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T20:11:58+00:00
+ORD-006973,6,1,Wireless Mouse,Electronics,2,29.99,59.98,refunded,2026-08-04T15:05:36+00:00
+ORD-006974,2,5,Desk Lamp,Home,4,34.99,139.96,completed,2026-08-04T17:11:52+00:00
+ORD-006975,3,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T20:24:08+00:00
+ORD-006976,9,9,Denim Jeans,Clothing,4,59.99,-50.00,cancelled,2026-08-04T01:21:57+00:00
+ORD-006977,2,1,Wireless Mouse,Electronics,4,29.99,119.96,completed,2026-08-04T21:00:09+00:00
+ORD-006978,5,7,Yoga Mat,Sports,1,24.99,24.99,refunded,2026-08-04T02:46:10+00:00
+ORD-006979,2,5,Desk Lamp,Home,3,34.99,104.97,completed,2026-08-04T13:54:06+00:00
+ORD-006980,1,10,Python Programming Book,Books,5,39.99,199.95,refunded,2026-08-04T08:46:43+00:00
+ORD-006981,5,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T06:16:44+00:00
+ORD-006982,6,4,Coffee Maker,Home,5,79.99,399.95,pending,2026-08-04T19:54:06+00:00
+ORD-006983,5,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T17:34:48+00:00
+ORD-006984,8,8,Cotton T-Shirt,Clothing,1,19.99,19.99,completed,not-a-valid-date
+ORD-006985,3,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T08:49:12+00:00
+ORD-006986,9,2,Mechanical Keyboard,Electronics,2,89.99,179.98,completed,not-a-valid-date
+ORD-006987,8,3,USB-C Hub,Electronics,2,49.99,99.98,completed,2026-08-04T14:47:18+00:00
+ORD-006988,7,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T14:46:37+00:00
+ORD-006989,6,3,USB-C Hub,Electronics,5,49.99,249.95,pending,2026-08-04T15:40:10+00:00
+ORD-006990,6,9,Denim Jeans,Clothing,2,59.99,119.98,refunded,2026-08-04T20:47:34+00:00
+ORD-006991,7,2,Mechanical Keyboard,Electronics,4,89.99,359.96,pending,2026-08-04T11:11:36+00:00
+ORD-006992,4,2,Mechanical Keyboard,Electronics,1,89.99,89.99,refunded,2026-08-04T00:30:18+00:00
+ORD-006993,8,1,Wireless Mouse,Electronics,5,29.99,149.95,completed,2026-08-04T00:46:15+00:00
+ORD-006994,1,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T18:56:21+00:00
+ORD-006995,3,7,Yoga Mat,Sports,5,24.99,124.95,completed,2026-08-04T08:11:04+00:00
+ORD-006996,9,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T20:46:34+00:00
+ORD-006997,10,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T09:52:42+00:00
+ORD-006998,9,7,Yoga Mat,Sports,4,24.99,99.96,unknown_status,2026-08-04T11:05:07+00:00
+ORD-006999,6,3,USB-C Hub,Electronics,5,49.99,249.95,completed,2026-08-04T14:55:19+00:00
+ORD-007000,6,8,Cotton T-Shirt,Clothing,3,19.99,59.97,refunded,2026-08-04T09:47:41+00:00
+ORD-007001,7,6,Running Shoes,Sports,4,99.99,399.96,unknown_status,2026-08-04T04:51:02+00:00
+ORD-007002,10,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T03:16:11+00:00
+ORD-007003,10,9,Denim Jeans,Clothing,1,59.99,59.99,cancelled,2026-08-04T16:15:56+00:00
+ORD-007004,6,8,Cotton T-Shirt,Clothing,4,19.99,79.96,completed,2026-08-04T21:01:20+00:00
+ORD-007005,6,1,Wireless Mouse,Electronics,2,29.99,59.98,pending,2026-08-04T11:11:22+00:00
+ORD-007006,7,3,USB-C Hub,Electronics,1,49.99,49.99,pending,2026-08-04T06:46:06+00:00
+ORD-007007,1,7,Yoga Mat,Sports,5,24.99,124.95,pending,2026-08-04T08:13:11+00:00
+ORD-007008,6,3,USB-C Hub,Electronics,4,49.99,199.96,pending,2026-08-04T09:18:33+00:00
+ORD-007009,4,6,Running Shoes,Sports,4,99.99,399.96,completed,2026-08-04T08:06:27+00:00
+ORD-007010,5,10,Python Programming Book,Books,1,39.99,39.99,completed,2026-08-04T16:48:02+00:00
+ORD-007011,2,7,Yoga Mat,Sports,2,24.99,49.98,refunded,2026-08-04T12:11:50+00:00
+ORD-007012,3,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T05:20:20+00:00
+ORD-007013,6,8,Cotton T-Shirt,Clothing,4,19.99,79.96,completed,2026-08-04T17:25:35+00:00
+ORD-007014,4,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T20:18:55+00:00
+ORD-007015,1,10,Python Programming Book,Books,5,39.99,-50.00,cancelled,2026-08-04T00:54:00+00:00
+ORD-007016,4,7,Yoga Mat,Sports,4,24.99,-50.00,pending,2026-08-04T21:51:46+00:00
+ORD-007017,4,8,Cotton T-Shirt,Clothing,4,19.99,79.96,cancelled,2026-08-04T08:23:38+00:00
+ORD-007018,6,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T19:23:53+00:00
+ORD-007019,8,3,USB-C Hub,Electronics,5,49.99,249.95,pending,2026-08-04T08:24:21+00:00
+ORD-007020,3,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T06:26:02+00:00
+ORD-007021,1,10,Python Programming Book,Books,2,39.99,79.98,pending,2026-08-04T03:42:50+00:00
+ORD-007022,1,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T01:56:13+00:00
+ORD-007023,1,3,USB-C Hub,Electronics,2,49.99,99.98,pending,2026-08-04T09:08:16+00:00
+ORD-007024,4,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T09:43:29+00:00
+ORD-007025,9,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T04:30:25+00:00
+ORD-007026,7,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T13:22:01+00:00
+ORD-007027,8,3,USB-C Hub,Electronics,3,49.99,149.97,completed,2026-08-04T23:30:29+00:00
+ORD-007028,8,5,Desk Lamp,Home,4,34.99,139.96,completed,2026-08-04T07:58:40+00:00
+ORD-007029,6,10,Python Programming Book,Books,5,39.99,199.95,unknown_status,2026-08-04T23:21:51+00:00
+ORD-007030,7,7,Yoga Mat,Sports,5,24.99,124.95,completed,2026-08-04T23:59:00+00:00
+ORD-007031,6,7,Yoga Mat,Sports,3,24.99,74.97,cancelled,2026-08-04T13:27:14+00:00
+ORD-007032,6,5,Desk Lamp,Home,2,34.99,69.98,refunded,not-a-valid-date
+ORD-007033,10,9,Denim Jeans,Clothing,2,59.99,119.98,pending,2026-08-04T16:52:40+00:00
+ORD-007034,6,7,Yoga Mat,Sports,3,24.99,74.97,pending,not-a-valid-date
+ORD-007035,10,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T07:13:00+00:00
+ORD-007036,10,9,Denim Jeans,Clothing,5,59.99,299.95,pending,2026-08-04T13:12:14+00:00
+ORD-007037,9,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T19:09:26+00:00
+ORD-007038,10,10,Python Programming Book,Books,1,39.99,39.99,refunded,not-a-valid-date
+ORD-007039,4,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T18:51:19+00:00
+ORD-007040,4,2,Mechanical Keyboard,Electronics,3,89.99,-50.00,pending,2026-08-04T00:49:55+00:00
+ORD-007041,10,10,Python Programming Book,Books,5,39.99,199.95,refunded,2026-08-04T13:37:18+00:00
+ORD-007042,1,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T02:56:17+00:00
+ORD-007043,7,6,Running Shoes,Sports,1,99.99,99.99,refunded,2026-08-04T14:25:20+00:00
+ORD-007044,1,9,Denim Jeans,Clothing,4,59.99,239.96,refunded,2026-08-04T23:13:30+00:00
+ORD-007045,8,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T10:50:15+00:00
+ORD-007046,10,8,Cotton T-Shirt,Clothing,1,19.99,19.99,refunded,2026-08-04T10:50:38+00:00
+ORD-007047,10,4,Coffee Maker,Home,2,79.99,159.98,cancelled,not-a-valid-date
+ORD-007048,4,10,Python Programming Book,Books,1,39.99,39.99,cancelled,2026-08-04T00:02:07+00:00
+ORD-007049,8,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T05:20:19+00:00
+ORD-007050,6,3,USB-C Hub,Electronics,2,49.99,99.98,cancelled,2026-08-04T03:45:21+00:00
+ORD-007051,8,10,Python Programming Book,Books,4,39.99,159.96,cancelled,2026-08-04T08:48:41+00:00
+ORD-007052,4,4,Coffee Maker,Home,5,79.99,399.95,cancelled,2026-08-04T15:05:46+00:00
+ORD-007053,5,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T21:43:01+00:00
+ORD-007054,6,4,Coffee Maker,Home,5,79.99,399.95,cancelled,2026-08-04T20:29:38+00:00
+ORD-007055,7,5,Desk Lamp,Home,4,34.99,139.96,cancelled,2026-08-04T13:11:26+00:00
+ORD-007056,1,4,Coffee Maker,Home,1,79.99,79.99,refunded,2026-08-04T17:06:34+00:00
+ORD-007057,3,4,Coffee Maker,Home,1,79.99,79.99,completed,2026-08-04T01:57:02+00:00
+ORD-007058,4,1,Wireless Mouse,Electronics,2,29.99,59.98,refunded,2026-08-04T17:01:47+00:00
+ORD-007059,6,7,Yoga Mat,Sports,2,24.99,49.98,refunded,2026-08-04T06:06:26+00:00
+ORD-007060,3,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T06:46:04+00:00
+ORD-007061,5,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T16:27:26+00:00
+ORD-007062,7,10,Python Programming Book,Books,1,39.99,39.99,completed,2026-08-04T15:30:47+00:00
+ORD-007063,1,2,Mechanical Keyboard,Electronics,5,89.99,449.95,completed,2026-08-04T04:30:32+00:00
+ORD-007064,7,5,Desk Lamp,Home,5,34.99,174.95,refunded,2026-08-04T18:54:38+00:00
+ORD-007065,3,1,Wireless Mouse,Electronics,4,29.99,119.96,refunded,2026-08-04T07:34:06+00:00
+ORD-007066,9,5,Desk Lamp,Home,3,34.99,104.97,pending,not-a-valid-date
+ORD-007067,10,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T13:00:45+00:00
+ORD-007068,7,5,Desk Lamp,Home,1,34.99,34.99,completed,2026-08-04T17:38:03+00:00
+ORD-007069,4,10,Python Programming Book,Books,1,39.99,39.99,refunded,2026-08-04T21:49:33+00:00
+ORD-007070,6,2,Mechanical Keyboard,Electronics,4,89.99,-50.00,completed,2026-08-04T10:39:16+00:00
+ORD-007071,4,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T17:52:15+00:00
+ORD-007072,5,7,Yoga Mat,Sports,4,24.99,99.96,cancelled,2026-08-04T20:55:20+00:00
+ORD-007073,9,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T08:30:45+00:00
+ORD-007074,3,9,Denim Jeans,Clothing,1,59.99,59.99,completed,not-a-valid-date
+ORD-007075,6,6,Running Shoes,Sports,4,99.99,399.96,completed,not-a-valid-date
+ORD-007076,5,4,Coffee Maker,Home,4,79.99,319.96,unknown_status,2026-08-04T19:44:43+00:00
+ORD-007077,9,2,Mechanical Keyboard,Electronics,5,89.99,449.95,pending,2026-08-04T19:14:53+00:00
+ORD-007078,5,8,Cotton T-Shirt,Clothing,3,19.99,59.97,cancelled,2026-08-04T08:56:19+00:00
+ORD-007079,9,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,2026-08-04T14:40:58+00:00
+ORD-007080,1,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T18:19:36+00:00
+ORD-007081,3,3,USB-C Hub,Electronics,3,49.99,149.97,pending,2026-08-04T02:06:10+00:00
+ORD-007082,10,1,Wireless Mouse,Electronics,5,29.99,149.95,refunded,2026-08-04T20:46:36+00:00
+ORD-007083,3,5,Desk Lamp,Home,4,34.99,139.96,cancelled,2026-08-04T22:08:45+00:00
+ORD-007084,6,4,Coffee Maker,Home,3,79.99,239.97,cancelled,2026-08-04T08:27:14+00:00
+ORD-007085,6,9,Denim Jeans,Clothing,4,59.99,239.96,pending,2026-08-04T21:39:30+00:00
+ORD-007086,6,2,Mechanical Keyboard,Electronics,2,89.99,179.98,refunded,2026-08-04T03:43:05+00:00
+ORD-007087,8,1,Wireless Mouse,Electronics,2,29.99,-50.00,completed,2026-08-04T18:21:53+00:00
+ORD-007088,4,9,Denim Jeans,Clothing,5,59.99,299.95,cancelled,2026-08-04T01:38:19+00:00
+ORD-007089,5,5,Desk Lamp,Home,4,34.99,139.96,refunded,2026-08-04T22:38:33+00:00
+ORD-007090,10,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T10:54:36+00:00
+ORD-007091,5,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T14:38:58+00:00
+ORD-007092,10,5,Desk Lamp,Home,4,34.99,139.96,completed,2026-08-04T15:40:01+00:00
+ORD-007093,3,2,Mechanical Keyboard,Electronics,4,89.99,359.96,pending,2026-08-04T02:57:05+00:00
+ORD-007094,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T01:36:43+00:00
+ORD-007095,7,6,Running Shoes,Sports,3,99.99,299.97,completed,not-a-valid-date
+ORD-007096,5,10,Python Programming Book,Books,1,39.99,39.99,completed,2026-08-04T01:32:38+00:00
+ORD-007097,4,6,Running Shoes,Sports,5,99.99,499.95,pending,2026-08-04T21:55:28+00:00
+ORD-007098,9,4,Coffee Maker,Home,3,79.99,239.97,refunded,not-a-valid-date
+ORD-007099,4,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,2026-08-04T03:39:21+00:00
+ORD-007100,3,6,Running Shoes,Sports,1,99.99,99.99,cancelled,2026-08-04T00:56:36+00:00
+ORD-007101,1,8,Cotton T-Shirt,Clothing,2,19.99,39.98,completed,2026-08-04T18:53:01+00:00
+ORD-007102,5,1,Wireless Mouse,Electronics,1,29.99,29.99,unknown_status,2026-08-04T06:42:44+00:00
+ORD-007103,6,2,Mechanical Keyboard,Electronics,5,89.99,449.95,completed,2026-08-04T03:22:22+00:00
+ORD-007104,5,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T21:45:46+00:00
+ORD-007105,6,4,Coffee Maker,Home,4,79.99,319.96,completed,2026-08-04T22:46:21+00:00
+ORD-007106,10,6,Running Shoes,Sports,3,99.99,299.97,completed,not-a-valid-date
+ORD-007107,7,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T20:59:08+00:00
+ORD-007108,8,2,Mechanical Keyboard,Electronics,5,89.99,449.95,completed,2026-08-04T15:46:07+00:00
+ORD-007109,1,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T19:31:29+00:00
+ORD-007110,4,10,Python Programming Book,Books,2,39.99,79.98,pending,2026-08-04T21:45:08+00:00
+ORD-007111,8,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T00:37:43+00:00
+ORD-007112,3,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T03:02:54+00:00
+ORD-007113,4,4,Coffee Maker,Home,2,79.99,159.98,cancelled,2026-08-04T02:42:08+00:00
+ORD-007114,3,10,Python Programming Book,Books,3,39.99,119.97,completed,not-a-valid-date
+ORD-007115,4,5,Desk Lamp,Home,1,34.99,34.99,refunded,not-a-valid-date
+ORD-007116,6,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,2026-08-04T18:03:35+00:00
+ORD-007117,5,7,Yoga Mat,Sports,2,24.99,49.98,completed,2026-08-04T16:20:46+00:00
+ORD-007118,2,7,Yoga Mat,Sports,4,24.99,99.96,unknown_status,2026-08-04T03:52:02+00:00
+ORD-007119,4,3,USB-C Hub,Electronics,1,49.99,49.99,unknown_status,2026-08-04T23:39:13+00:00
+ORD-007120,7,10,Python Programming Book,Books,3,39.99,119.97,cancelled,2026-08-04T02:40:24+00:00
+ORD-007121,2,8,Cotton T-Shirt,Clothing,1,19.99,19.99,completed,2026-08-04T06:07:02+00:00
+ORD-007122,2,9,Denim Jeans,Clothing,4,59.99,239.96,completed,2026-08-04T01:45:00+00:00
+ORD-007123,4,2,Mechanical Keyboard,Electronics,2,89.99,179.98,pending,2026-08-04T23:29:10+00:00
+ORD-007124,6,4,Coffee Maker,Home,1,79.99,79.99,cancelled,not-a-valid-date
+ORD-007125,3,9,Denim Jeans,Clothing,4,59.99,239.96,completed,2026-08-04T21:08:47+00:00
+ORD-007126,2,7,Yoga Mat,Sports,2,24.99,49.98,cancelled,2026-08-04T08:03:08+00:00
+ORD-007127,9,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T15:40:23+00:00
+ORD-007128,2,1,Wireless Mouse,Electronics,5,29.99,149.95,refunded,2026-08-04T14:05:12+00:00
+ORD-007129,6,9,Denim Jeans,Clothing,1,59.99,59.99,unknown_status,2026-08-04T10:29:35+00:00
+ORD-007130,3,3,USB-C Hub,Electronics,1,49.99,-50.00,completed,2026-08-04T02:22:13+00:00
+ORD-007131,2,7,Yoga Mat,Sports,1,24.99,24.99,refunded,2026-08-04T18:53:28+00:00
+ORD-007132,1,5,Desk Lamp,Home,1,34.99,34.99,cancelled,2026-08-04T20:16:20+00:00
+ORD-007133,9,5,Desk Lamp,Home,4,34.99,139.96,completed,2026-08-04T01:32:50+00:00
+ORD-007134,5,10,Python Programming Book,Books,4,39.99,159.96,completed,not-a-valid-date
+ORD-007135,10,4,Coffee Maker,Home,3,79.99,239.97,cancelled,2026-08-04T15:28:06+00:00
+ORD-007136,6,5,Desk Lamp,Home,3,34.99,104.97,completed,2026-08-04T20:36:31+00:00
+ORD-007137,6,7,Yoga Mat,Sports,1,24.99,24.99,completed,2026-08-04T21:30:14+00:00
+ORD-007138,5,7,Yoga Mat,Sports,2,24.99,49.98,cancelled,2026-08-04T16:37:44+00:00
+ORD-007139,9,7,Yoga Mat,Sports,4,24.99,99.96,pending,2026-08-04T21:37:52+00:00
+ORD-007140,10,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T12:41:03+00:00
+ORD-007141,10,8,Cotton T-Shirt,Clothing,3,19.99,59.97,cancelled,2026-08-04T05:09:27+00:00
+ORD-007142,10,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T05:12:33+00:00
+ORD-007143,8,5,Desk Lamp,Home,5,34.99,174.95,unknown_status,2026-08-04T13:04:26+00:00
+ORD-007144,9,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T06:56:13+00:00
+ORD-007145,10,8,Cotton T-Shirt,Clothing,4,19.99,79.96,completed,2026-08-04T14:13:08+00:00
+ORD-007146,1,10,Python Programming Book,Books,3,39.99,119.97,unknown_status,2026-08-04T07:06:31+00:00
+ORD-007147,9,5,Desk Lamp,Home,4,34.99,139.96,refunded,2026-08-04T05:03:36+00:00
+ORD-007148,7,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,2026-08-04T10:41:08+00:00
+ORD-007149,7,10,Python Programming Book,Books,1,39.99,39.99,pending,not-a-valid-date
+ORD-007150,2,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T03:05:15+00:00
+ORD-007151,7,7,Yoga Mat,Sports,2,24.99,-50.00,refunded,2026-08-04T19:39:57+00:00
+ORD-007152,9,4,Coffee Maker,Home,3,79.99,239.97,unknown_status,2026-08-04T21:43:39+00:00
+ORD-007153,7,7,Yoga Mat,Sports,5,24.99,124.95,refunded,2026-08-04T21:38:41+00:00
+ORD-007154,6,1,Wireless Mouse,Electronics,1,29.99,29.99,refunded,2026-08-04T14:24:42+00:00
+ORD-007155,5,3,USB-C Hub,Electronics,4,49.99,199.96,completed,2026-08-04T17:52:45+00:00
+ORD-007156,8,3,USB-C Hub,Electronics,1,49.99,49.99,pending,2026-08-04T13:15:00+00:00
+ORD-007157,6,4,Coffee Maker,Home,1,79.99,79.99,pending,2026-08-04T05:22:15+00:00
+ORD-007158,6,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T07:23:37+00:00
+ORD-007159,1,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T01:13:56+00:00
+ORD-007160,10,9,Denim Jeans,Clothing,5,59.99,-50.00,refunded,2026-08-04T11:14:48+00:00
+ORD-007161,6,8,Cotton T-Shirt,Clothing,2,19.99,39.98,completed,2026-08-04T03:55:55+00:00
+ORD-007162,6,6,Running Shoes,Sports,2,99.99,199.98,unknown_status,2026-08-04T00:18:01+00:00
+ORD-007163,2,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T06:51:36+00:00
+ORD-007164,6,6,Running Shoes,Sports,4,99.99,399.96,pending,2026-08-04T00:36:23+00:00
+ORD-007165,3,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T08:49:05+00:00
+ORD-007166,2,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T22:00:37+00:00
+ORD-007167,4,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T09:23:55+00:00
+ORD-007168,1,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T10:13:56+00:00
+ORD-007169,4,9,Denim Jeans,Clothing,2,59.99,119.98,refunded,2026-08-04T09:39:25+00:00
+ORD-007170,3,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T19:48:22+00:00
+ORD-007171,2,1,Wireless Mouse,Electronics,2,29.99,59.98,refunded,2026-08-04T03:31:10+00:00
+ORD-007172,2,9,Denim Jeans,Clothing,2,59.99,119.98,pending,2026-08-04T08:18:15+00:00
+ORD-007173,9,8,Cotton T-Shirt,Clothing,5,19.99,99.95,completed,2026-08-04T20:36:07+00:00
+ORD-007174,1,9,Denim Jeans,Clothing,1,59.99,59.99,completed,not-a-valid-date
+ORD-007175,5,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T05:28:59+00:00
+ORD-007176,9,7,Yoga Mat,Sports,3,24.99,74.97,refunded,2026-08-04T16:51:47+00:00
+ORD-007177,9,4,Coffee Maker,Home,3,79.99,239.97,unknown_status,2026-08-04T13:09:58+00:00
+ORD-007178,7,5,Desk Lamp,Home,3,34.99,104.97,pending,not-a-valid-date
+ORD-007179,9,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T19:01:48+00:00
+ORD-007180,3,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T22:48:32+00:00
+ORD-007181,3,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T06:45:37+00:00
+ORD-007182,2,4,Coffee Maker,Home,3,79.99,239.97,refunded,2026-08-04T04:15:03+00:00
+ORD-007183,9,9,Denim Jeans,Clothing,5,59.99,299.95,completed,2026-08-04T06:47:33+00:00
+ORD-007184,5,6,Running Shoes,Sports,1,99.99,99.99,cancelled,2026-08-04T09:05:06+00:00
+ORD-007185,9,6,Running Shoes,Sports,2,99.99,199.98,pending,not-a-valid-date
+ORD-007186,5,8,Cotton T-Shirt,Clothing,2,19.99,39.98,unknown_status,2026-08-04T00:15:32+00:00
+ORD-007187,7,8,Cotton T-Shirt,Clothing,4,19.99,79.96,completed,2026-08-04T13:49:26+00:00
+ORD-007188,9,9,Denim Jeans,Clothing,2,59.99,119.98,refunded,2026-08-04T19:40:22+00:00
+ORD-007189,8,5,Desk Lamp,Home,3,34.99,104.97,completed,2026-08-04T18:13:28+00:00
+ORD-007190,8,3,USB-C Hub,Electronics,1,49.99,49.99,cancelled,2026-08-04T22:47:00+00:00
+ORD-007191,7,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T07:49:59+00:00
+ORD-007192,6,10,Python Programming Book,Books,2,39.99,79.98,pending,2026-08-04T03:44:24+00:00
+ORD-007193,1,7,Yoga Mat,Sports,2,24.99,49.98,unknown_status,2026-08-04T03:28:08+00:00
+ORD-007194,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T09:35:14+00:00
+ORD-007195,2,2,Mechanical Keyboard,Electronics,1,89.99,89.99,cancelled,2026-08-04T14:06:55+00:00
+ORD-007196,10,5,Desk Lamp,Home,3,34.99,104.97,refunded,2026-08-04T05:10:56+00:00
+ORD-007197,5,5,Desk Lamp,Home,3,34.99,104.97,cancelled,2026-08-04T16:47:51+00:00
+ORD-007198,10,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T02:31:00+00:00
+ORD-007199,4,2,Mechanical Keyboard,Electronics,1,89.99,89.99,pending,2026-08-04T13:11:43+00:00
+ORD-007200,8,4,Coffee Maker,Home,3,79.99,239.97,pending,2026-08-04T21:08:24+00:00
+ORD-007201,8,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T22:24:03+00:00
+ORD-007202,4,2,Mechanical Keyboard,Electronics,1,89.99,-50.00,cancelled,2026-08-04T01:39:51+00:00
+ORD-007203,10,5,Desk Lamp,Home,3,34.99,104.97,refunded,2026-08-04T21:50:11+00:00
+ORD-007204,9,6,Running Shoes,Sports,5,99.99,499.95,refunded,2026-08-04T12:57:34+00:00
+ORD-007205,9,2,Mechanical Keyboard,Electronics,5,89.99,449.95,completed,2026-08-04T19:03:35+00:00
+ORD-007206,1,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T14:41:23+00:00
+ORD-007207,10,2,Mechanical Keyboard,Electronics,3,89.99,269.97,pending,2026-08-04T20:51:03+00:00
+ORD-007208,4,8,Cotton T-Shirt,Clothing,5,19.99,99.95,refunded,2026-08-04T09:17:20+00:00
+ORD-007209,3,7,Yoga Mat,Sports,2,24.99,49.98,refunded,2026-08-04T18:44:58+00:00
+ORD-007210,4,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T01:38:22+00:00
+ORD-007211,3,2,Mechanical Keyboard,Electronics,2,89.99,179.98,pending,2026-08-04T06:05:38+00:00
+ORD-007212,9,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T09:36:48+00:00
+ORD-007213,8,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T10:33:09+00:00
+ORD-007214,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T19:07:40+00:00
+ORD-007215,8,9,Denim Jeans,Clothing,4,59.99,239.96,refunded,not-a-valid-date
+ORD-007216,8,8,Cotton T-Shirt,Clothing,3,19.99,59.97,completed,2026-08-04T00:13:55+00:00
+ORD-007217,7,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T14:01:02+00:00
+ORD-007218,8,7,Yoga Mat,Sports,1,24.99,24.99,refunded,2026-08-04T00:08:09+00:00
+ORD-007219,3,3,USB-C Hub,Electronics,2,49.99,99.98,completed,2026-08-04T20:00:40+00:00
+ORD-007220,2,3,USB-C Hub,Electronics,5,49.99,249.95,pending,not-a-valid-date
+ORD-007221,8,7,Yoga Mat,Sports,5,24.99,124.95,unknown_status,2026-08-04T06:00:31+00:00
+ORD-007222,4,3,USB-C Hub,Electronics,4,49.99,199.96,pending,2026-08-04T09:31:05+00:00
+ORD-007223,6,4,Coffee Maker,Home,1,79.99,79.99,refunded,2026-08-04T10:53:58+00:00
+ORD-007224,7,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T01:20:08+00:00
+ORD-007225,9,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,2026-08-04T09:56:44+00:00
+ORD-007226,4,4,Coffee Maker,Home,1,79.99,79.99,cancelled,not-a-valid-date
+ORD-007227,9,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T12:22:51+00:00
+ORD-007228,2,10,Python Programming Book,Books,5,39.99,199.95,cancelled,2026-08-04T03:20:02+00:00
+ORD-007229,3,7,Yoga Mat,Sports,3,24.99,74.97,cancelled,2026-08-04T03:34:15+00:00
+ORD-007230,7,3,USB-C Hub,Electronics,1,49.99,49.99,pending,2026-08-04T01:03:32+00:00
+ORD-007231,8,8,Cotton T-Shirt,Clothing,5,19.99,99.95,completed,2026-08-04T03:12:59+00:00
+ORD-007232,7,5,Desk Lamp,Home,5,34.99,174.95,cancelled,2026-08-04T08:12:39+00:00
+ORD-007233,7,9,Denim Jeans,Clothing,1,59.99,59.99,cancelled,2026-08-04T03:01:40+00:00
+ORD-007234,9,10,Python Programming Book,Books,3,39.99,119.97,cancelled,2026-08-04T13:09:33+00:00
+ORD-007235,2,10,Python Programming Book,Books,3,39.99,119.97,pending,2026-08-04T06:04:38+00:00
+ORD-007236,2,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T07:11:04+00:00
+ORD-007237,6,7,Yoga Mat,Sports,2,24.99,49.98,refunded,2026-08-04T14:20:26+00:00
+ORD-007238,8,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T14:33:15+00:00
+ORD-007239,8,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T17:20:21+00:00
+ORD-007240,9,10,Python Programming Book,Books,2,39.99,79.98,refunded,2026-08-04T13:08:21+00:00
+ORD-007241,2,2,Mechanical Keyboard,Electronics,2,89.99,179.98,refunded,2026-08-04T11:14:08+00:00
+ORD-007242,10,5,Desk Lamp,Home,5,34.99,174.95,cancelled,2026-08-04T02:39:24+00:00
+ORD-007243,9,4,Coffee Maker,Home,5,79.99,399.95,cancelled,2026-08-04T00:51:18+00:00
+ORD-007244,3,3,USB-C Hub,Electronics,4,49.99,-50.00,pending,2026-08-04T17:53:27+00:00
+ORD-007245,8,10,Python Programming Book,Books,5,39.99,199.95,refunded,2026-08-04T00:28:22+00:00
+ORD-007246,1,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T01:00:13+00:00
+ORD-007247,10,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T08:09:12+00:00
+ORD-007248,1,6,Running Shoes,Sports,3,99.99,299.97,cancelled,2026-08-04T19:08:23+00:00
+ORD-007249,7,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T07:14:18+00:00
+ORD-007250,2,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T05:41:24+00:00
+ORD-007251,2,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T00:27:53+00:00
+ORD-007252,7,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T03:32:26+00:00
+ORD-007253,5,8,Cotton T-Shirt,Clothing,5,19.99,99.95,completed,2026-08-04T00:40:31+00:00
+ORD-007254,9,6,Running Shoes,Sports,4,99.99,399.96,completed,2026-08-04T08:09:42+00:00
+ORD-007255,10,7,Yoga Mat,Sports,4,24.99,99.96,refunded,2026-08-04T22:19:19+00:00
+ORD-007256,8,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T14:05:38+00:00
+ORD-007257,2,1,Wireless Mouse,Electronics,5,29.99,149.95,completed,2026-08-04T14:21:35+00:00
+ORD-007258,3,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T16:40:40+00:00
+ORD-007259,1,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T06:18:54+00:00
+ORD-007260,10,9,Denim Jeans,Clothing,4,59.99,239.96,refunded,2026-08-04T20:39:58+00:00
+ORD-007261,10,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T13:13:08+00:00
+ORD-007262,8,2,Mechanical Keyboard,Electronics,3,89.99,269.97,pending,2026-08-04T13:10:36+00:00
+ORD-007263,1,3,USB-C Hub,Electronics,4,49.99,-50.00,completed,2026-08-04T16:59:58+00:00
+ORD-007264,2,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T22:31:18+00:00
+ORD-007265,3,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T22:46:05+00:00
+ORD-007266,9,1,Wireless Mouse,Electronics,5,29.99,149.95,unknown_status,2026-08-04T15:26:15+00:00
+ORD-007267,9,9,Denim Jeans,Clothing,5,59.99,299.95,refunded,2026-08-04T19:30:59+00:00
+ORD-007268,6,2,Mechanical Keyboard,Electronics,1,89.99,89.99,refunded,2026-08-04T19:04:08+00:00
+ORD-007269,7,4,Coffee Maker,Home,3,79.99,239.97,refunded,2026-08-04T18:14:21+00:00
+ORD-007270,4,10,Python Programming Book,Books,3,39.99,119.97,refunded,2026-08-04T07:44:17+00:00
+ORD-007271,1,5,Desk Lamp,Home,3,34.99,104.97,pending,2026-08-04T18:03:55+00:00
+ORD-007272,8,7,Yoga Mat,Sports,2,24.99,49.98,refunded,2026-08-04T05:28:30+00:00
+ORD-007273,10,8,Cotton T-Shirt,Clothing,4,19.99,79.96,refunded,2026-08-04T12:46:00+00:00
+ORD-007274,8,5,Desk Lamp,Home,3,34.99,104.97,unknown_status,2026-08-04T18:52:07+00:00
+ORD-007275,5,10,Python Programming Book,Books,3,39.99,119.97,refunded,2026-08-04T21:14:23+00:00
+ORD-007276,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,cancelled,2026-08-04T12:52:24+00:00
+ORD-007277,1,8,Cotton T-Shirt,Clothing,3,19.99,59.97,pending,2026-08-04T11:38:25+00:00
+ORD-007278,4,5,Desk Lamp,Home,1,34.99,34.99,unknown_status,2026-08-04T13:16:21+00:00
+ORD-007279,1,3,USB-C Hub,Electronics,5,49.99,249.95,cancelled,2026-08-04T23:34:23+00:00
+ORD-007280,6,9,Denim Jeans,Clothing,5,59.99,299.95,pending,2026-08-04T14:30:14+00:00
+ORD-007281,1,10,Python Programming Book,Books,3,39.99,119.97,pending,2026-08-04T12:06:56+00:00
+ORD-007282,9,8,Cotton T-Shirt,Clothing,3,19.99,59.97,unknown_status,2026-08-04T10:10:55+00:00
+ORD-007283,4,9,Denim Jeans,Clothing,1,59.99,-50.00,pending,2026-08-04T13:38:19+00:00
+ORD-007284,10,9,Denim Jeans,Clothing,3,59.99,179.97,pending,2026-08-04T14:40:10+00:00
+ORD-007285,4,3,USB-C Hub,Electronics,5,49.99,249.95,refunded,2026-08-04T04:24:02+00:00
+ORD-007286,9,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T11:01:47+00:00
+ORD-007287,4,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T17:17:02+00:00
+ORD-007288,2,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T10:00:23+00:00
+ORD-007289,3,1,Wireless Mouse,Electronics,4,29.99,119.96,cancelled,2026-08-04T07:57:09+00:00
+ORD-007290,1,1,Wireless Mouse,Electronics,3,29.99,89.97,pending,2026-08-04T03:45:47+00:00
+ORD-007291,4,7,Yoga Mat,Sports,3,24.99,74.97,refunded,2026-08-04T18:48:22+00:00
+ORD-007292,4,10,Python Programming Book,Books,4,39.99,159.96,cancelled,2026-08-04T07:29:57+00:00
+ORD-007293,7,7,Yoga Mat,Sports,4,24.99,99.96,cancelled,2026-08-04T10:14:08+00:00
+ORD-007294,4,7,Yoga Mat,Sports,4,24.99,-50.00,pending,2026-08-04T01:21:34+00:00
+ORD-007295,10,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T20:46:00+00:00
+ORD-007296,10,5,Desk Lamp,Home,1,34.99,-50.00,pending,2026-08-04T12:13:17+00:00
+ORD-007297,1,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T02:32:30+00:00
+ORD-007298,8,1,Wireless Mouse,Electronics,2,29.99,59.98,refunded,2026-08-04T22:52:30+00:00
+ORD-007299,2,1,Wireless Mouse,Electronics,4,29.99,119.96,cancelled,2026-08-04T19:25:03+00:00
+ORD-007300,9,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,2026-08-04T10:53:14+00:00
+ORD-007301,10,10,Python Programming Book,Books,4,39.99,159.96,refunded,2026-08-04T17:19:20+00:00
+ORD-007302,4,4,Coffee Maker,Home,5,79.99,399.95,completed,2026-08-04T07:08:51+00:00
+ORD-007303,5,7,Yoga Mat,Sports,1,24.99,24.99,pending,2026-08-04T09:35:48+00:00
+ORD-007304,6,6,Running Shoes,Sports,4,99.99,399.96,cancelled,2026-08-04T23:51:31+00:00
+ORD-007305,4,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,2026-08-04T21:28:57+00:00
+ORD-007306,3,1,Wireless Mouse,Electronics,3,29.99,-50.00,refunded,2026-08-04T23:21:00+00:00
+ORD-007307,7,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T01:03:20+00:00
+ORD-007308,1,6,Running Shoes,Sports,4,99.99,399.96,refunded,2026-08-04T17:07:42+00:00
+ORD-007309,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,pending,2026-08-04T04:21:35+00:00
+ORD-007310,4,4,Coffee Maker,Home,4,79.99,-50.00,completed,2026-08-04T03:27:12+00:00
+ORD-007311,5,4,Coffee Maker,Home,4,79.99,319.96,cancelled,2026-08-04T16:48:38+00:00
+ORD-007312,5,10,Python Programming Book,Books,5,39.99,199.95,completed,not-a-valid-date
+ORD-007313,7,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T18:08:23+00:00
+ORD-007314,1,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,2026-08-04T18:23:14+00:00
+ORD-007315,7,10,Python Programming Book,Books,1,39.99,39.99,cancelled,2026-08-04T01:38:01+00:00
+ORD-007316,5,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T15:33:29+00:00
+ORD-007317,9,8,Cotton T-Shirt,Clothing,1,19.99,19.99,pending,2026-08-04T16:34:06+00:00
+ORD-007318,9,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T16:04:10+00:00
+ORD-007319,4,9,Denim Jeans,Clothing,2,59.99,119.98,cancelled,2026-08-04T00:23:13+00:00
+ORD-007320,4,9,Denim Jeans,Clothing,3,59.99,179.97,refunded,2026-08-04T16:50:12+00:00
+ORD-007321,5,6,Running Shoes,Sports,3,99.99,299.97,cancelled,2026-08-04T00:15:48+00:00
+ORD-007322,3,10,Python Programming Book,Books,2,39.99,79.98,completed,2026-08-04T17:26:50+00:00
+ORD-007323,2,10,Python Programming Book,Books,1,39.99,39.99,refunded,2026-08-04T06:53:11+00:00
+ORD-007324,7,9,Denim Jeans,Clothing,5,59.99,299.95,cancelled,2026-08-04T08:54:54+00:00
+ORD-007325,8,4,Coffee Maker,Home,1,79.99,79.99,cancelled,2026-08-04T15:35:01+00:00
+ORD-007326,5,10,Python Programming Book,Books,5,39.99,199.95,cancelled,2026-08-04T09:43:13+00:00
+ORD-007327,10,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,not-a-valid-date
+ORD-007328,4,10,Python Programming Book,Books,2,39.99,79.98,pending,2026-08-04T00:52:19+00:00
+ORD-007329,6,1,Wireless Mouse,Electronics,4,29.99,-50.00,refunded,2026-08-04T22:48:14+00:00
+ORD-007330,10,6,Running Shoes,Sports,2,99.99,199.98,completed,2026-08-04T15:24:46+00:00
+ORD-007331,4,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T05:47:14+00:00
+ORD-007332,10,3,USB-C Hub,Electronics,5,49.99,249.95,refunded,2026-08-04T21:46:36+00:00
+ORD-007333,1,7,Yoga Mat,Sports,2,24.99,49.98,pending,2026-08-04T07:58:17+00:00
+ORD-007334,6,4,Coffee Maker,Home,3,79.99,239.97,cancelled,2026-08-04T14:32:49+00:00
+ORD-007335,8,1,Wireless Mouse,Electronics,2,29.99,59.98,completed,2026-08-04T01:04:07+00:00
+ORD-007336,3,6,Running Shoes,Sports,3,99.99,-50.00,refunded,2026-08-04T02:11:20+00:00
+ORD-007337,3,3,USB-C Hub,Electronics,1,49.99,49.99,cancelled,2026-08-04T04:16:37+00:00
+ORD-007338,6,4,Coffee Maker,Home,1,79.99,-50.00,completed,2026-08-04T20:19:54+00:00
+ORD-007339,2,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T07:17:57+00:00
+ORD-007340,3,1,Wireless Mouse,Electronics,4,29.99,119.96,completed,2026-08-04T18:49:47+00:00
+ORD-007341,1,5,Desk Lamp,Home,5,34.99,174.95,pending,2026-08-04T04:31:51+00:00
+ORD-007342,9,1,Wireless Mouse,Electronics,3,29.99,89.97,cancelled,2026-08-04T10:49:30+00:00
+ORD-007343,6,8,Cotton T-Shirt,Clothing,2,19.99,39.98,refunded,2026-08-04T18:47:40+00:00
+ORD-007344,4,8,Cotton T-Shirt,Clothing,5,19.99,99.95,pending,2026-08-04T16:16:38+00:00
+ORD-007345,6,5,Desk Lamp,Home,3,34.99,104.97,pending,2026-08-04T23:13:55+00:00
+ORD-007346,2,9,Denim Jeans,Clothing,1,59.99,59.99,pending,2026-08-04T13:38:38+00:00
+ORD-007347,9,8,Cotton T-Shirt,Clothing,2,19.99,39.98,pending,2026-08-04T06:50:14+00:00
+ORD-007348,10,7,Yoga Mat,Sports,3,24.99,74.97,cancelled,2026-08-04T04:47:16+00:00
+ORD-007349,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,cancelled,2026-08-04T12:29:56+00:00
+ORD-007350,9,6,Running Shoes,Sports,4,99.99,399.96,completed,2026-08-04T15:14:53+00:00
+ORD-007351,1,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T21:32:41+00:00
+ORD-007352,10,1,Wireless Mouse,Electronics,5,29.99,149.95,refunded,2026-08-04T04:30:44+00:00
+ORD-007353,5,10,Python Programming Book,Books,3,39.99,119.97,refunded,2026-08-04T11:02:38+00:00
+ORD-007354,1,7,Yoga Mat,Sports,1,24.99,24.99,cancelled,not-a-valid-date
+ORD-007355,2,9,Denim Jeans,Clothing,3,59.99,179.97,cancelled,2026-08-04T21:18:23+00:00
+ORD-007356,3,1,Wireless Mouse,Electronics,5,29.99,149.95,cancelled,2026-08-04T20:49:47+00:00
+ORD-007357,1,5,Desk Lamp,Home,4,34.99,139.96,pending,2026-08-04T10:34:33+00:00
+ORD-007358,7,6,Running Shoes,Sports,1,99.99,99.99,cancelled,2026-08-04T16:09:06+00:00
+ORD-007359,4,6,Running Shoes,Sports,3,99.99,299.97,cancelled,2026-08-04T21:53:38+00:00
+ORD-007360,2,6,Running Shoes,Sports,5,99.99,499.95,completed,2026-08-04T18:35:48+00:00
+ORD-007361,8,9,Denim Jeans,Clothing,2,59.99,119.98,refunded,2026-08-04T05:33:14+00:00
+ORD-007362,8,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T16:16:32+00:00
+ORD-007363,10,8,Cotton T-Shirt,Clothing,3,19.99,59.97,unknown_status,2026-08-04T13:32:52+00:00
+ORD-007364,4,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T04:35:40+00:00
+ORD-007365,4,3,USB-C Hub,Electronics,3,49.99,149.97,refunded,2026-08-04T21:21:52+00:00
+ORD-007366,1,10,Python Programming Book,Books,4,39.99,159.96,completed,2026-08-04T22:25:00+00:00
+ORD-007367,6,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T10:22:38+00:00
+ORD-007368,5,10,Python Programming Book,Books,3,39.99,119.97,unknown_status,2026-08-04T19:55:51+00:00
+ORD-007369,7,5,Desk Lamp,Home,1,34.99,-50.00,pending,2026-08-04T15:53:16+00:00
+ORD-007370,8,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T15:21:22+00:00
+ORD-007371,10,3,USB-C Hub,Electronics,3,49.99,149.97,pending,2026-08-04T13:15:12+00:00
+ORD-007372,8,6,Running Shoes,Sports,1,99.99,99.99,refunded,2026-08-04T06:08:39+00:00
+ORD-007373,1,8,Cotton T-Shirt,Clothing,3,19.99,59.97,refunded,2026-08-04T22:43:17+00:00
+ORD-007374,3,5,Desk Lamp,Home,1,34.99,34.99,refunded,2026-08-04T05:38:18+00:00
+ORD-007375,6,3,USB-C Hub,Electronics,4,49.99,199.96,pending,2026-08-04T14:27:55+00:00
+ORD-007376,2,2,Mechanical Keyboard,Electronics,3,89.99,269.97,unknown_status,2026-08-04T13:23:30+00:00
+ORD-007377,1,2,Mechanical Keyboard,Electronics,4,89.99,359.96,completed,2026-08-04T23:11:28+00:00
+ORD-007378,6,6,Running Shoes,Sports,3,99.99,299.97,pending,2026-08-04T13:16:20+00:00
+ORD-007379,10,5,Desk Lamp,Home,3,34.99,104.97,unknown_status,2026-08-04T12:56:55+00:00
+ORD-007380,7,7,Yoga Mat,Sports,2,24.99,49.98,pending,2026-08-04T04:28:45+00:00
+ORD-007381,8,4,Coffee Maker,Home,3,79.99,239.97,refunded,2026-08-04T23:57:28+00:00
+ORD-007382,9,7,Yoga Mat,Sports,5,24.99,124.95,cancelled,2026-08-04T01:57:53+00:00
+ORD-007383,2,1,Wireless Mouse,Electronics,3,29.99,89.97,completed,2026-08-04T21:08:11+00:00
+ORD-007384,5,9,Denim Jeans,Clothing,4,59.99,239.96,pending,2026-08-04T01:51:00+00:00
+ORD-007385,6,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,2026-08-04T03:13:58+00:00
+ORD-007386,3,8,Cotton T-Shirt,Clothing,5,19.99,99.95,completed,2026-08-04T11:41:21+00:00
+ORD-007387,4,10,Python Programming Book,Books,4,39.99,159.96,pending,2026-08-04T21:13:44+00:00
+ORD-007388,1,7,Yoga Mat,Sports,5,24.99,124.95,pending,2026-08-04T13:58:14+00:00
+ORD-007389,9,2,Mechanical Keyboard,Electronics,4,89.99,359.96,cancelled,not-a-valid-date
+ORD-007390,6,1,Wireless Mouse,Electronics,1,29.99,29.99,cancelled,2026-08-04T01:12:59+00:00
+ORD-007391,2,9,Denim Jeans,Clothing,2,59.99,119.98,completed,2026-08-04T21:44:38+00:00
+ORD-007392,3,2,Mechanical Keyboard,Electronics,3,89.99,269.97,completed,2026-08-04T07:26:58+00:00
+ORD-007393,1,3,USB-C Hub,Electronics,4,49.99,199.96,completed,not-a-valid-date
+ORD-007394,10,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T07:54:20+00:00
+ORD-007395,1,4,Coffee Maker,Home,4,79.99,-50.00,pending,2026-08-04T21:23:16+00:00
+ORD-007396,8,4,Coffee Maker,Home,5,79.99,399.95,pending,2026-08-04T20:24:27+00:00
+ORD-007397,10,2,Mechanical Keyboard,Electronics,5,89.99,449.95,pending,2026-08-04T19:22:49+00:00
+ORD-007398,8,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T10:18:56+00:00
+ORD-007399,7,7,Yoga Mat,Sports,4,24.99,99.96,pending,2026-08-04T15:44:19+00:00
+ORD-007400,9,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T00:17:15+00:00
+ORD-007401,3,5,Desk Lamp,Home,5,34.99,174.95,cancelled,2026-08-04T03:22:31+00:00
+ORD-007402,5,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T15:50:11+00:00
+ORD-007403,5,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T15:02:16+00:00
+ORD-007404,9,1,Wireless Mouse,Electronics,3,29.99,89.97,pending,2026-08-04T16:51:39+00:00
+ORD-007405,7,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T21:49:07+00:00
+ORD-007406,6,4,Coffee Maker,Home,4,79.99,319.96,completed,2026-08-04T21:37:21+00:00
+ORD-007407,5,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T16:09:07+00:00
+ORD-007408,5,10,Python Programming Book,Books,5,39.99,199.95,refunded,2026-08-04T06:08:40+00:00
+ORD-007409,5,9,Denim Jeans,Clothing,4,59.99,239.96,cancelled,2026-08-04T03:12:55+00:00
+ORD-007410,10,7,Yoga Mat,Sports,5,24.99,-50.00,cancelled,2026-08-04T07:54:32+00:00
+ORD-007411,7,2,Mechanical Keyboard,Electronics,3,89.99,269.97,refunded,2026-08-04T12:01:30+00:00
+ORD-007412,10,5,Desk Lamp,Home,2,34.99,69.98,cancelled,2026-08-04T07:08:08+00:00
+ORD-007413,7,1,Wireless Mouse,Electronics,2,29.99,59.98,completed,2026-08-04T22:48:50+00:00
+ORD-007414,5,9,Denim Jeans,Clothing,5,59.99,299.95,refunded,2026-08-04T13:39:16+00:00
+ORD-007415,2,7,Yoga Mat,Sports,4,24.99,99.96,completed,not-a-valid-date
+ORD-007416,10,9,Denim Jeans,Clothing,2,59.99,119.98,pending,2026-08-04T05:03:52+00:00
+ORD-007417,7,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T09:41:43+00:00
+ORD-007418,4,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T01:54:35+00:00
+ORD-007419,9,4,Coffee Maker,Home,2,79.99,159.98,cancelled,2026-08-04T17:41:37+00:00
+ORD-007420,4,1,Wireless Mouse,Electronics,4,29.99,119.96,refunded,2026-08-04T02:20:30+00:00
+ORD-007421,6,8,Cotton T-Shirt,Clothing,3,19.99,59.97,refunded,2026-08-04T18:57:45+00:00
+ORD-007422,5,9,Denim Jeans,Clothing,2,59.99,119.98,cancelled,2026-08-04T01:52:24+00:00
+ORD-007423,6,6,Running Shoes,Sports,5,99.99,499.95,refunded,2026-08-04T14:01:08+00:00
+ORD-007424,9,7,Yoga Mat,Sports,3,24.99,74.97,refunded,2026-08-04T16:45:42+00:00
+ORD-007425,6,9,Denim Jeans,Clothing,1,59.99,-50.00,cancelled,2026-08-04T01:58:12+00:00
+ORD-007426,8,3,USB-C Hub,Electronics,4,49.99,199.96,refunded,2026-08-04T23:11:59+00:00
+ORD-007427,5,5,Desk Lamp,Home,3,34.99,104.97,pending,2026-08-04T21:54:20+00:00
+ORD-007428,8,7,Yoga Mat,Sports,2,24.99,49.98,completed,2026-08-04T06:01:46+00:00
+ORD-007429,5,6,Running Shoes,Sports,4,99.99,399.96,refunded,2026-08-04T03:54:33+00:00
+ORD-007430,5,6,Running Shoes,Sports,2,99.99,199.98,pending,2026-08-04T09:08:59+00:00
+ORD-007431,3,1,Wireless Mouse,Electronics,1,29.99,29.99,completed,2026-08-04T10:37:31+00:00
+ORD-007432,5,9,Denim Jeans,Clothing,4,59.99,239.96,refunded,not-a-valid-date
+ORD-007433,1,2,Mechanical Keyboard,Electronics,3,89.99,269.97,pending,2026-08-04T04:59:54+00:00
+ORD-007434,10,6,Running Shoes,Sports,1,99.99,99.99,completed,2026-08-04T22:59:41+00:00
+ORD-007435,1,10,Python Programming Book,Books,5,39.99,199.95,cancelled,2026-08-04T12:39:20+00:00
+ORD-007436,2,7,Yoga Mat,Sports,3,24.99,74.97,pending,2026-08-04T22:50:27+00:00
+ORD-007437,6,4,Coffee Maker,Home,3,79.99,239.97,completed,2026-08-04T19:55:39+00:00
+ORD-007438,5,9,Denim Jeans,Clothing,1,59.99,59.99,pending,2026-08-04T22:47:19+00:00
+ORD-007439,9,3,USB-C Hub,Electronics,2,49.99,99.98,refunded,2026-08-04T20:29:08+00:00
+ORD-007440,3,7,Yoga Mat,Sports,4,24.99,99.96,refunded,2026-08-04T07:27:25+00:00
+ORD-007441,3,10,Python Programming Book,Books,1,39.99,39.99,pending,2026-08-04T10:09:48+00:00
+ORD-007442,1,4,Coffee Maker,Home,5,79.99,399.95,refunded,2026-08-04T03:29:15+00:00
+ORD-007443,2,1,Wireless Mouse,Electronics,5,29.99,-50.00,refunded,2026-08-04T22:24:48+00:00
+ORD-007444,3,1,Wireless Mouse,Electronics,3,29.99,89.97,completed,not-a-valid-date
+ORD-007445,5,5,Desk Lamp,Home,3,34.99,104.97,refunded,2026-08-04T16:42:58+00:00
+ORD-007446,1,6,Running Shoes,Sports,5,99.99,499.95,cancelled,2026-08-04T21:47:39+00:00
+ORD-007447,3,3,USB-C Hub,Electronics,4,49.99,199.96,cancelled,2026-08-04T00:41:23+00:00
+ORD-007448,2,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T15:37:38+00:00
+ORD-007449,9,5,Desk Lamp,Home,2,34.99,69.98,pending,2026-08-04T11:31:28+00:00
+ORD-007450,8,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,2026-08-04T00:13:37+00:00
+ORD-007451,1,6,Running Shoes,Sports,1,99.99,99.99,refunded,2026-08-04T08:02:24+00:00
+ORD-007452,3,2,Mechanical Keyboard,Electronics,1,89.99,-50.00,pending,2026-08-04T21:40:32+00:00
+ORD-007453,8,7,Yoga Mat,Sports,5,24.99,124.95,unknown_status,2026-08-04T21:23:47+00:00
+ORD-007454,5,4,Coffee Maker,Home,4,79.99,319.96,refunded,2026-08-04T04:00:48+00:00
+ORD-007455,5,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T01:35:31+00:00
+ORD-007456,8,2,Mechanical Keyboard,Electronics,5,89.99,449.95,cancelled,2026-08-04T04:35:49+00:00
+ORD-007457,7,4,Coffee Maker,Home,1,79.99,79.99,refunded,2026-08-04T06:32:22+00:00
+ORD-007458,1,7,Yoga Mat,Sports,3,24.99,74.97,pending,2026-08-04T14:29:45+00:00
+ORD-007459,2,4,Coffee Maker,Home,2,79.99,159.98,refunded,2026-08-04T14:37:32+00:00
+ORD-007460,1,6,Running Shoes,Sports,3,99.99,299.97,refunded,2026-08-04T18:34:31+00:00
+ORD-007461,6,3,USB-C Hub,Electronics,3,49.99,149.97,cancelled,2026-08-04T16:31:05+00:00
+ORD-007462,8,6,Running Shoes,Sports,2,99.99,-50.00,pending,2026-08-04T15:19:39+00:00
+ORD-007463,8,4,Coffee Maker,Home,4,79.99,319.96,completed,2026-08-04T22:54:11+00:00
+ORD-007464,2,3,USB-C Hub,Electronics,4,49.99,199.96,completed,2026-08-04T11:26:07+00:00
+ORD-007465,9,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,2026-08-04T15:53:49+00:00
+ORD-007466,1,1,Wireless Mouse,Electronics,4,29.99,119.96,cancelled,2026-08-04T21:04:56+00:00
+ORD-007467,3,8,Cotton T-Shirt,Clothing,1,19.99,19.99,completed,not-a-valid-date
+ORD-007468,8,9,Denim Jeans,Clothing,1,59.99,-50.00,pending,2026-08-04T13:56:49+00:00
+ORD-007469,10,4,Coffee Maker,Home,3,79.99,239.97,pending,2026-08-04T06:49:52+00:00
+ORD-007470,6,4,Coffee Maker,Home,1,79.99,79.99,cancelled,not-a-valid-date
+ORD-007471,2,5,Desk Lamp,Home,5,34.99,174.95,unknown_status,2026-08-04T11:38:20+00:00
+ORD-007472,10,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T16:06:21+00:00
+ORD-007473,9,4,Coffee Maker,Home,2,79.99,159.98,pending,2026-08-04T03:56:31+00:00
+ORD-007474,3,1,Wireless Mouse,Electronics,2,29.99,59.98,refunded,not-a-valid-date
+ORD-007475,6,5,Desk Lamp,Home,4,34.99,139.96,cancelled,2026-08-04T19:14:08+00:00
+ORD-007476,3,2,Mechanical Keyboard,Electronics,5,89.99,449.95,unknown_status,2026-08-04T00:53:37+00:00
+ORD-007477,5,2,Mechanical Keyboard,Electronics,1,89.99,89.99,completed,2026-08-04T11:45:35+00:00
+ORD-007478,10,6,Running Shoes,Sports,1,99.99,-50.00,pending,2026-08-04T01:49:00+00:00
+ORD-007479,4,5,Desk Lamp,Home,4,34.99,139.96,pending,2026-08-04T13:17:24+00:00
+ORD-007480,1,7,Yoga Mat,Sports,2,24.99,49.98,unknown_status,2026-08-04T08:40:10+00:00
+ORD-007481,8,6,Running Shoes,Sports,3,99.99,299.97,completed,2026-08-04T07:02:43+00:00
+ORD-007482,5,1,Wireless Mouse,Electronics,5,29.99,149.95,completed,2026-08-04T19:40:12+00:00
+ORD-007483,8,7,Yoga Mat,Sports,3,24.99,74.97,refunded,2026-08-04T08:29:37+00:00
+ORD-007484,8,1,Wireless Mouse,Electronics,2,29.99,59.98,completed,2026-08-04T03:29:28+00:00
+ORD-007485,2,5,Desk Lamp,Home,4,34.99,139.96,pending,2026-08-04T02:14:19+00:00
+ORD-007486,9,6,Running Shoes,Sports,5,99.99,499.95,pending,2026-08-04T06:10:32+00:00
+ORD-007487,2,4,Coffee Maker,Home,5,79.99,399.95,refunded,2026-08-04T17:08:15+00:00
+ORD-007488,9,9,Denim Jeans,Clothing,3,59.99,179.97,completed,2026-08-04T13:51:36+00:00
+ORD-007489,8,8,Cotton T-Shirt,Clothing,4,19.99,79.96,cancelled,2026-08-04T22:01:55+00:00
+ORD-007490,2,1,Wireless Mouse,Electronics,3,29.99,89.97,refunded,not-a-valid-date
+ORD-007491,1,4,Coffee Maker,Home,5,79.99,399.95,completed,2026-08-04T08:42:03+00:00
+ORD-007492,10,1,Wireless Mouse,Electronics,3,29.99,89.97,unknown_status,2026-08-04T13:13:10+00:00
+ORD-007493,4,10,Python Programming Book,Books,5,39.99,199.95,completed,2026-08-04T06:53:19+00:00
+ORD-007494,7,8,Cotton T-Shirt,Clothing,5,19.99,99.95,cancelled,not-a-valid-date
+ORD-007495,10,8,Cotton T-Shirt,Clothing,1,19.99,19.99,cancelled,2026-08-04T18:54:03+00:00
+ORD-007496,6,5,Desk Lamp,Home,1,34.99,34.99,cancelled,2026-08-04T14:02:35+00:00
+ORD-007497,10,6,Running Shoes,Sports,2,99.99,199.98,unknown_status,2026-08-04T12:09:44+00:00
+ORD-007498,7,8,Cotton T-Shirt,Clothing,1,19.99,-50.00,cancelled,2026-08-04T18:06:43+00:00
+ORD-007499,3,10,Python Programming Book,Books,3,39.99,119.97,completed,2026-08-04T14:16:14+00:00
+ORD-007500,6,8,Cotton T-Shirt,Clothing,5,19.99,99.95,refunded,2026-08-04T23:35:38+00:00
