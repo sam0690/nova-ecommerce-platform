@@ -47,6 +47,8 @@ def run_etl(
         db_start = time.perf_counter()
 
         with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("TRUNCATE shop.stg_orders")
             staging_count = load_staging(
                 conn,
                 temp_file,
