@@ -9,4 +9,4 @@ SELECT
     amount,
     status,
     order_date
-FROM shop.fact_orders;
+FROM {{ source('shop', 'fact_orders') }}

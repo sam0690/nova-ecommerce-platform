@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: shop
+    description: Raw tables owned by the CSV ETL pipeline, not by dbt.
+    schema: shop
+    tables:
+      - name: fact_orders
+        description: One row per order line, loaded from data/orders_*.csv.
+      - name: customers
+        description: Seeded customer dimension.
+      - name: products
+        description: Seeded product catalogue.
