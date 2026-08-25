@@ -1,0 +1,1909 @@
+order_id,customer_id,product_id,product_name,category,quantity,unit_price,amount,status,order_date
+ORD-039596,8,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T17:38:47+00:00
+ORD-039597,2,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T11:07:59+00:00
+ORD-039598,1,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T14:32:27+00:00
+ORD-039599,1,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T21:18:55+00:00
+ORD-039600,5,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T02:59:09+00:00
+ORD-039601,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T10:25:08+00:00
+ORD-039602,4,2,Wireless Mouse,peripherals,3,49.50,148.50,completed,2026-07-20T21:17:03+00:00
+ORD-039603,1,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T07:31:39+00:00
+ORD-039604,8,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T18:21:53+00:00
+ORD-039605,2,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T07:01:46+00:00
+ORD-039606,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T01:16:47+00:00
+ORD-039607,3,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T05:50:53+00:00
+ORD-039608,5,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T23:06:00+00:00
+ORD-039609,5,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T04:34:16+00:00
+ORD-039610,9,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T17:35:51+00:00
+ORD-039611,4,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T22:59:28+00:00
+ORD-039612,7,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T09:16:12+00:00
+ORD-039613,3,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T00:52:11+00:00
+ORD-039614,3,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T00:24:09+00:00
+ORD-039615,6,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T13:34:40+00:00
+ORD-039616,4,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T11:16:55+00:00
+ORD-039617,10,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T03:13:25+00:00
+ORD-039618,1,7,Standing Desk 120cm,furniture,5,449.00,2245.00,cancelled,2026-07-20T04:38:24+00:00
+ORD-039619,9,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T02:06:55+00:00
+ORD-039620,9,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T19:09:13+00:00
+ORD-039621,7,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T22:02:17+00:00
+ORD-039622,4,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T02:42:07+00:00
+ORD-039623,4,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T09:06:46+00:00
+ORD-039624,10,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T06:23:22+00:00
+ORD-039625,5,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T19:50:23+00:00
+ORD-039626,6,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T16:34:33+00:00
+ORD-039627,2,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T09:28:33+00:00
+ORD-039628,1,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T23:04:27+00:00
+ORD-039629,2,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T13:06:10+00:00
+ORD-039630,8,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T02:46:05+00:00
+ORD-039631,2,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T04:43:19+00:00
+ORD-039632,2,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T09:41:11+00:00
+ORD-039633,5,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T04:54:55+00:00
+ORD-039634,5,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T22:08:08+00:00
+ORD-039635,9,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T07:39:39+00:00
+ORD-039636,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,pending,2026-07-20T23:19:27+00:00
+ORD-039637,10,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T17:56:00+00:00
+ORD-039638,8,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T17:33:33+00:00
+ORD-039639,10,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,pending,2026-07-20T21:30:35+00:00
+ORD-039640,10,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T14:35:40+00:00
+ORD-039641,6,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T10:19:55+00:00
+ORD-039642,4,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T17:10:57+00:00
+ORD-039643,4,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T05:36:28+00:00
+ORD-039644,1,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T18:58:33+00:00
+ORD-039645,6,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T01:25:46+00:00
+ORD-039646,7,2,Wireless Mouse,peripherals,3,49.50,148.50,completed,2026-07-20T20:49:16+00:00
+ORD-039647,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T23:52:24+00:00
+ORD-039648,5,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T20:23:20+00:00
+ORD-039649,8,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T19:58:29+00:00
+ORD-039650,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T18:59:15+00:00
+ORD-039651,10,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T06:28:46+00:00
+ORD-039652,9,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T04:43:10+00:00
+ORD-039653,2,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T10:10:08+00:00
+ORD-039654,10,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T17:14:31+00:00
+ORD-039655,2,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T03:14:35+00:00
+ORD-039656,10,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T09:06:51+00:00
+ORD-039657,9,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T02:34:29+00:00
+ORD-039658,9,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T17:06:51+00:00
+ORD-039659,5,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T14:11:11+00:00
+ORD-039660,9,8,Ergonomic Chair,furniture,5,612.75,3063.75,cancelled,2026-07-20T04:52:12+00:00
+ORD-039661,5,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T13:32:26+00:00
+ORD-039662,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T20:47:15+00:00
+ORD-039663,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T18:28:31+00:00
+ORD-039664,6,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T21:01:40+00:00
+ORD-039665,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T19:03:22+00:00
+ORD-039666,6,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T21:19:16+00:00
+ORD-039667,8,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T10:28:29+00:00
+ORD-039668,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T18:18:35+00:00
+ORD-039669,10,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T01:33:27+00:00
+ORD-039670,5,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T10:19:54+00:00
+ORD-039671,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T06:21:30+00:00
+ORD-039672,3,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T02:42:43+00:00
+ORD-039673,7,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T19:10:32+00:00
+ORD-039674,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T04:29:41+00:00
+ORD-039675,10,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T19:35:10+00:00
+ORD-039676,1,10,Laptop Stand Aluminium,accessories,1,27.50,-50.00,pending,2026-07-20T09:22:21+00:00
+ORD-039677,3,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T19:19:54+00:00
+ORD-039678,1,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T00:17:01+00:00
+ORD-039679,3,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T19:11:22+00:00
+ORD-039680,7,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T20:19:20+00:00
+ORD-039681,9,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T11:02:11+00:00
+ORD-039682,8,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T21:32:32+00:00
+ORD-039683,3,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T00:22:33+00:00
+ORD-039684,4,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T16:28:29+00:00
+ORD-039685,4,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T16:13:52+00:00
+ORD-039686,10,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T12:55:10+00:00
+ORD-039687,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T13:33:49+00:00
+ORD-039688,1,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T18:18:16+00:00
+ORD-039689,1,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T20:35:18+00:00
+ORD-039690,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T06:57:34+00:00
+ORD-039691,6,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,cancelled,2026-07-20T12:32:18+00:00
+ORD-039692,10,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T10:23:13+00:00
+ORD-039693,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T10:29:57+00:00
+ORD-039694,2,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T22:09:56+00:00
+ORD-039695,7,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T14:56:51+00:00
+ORD-039696,8,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T14:44:45+00:00
+ORD-039697,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T13:25:11+00:00
+ORD-039698,2,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T16:07:45+00:00
+ORD-039699,2,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,completed,2026-07-20T10:16:48+00:00
+ORD-039700,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T14:53:21+00:00
+ORD-039701,10,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T05:09:19+00:00
+ORD-039702,5,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T08:28:30+00:00
+ORD-039703,9,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T06:56:51+00:00
+ORD-039704,10,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T12:24:14+00:00
+ORD-039705,5,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T19:51:36+00:00
+ORD-039706,9,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T18:33:11+00:00
+ORD-039707,4,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T15:17:00+00:00
+ORD-039708,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T07:41:36+00:00
+ORD-039709,7,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T17:45:54+00:00
+ORD-039710,7,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T12:38:01+00:00
+ORD-039711,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T13:57:31+00:00
+ORD-039712,6,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T23:45:13+00:00
+ORD-039713,10,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T19:49:16+00:00
+ORD-039714,2,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T05:02:29+00:00
+ORD-039715,8,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T06:32:36+00:00
+ORD-039716,1,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T20:13:42+00:00
+ORD-039717,9,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T13:02:07+00:00
+ORD-039718,2,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T03:42:22+00:00
+ORD-039719,7,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T07:35:41+00:00
+ORD-039720,6,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T03:05:13+00:00
+ORD-039721,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T10:32:43+00:00
+ORD-039722,8,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T19:19:32+00:00
+ORD-039723,4,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T16:57:35+00:00
+ORD-039724,7,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T23:34:22+00:00
+ORD-039725,8,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T22:32:23+00:00
+ORD-039726,3,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T17:02:19+00:00
+ORD-039727,2,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T16:01:16+00:00
+ORD-039728,7,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T03:38:46+00:00
+ORD-039729,9,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T00:12:22+00:00
+ORD-039730,3,2,Wireless Mouse,peripherals,1,49.50,49.50,completed,2026-07-20T02:28:03+00:00
+ORD-039731,5,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T01:07:42+00:00
+ORD-039732,9,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T12:24:38+00:00
+ORD-039733,4,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T23:20:55+00:00
+ORD-039734,6,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T15:59:43+00:00
+ORD-039735,4,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T03:52:45+00:00
+ORD-039736,3,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T18:27:30+00:00
+ORD-039737,7,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T07:06:37+00:00
+ORD-039738,1,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T08:01:09+00:00
+ORD-039739,8,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T22:27:34+00:00
+ORD-039740,5,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T01:15:24+00:00
+ORD-039741,6,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T02:11:27+00:00
+ORD-039742,4,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T06:34:09+00:00
+ORD-039743,3,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T11:51:17+00:00
+ORD-039744,9,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T12:18:24+00:00
+ORD-039745,6,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T00:45:51+00:00
+ORD-039746,2,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T02:49:23+00:00
+ORD-039747,2,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T05:11:30+00:00
+ORD-039748,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T12:28:16+00:00
+ORD-039749,7,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,pending,2026-07-20T20:16:54+00:00
+ORD-039750,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T05:19:54+00:00
+ORD-039751,10,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T00:46:26+00:00
+ORD-039752,7,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T10:05:11+00:00
+ORD-039753,6,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T12:54:25+00:00
+ORD-039754,4,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,completed,2026-07-20T05:56:22+00:00
+ORD-039755,9,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T04:59:08+00:00
+ORD-039756,1,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T22:44:16+00:00
+ORD-039757,1,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T13:24:04+00:00
+ORD-039758,7,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T16:30:18+00:00
+ORD-039759,4,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T20:24:37+00:00
+ORD-039760,8,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T13:13:21+00:00
+ORD-039761,8,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T06:12:49+00:00
+ORD-039762,8,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T22:03:34+00:00
+ORD-039763,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T16:21:23+00:00
+ORD-039764,5,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T04:39:56+00:00
+ORD-039765,3,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T07:06:40+00:00
+ORD-039766,5,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T09:03:28+00:00
+ORD-039767,6,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T19:22:18+00:00
+ORD-039768,7,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T15:40:33+00:00
+ORD-039769,5,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T03:08:23+00:00
+ORD-039770,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T15:01:44+00:00
+ORD-039771,8,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T16:34:56+00:00
+ORD-039772,9,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T12:45:13+00:00
+ORD-039773,8,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T12:08:21+00:00
+ORD-039774,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T16:17:25+00:00
+ORD-039775,1,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T10:50:10+00:00
+ORD-039776,5,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T02:45:39+00:00
+ORD-039777,5,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T19:22:15+00:00
+ORD-039778,9,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T09:26:37+00:00
+ORD-039779,7,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T13:14:45+00:00
+ORD-039780,3,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T12:15:31+00:00
+ORD-039781,7,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T02:32:40+00:00
+ORD-039782,3,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T09:53:49+00:00
+ORD-039783,6,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T19:42:16+00:00
+ORD-039784,10,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T19:39:37+00:00
+ORD-039785,1,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T11:33:04+00:00
+ORD-039786,4,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T18:56:57+00:00
+ORD-039787,2,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T17:35:09+00:00
+ORD-039788,3,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T17:38:13+00:00
+ORD-039789,8,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T00:06:01+00:00
+ORD-039790,5,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T19:37:07+00:00
+ORD-039791,4,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T12:54:41+00:00
+ORD-039792,4,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T09:07:58+00:00
+ORD-039793,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T00:31:14+00:00
+ORD-039794,5,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T12:28:53+00:00
+ORD-039795,10,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T11:31:57+00:00
+ORD-039796,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T01:09:30+00:00
+ORD-039797,4,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T20:16:41+00:00
+ORD-039798,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T16:08:27+00:00
+ORD-039799,6,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T20:03:47+00:00
+ORD-039800,9,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T22:09:48+00:00
+ORD-039801,10,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T17:37:27+00:00
+ORD-039802,7,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T01:48:07+00:00
+ORD-039803,6,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T11:12:55+00:00
+ORD-039804,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T21:54:30+00:00
+ORD-039805,9,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T06:30:50+00:00
+ORD-039806,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T21:35:36+00:00
+ORD-039807,8,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T06:12:13+00:00
+ORD-039808,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T03:50:42+00:00
+ORD-039809,4,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T22:30:07+00:00
+ORD-039810,4,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T12:11:50+00:00
+ORD-039811,8,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T13:07:18+00:00
+ORD-039812,6,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T03:27:12+00:00
+ORD-039813,8,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T08:35:17+00:00
+ORD-039814,3,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T19:18:49+00:00
+ORD-039815,8,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T10:42:16+00:00
+ORD-039816,1,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T07:37:52+00:00
+ORD-039817,3,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T13:32:18+00:00
+ORD-039818,6,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T06:18:57+00:00
+ORD-039819,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T10:05:26+00:00
+ORD-039820,9,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T20:21:50+00:00
+ORD-039821,9,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T11:29:27+00:00
+ORD-039822,5,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,completed,2026-07-20T03:35:45+00:00
+ORD-039823,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T14:34:54+00:00
+ORD-039824,6,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T15:32:34+00:00
+ORD-039825,1,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T01:01:26+00:00
+ORD-039826,9,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T12:32:43+00:00
+ORD-039827,5,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T05:19:10+00:00
+ORD-039828,7,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T11:49:33+00:00
+ORD-039829,7,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T03:26:48+00:00
+ORD-039830,8,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T14:52:51+00:00
+ORD-039831,1,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T14:38:39+00:00
+ORD-039832,10,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T23:30:05+00:00
+ORD-039833,4,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T14:58:29+00:00
+ORD-039834,10,2,Wireless Mouse,peripherals,4,49.50,198.00,completed,2026-07-20T01:34:14+00:00
+ORD-039835,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T16:47:55+00:00
+ORD-039836,5,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T11:01:35+00:00
+ORD-039837,3,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T12:29:46+00:00
+ORD-039838,8,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T16:17:22+00:00
+ORD-039839,4,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T09:32:01+00:00
+ORD-039840,5,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T21:45:41+00:00
+ORD-039841,10,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T10:52:38+00:00
+ORD-039842,8,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T20:07:05+00:00
+ORD-039843,3,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T16:15:05+00:00
+ORD-039844,1,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T10:11:35+00:00
+ORD-039845,3,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T18:20:14+00:00
+ORD-039846,7,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T11:01:18+00:00
+ORD-039847,1,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T17:51:20+00:00
+ORD-039848,1,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T20:10:24+00:00
+ORD-039849,8,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T12:15:04+00:00
+ORD-039850,8,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T03:31:11+00:00
+ORD-039851,8,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T21:07:14+00:00
+ORD-039852,7,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T09:58:06+00:00
+ORD-039853,2,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T18:51:29+00:00
+ORD-039854,6,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T11:21:49+00:00
+ORD-039855,6,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T09:24:08+00:00
+ORD-039856,8,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T10:39:02+00:00
+ORD-039857,7,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T09:41:38+00:00
+ORD-039858,5,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T00:29:13+00:00
+ORD-039859,5,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T00:25:15+00:00
+ORD-039860,9,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T15:27:16+00:00
+ORD-039861,2,3,27in 1440p Monitor,displays,3,319.99,959.97,refunded,2026-07-20T00:29:27+00:00
+ORD-039862,5,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T04:44:46+00:00
+ORD-039863,3,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T09:09:08+00:00
+ORD-039864,1,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T19:50:52+00:00
+ORD-039865,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T12:43:18+00:00
+ORD-039866,10,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T08:34:01+00:00
+ORD-039867,9,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T09:22:28+00:00
+ORD-039868,8,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T19:37:00+00:00
+ORD-039869,6,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T04:22:37+00:00
+ORD-039870,6,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T21:05:24+00:00
+ORD-039871,8,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T02:00:37+00:00
+ORD-039872,4,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T13:50:11+00:00
+ORD-039873,2,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T12:05:54+00:00
+ORD-039874,10,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T11:10:16+00:00
+ORD-039875,9,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T01:14:45+00:00
+ORD-039876,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T14:41:15+00:00
+ORD-039877,10,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T20:01:18+00:00
+ORD-039878,6,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T06:50:58+00:00
+ORD-039879,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T15:37:17+00:00
+ORD-039880,1,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T13:06:13+00:00
+ORD-039881,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T22:42:29+00:00
+ORD-039882,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T00:46:11+00:00
+ORD-039883,6,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T15:16:29+00:00
+ORD-039884,8,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T21:00:48+00:00
+ORD-039885,9,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T21:50:06+00:00
+ORD-039886,4,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T21:49:23+00:00
+ORD-039887,2,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T07:48:35+00:00
+ORD-039888,3,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T21:25:10+00:00
+ORD-039889,2,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T22:34:18+00:00
+ORD-039890,4,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T10:50:50+00:00
+ORD-039891,9,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T01:00:00+00:00
+ORD-039892,9,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T04:31:11+00:00
+ORD-039893,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T23:31:41+00:00
+ORD-039894,8,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T04:35:20+00:00
+ORD-039895,9,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T06:59:51+00:00
+ORD-039896,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T21:09:21+00:00
+ORD-039897,9,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T20:47:46+00:00
+ORD-039898,2,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T14:01:32+00:00
+ORD-039899,10,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T01:24:48+00:00
+ORD-039900,1,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T01:37:43+00:00
+ORD-039901,8,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T14:41:20+00:00
+ORD-039902,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T18:06:35+00:00
+ORD-039903,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T23:29:59+00:00
+ORD-039904,5,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T01:22:32+00:00
+ORD-039905,3,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T23:16:26+00:00
+ORD-039906,8,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T09:30:40+00:00
+ORD-039907,5,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T22:19:01+00:00
+ORD-039908,2,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T06:18:56+00:00
+ORD-039909,7,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T22:28:20+00:00
+ORD-039910,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T08:27:16+00:00
+ORD-039911,5,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T20:21:33+00:00
+ORD-039912,7,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T04:18:54+00:00
+ORD-039913,2,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T12:27:54+00:00
+ORD-039914,4,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T04:39:45+00:00
+ORD-039915,10,2,Wireless Mouse,peripherals,4,49.50,198.00,completed,2026-07-20T20:53:52+00:00
+ORD-039916,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T23:22:12+00:00
+ORD-039917,4,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T13:21:48+00:00
+ORD-039918,3,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T13:12:02+00:00
+ORD-039919,8,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T19:43:36+00:00
+ORD-039920,4,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T01:24:48+00:00
+ORD-039921,9,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T21:34:01+00:00
+ORD-039922,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T22:26:15+00:00
+ORD-039923,6,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T08:22:14+00:00
+ORD-039924,6,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T21:41:25+00:00
+ORD-039925,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T17:35:05+00:00
+ORD-039926,10,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T04:54:56+00:00
+ORD-039927,3,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T22:28:48+00:00
+ORD-039928,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T10:20:44+00:00
+ORD-039929,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T09:20:22+00:00
+ORD-039930,9,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T08:52:31+00:00
+ORD-039931,8,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T04:34:09+00:00
+ORD-039932,2,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T21:42:58+00:00
+ORD-039933,4,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T04:20:07+00:00
+ORD-039934,1,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T00:56:59+00:00
+ORD-039935,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T01:12:30+00:00
+ORD-039936,5,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T23:35:43+00:00
+ORD-039937,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T22:59:43+00:00
+ORD-039938,1,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T07:04:05+00:00
+ORD-039939,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T19:41:59+00:00
+ORD-039940,1,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T02:42:51+00:00
+ORD-039941,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T18:16:57+00:00
+ORD-039942,3,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T12:39:12+00:00
+ORD-039943,4,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T18:30:45+00:00
+ORD-039944,4,3,27in 1440p Monitor,displays,4,319.99,1279.96,cancelled,2026-07-20T15:06:27+00:00
+ORD-039945,1,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T07:13:25+00:00
+ORD-039946,9,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T11:49:48+00:00
+ORD-039947,10,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T10:45:05+00:00
+ORD-039948,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T21:18:53+00:00
+ORD-039949,10,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T14:54:36+00:00
+ORD-039950,7,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T23:57:09+00:00
+ORD-039951,8,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T21:34:42+00:00
+ORD-039952,6,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T14:41:40+00:00
+ORD-039953,6,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T15:50:40+00:00
+ORD-039954,3,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T12:38:04+00:00
+ORD-039955,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T09:03:38+00:00
+ORD-039956,7,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T10:35:00+00:00
+ORD-039957,8,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T03:23:03+00:00
+ORD-039958,3,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T20:29:50+00:00
+ORD-039959,4,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T05:25:11+00:00
+ORD-039960,10,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T19:28:35+00:00
+ORD-039961,4,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T06:18:11+00:00
+ORD-039962,9,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T09:40:44+00:00
+ORD-039963,9,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T08:36:47+00:00
+ORD-039964,2,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T10:48:45+00:00
+ORD-039965,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T03:41:41+00:00
+ORD-039966,6,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T10:52:54+00:00
+ORD-039967,10,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T05:52:34+00:00
+ORD-039968,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T12:36:32+00:00
+ORD-039969,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T20:56:52+00:00
+ORD-039970,7,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T21:54:55+00:00
+ORD-039971,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T04:16:49+00:00
+ORD-039972,5,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T10:18:06+00:00
+ORD-039973,6,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T05:58:10+00:00
+ORD-039974,7,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T02:40:15+00:00
+ORD-039975,10,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T04:51:26+00:00
+ORD-039976,5,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T03:34:02+00:00
+ORD-039977,1,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T17:05:31+00:00
+ORD-039978,5,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T14:37:01+00:00
+ORD-039979,1,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T23:07:05+00:00
+ORD-039980,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T14:15:45+00:00
+ORD-039981,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T08:59:00+00:00
+ORD-039982,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T22:09:21+00:00
+ORD-039983,7,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T00:45:22+00:00
+ORD-039984,5,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T03:14:14+00:00
+ORD-039985,6,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T04:33:43+00:00
+ORD-039986,2,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T02:00:00+00:00
+ORD-039987,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T00:37:41+00:00
+ORD-039988,3,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T20:52:30+00:00
+ORD-039989,10,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T15:15:57+00:00
+ORD-039990,4,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T09:59:35+00:00
+ORD-039991,5,2,Wireless Mouse,peripherals,4,49.50,198.00,refunded,2026-07-20T09:29:48+00:00
+ORD-039992,6,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T06:19:04+00:00
+ORD-039993,7,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T11:59:38+00:00
+ORD-039994,1,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T13:57:12+00:00
+ORD-039995,8,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T22:17:32+00:00
+ORD-039996,3,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T02:52:34+00:00
+ORD-039997,10,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T01:57:56+00:00
+ORD-039998,5,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T04:58:28+00:00
+ORD-039999,1,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T01:44:24+00:00
+ORD-040000,5,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T19:25:46+00:00
+ORD-040001,10,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T23:33:53+00:00
+ORD-040002,8,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T15:30:30+00:00
+ORD-040003,7,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T08:44:38+00:00
+ORD-040004,3,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T21:58:01+00:00
+ORD-040005,2,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T21:13:08+00:00
+ORD-040006,10,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T07:21:02+00:00
+ORD-040007,7,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T22:06:57+00:00
+ORD-040008,10,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T08:15:56+00:00
+ORD-040009,8,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T19:15:04+00:00
+ORD-040010,6,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T19:03:23+00:00
+ORD-040011,5,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T04:14:32+00:00
+ORD-040012,7,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T14:41:19+00:00
+ORD-040013,8,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T10:30:57+00:00
+ORD-040014,9,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T01:55:10+00:00
+ORD-040015,8,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T16:03:31+00:00
+ORD-040016,5,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T02:18:42+00:00
+ORD-040017,2,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T03:24:35+00:00
+ORD-040018,10,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T12:26:24+00:00
+ORD-040019,6,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T09:50:45+00:00
+ORD-040020,6,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T08:22:01+00:00
+ORD-040021,2,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T09:04:42+00:00
+ORD-040022,1,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T04:49:27+00:00
+ORD-040023,2,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T00:31:09+00:00
+ORD-040024,4,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,completed,2026-07-20T05:16:18+00:00
+ORD-040025,8,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T12:15:58+00:00
+ORD-040026,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T20:23:24+00:00
+ORD-040027,9,4,34in Ultrawide Monitor,displays,1,579.00,579.00,refunded,2026-07-20T07:28:41+00:00
+ORD-040028,8,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T11:53:55+00:00
+ORD-040029,9,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T00:44:25+00:00
+ORD-040030,9,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T09:22:51+00:00
+ORD-040031,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T06:45:55+00:00
+ORD-040032,2,8,Ergonomic Chair,furniture,5,612.75,3063.75,cancelled,2026-07-20T00:11:45+00:00
+ORD-040033,3,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T07:31:11+00:00
+ORD-040034,4,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T23:07:17+00:00
+ORD-040035,5,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T22:35:38+00:00
+ORD-040036,10,5,Over-ear Headphones,audio,5,199.95,-50.00,cancelled,2026-07-20T22:37:31+00:00
+ORD-040037,4,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T18:48:14+00:00
+ORD-040038,1,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T20:39:34+00:00
+ORD-040039,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T16:50:44+00:00
+ORD-040040,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T07:19:11+00:00
+ORD-040041,3,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T01:33:28+00:00
+ORD-040042,7,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T12:31:01+00:00
+ORD-040043,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T00:12:55+00:00
+ORD-040044,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T20:24:37+00:00
+ORD-040045,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T22:59:46+00:00
+ORD-040046,9,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,pending,2026-07-20T16:37:15+00:00
+ORD-040047,8,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T09:46:33+00:00
+ORD-040048,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T16:31:46+00:00
+ORD-040049,10,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T22:17:18+00:00
+ORD-040050,8,2,Wireless Mouse,peripherals,5,49.50,247.50,refunded,2026-07-20T18:53:29+00:00
+ORD-040051,2,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T05:00:09+00:00
+ORD-040052,4,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T15:19:36+00:00
+ORD-040053,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T10:09:33+00:00
+ORD-040054,6,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T09:01:22+00:00
+ORD-040055,1,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T10:30:13+00:00
+ORD-040056,6,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T07:11:41+00:00
+ORD-040057,10,6,Desk Speakers Pair,audio,1,89.00,89.00,cancelled,2026-07-20T23:13:04+00:00
+ORD-040058,1,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T20:31:59+00:00
+ORD-040059,8,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T03:16:26+00:00
+ORD-040060,10,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T09:34:50+00:00
+ORD-040061,8,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T20:28:15+00:00
+ORD-040062,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T20:33:07+00:00
+ORD-040063,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T15:12:04+00:00
+ORD-040064,8,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T01:02:07+00:00
+ORD-040065,2,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T16:51:53+00:00
+ORD-040066,9,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T15:54:39+00:00
+ORD-040067,1,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T22:39:35+00:00
+ORD-040068,1,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T21:26:13+00:00
+ORD-040069,1,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T00:56:05+00:00
+ORD-040070,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T06:17:40+00:00
+ORD-040071,9,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T11:13:29+00:00
+ORD-040072,8,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T13:27:08+00:00
+ORD-040073,2,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T06:36:21+00:00
+ORD-040074,4,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T03:14:20+00:00
+ORD-040075,1,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T09:11:46+00:00
+ORD-040076,5,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T16:19:30+00:00
+ORD-040077,3,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T18:52:28+00:00
+ORD-040078,2,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T22:37:08+00:00
+ORD-040079,2,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T01:52:30+00:00
+ORD-040080,10,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T05:48:43+00:00
+ORD-040081,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T05:21:57+00:00
+ORD-040082,9,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T22:52:02+00:00
+ORD-040083,10,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T18:33:46+00:00
+ORD-040084,9,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T17:36:13+00:00
+ORD-040085,7,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T02:36:27+00:00
+ORD-040086,7,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T01:24:29+00:00
+ORD-040087,3,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T14:09:51+00:00
+ORD-040088,9,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T21:05:40+00:00
+ORD-040089,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T10:02:03+00:00
+ORD-040090,8,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T09:07:09+00:00
+ORD-040091,8,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T17:37:10+00:00
+ORD-040092,2,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T18:46:54+00:00
+ORD-040093,7,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T02:25:01+00:00
+ORD-040094,9,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T00:10:17+00:00
+ORD-040095,9,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T07:36:55+00:00
+ORD-040096,7,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T00:01:26+00:00
+ORD-040097,6,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T10:51:03+00:00
+ORD-040098,6,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T08:14:40+00:00
+ORD-040099,9,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T22:14:06+00:00
+ORD-040100,6,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T09:03:19+00:00
+ORD-040101,4,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T18:27:04+00:00
+ORD-040102,8,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T00:01:47+00:00
+ORD-040103,1,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T23:59:52+00:00
+ORD-040104,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T01:47:47+00:00
+ORD-040105,8,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T05:40:38+00:00
+ORD-040106,6,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T12:29:35+00:00
+ORD-040107,6,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T19:18:09+00:00
+ORD-040108,2,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T22:13:24+00:00
+ORD-040109,6,2,Wireless Mouse,peripherals,5,49.50,247.50,pending,2026-07-20T18:09:52+00:00
+ORD-040110,3,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T07:15:35+00:00
+ORD-040111,5,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T20:19:01+00:00
+ORD-040112,1,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T04:53:48+00:00
+ORD-040113,8,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T01:26:47+00:00
+ORD-040114,10,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T02:49:16+00:00
+ORD-040115,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T06:22:24+00:00
+ORD-040116,1,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T02:54:52+00:00
+ORD-040117,3,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T16:00:01+00:00
+ORD-040118,7,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T14:09:53+00:00
+ORD-040119,3,7,Standing Desk 120cm,furniture,3,449.00,1347.00,completed,2026-07-20T22:33:36+00:00
+ORD-040120,4,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T07:03:18+00:00
+ORD-040121,9,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T08:15:33+00:00
+ORD-040122,4,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T20:16:14+00:00
+ORD-040123,5,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T18:13:39+00:00
+ORD-040124,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T23:58:23+00:00
+ORD-040125,10,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T22:28:28+00:00
+ORD-040126,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T15:40:41+00:00
+ORD-040127,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,pending,2026-07-20T22:11:52+00:00
+ORD-040128,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T13:32:51+00:00
+ORD-040129,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T21:59:26+00:00
+ORD-040130,8,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T10:05:10+00:00
+ORD-040131,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T14:38:18+00:00
+ORD-040132,10,2,Wireless Mouse,peripherals,4,49.50,198.00,completed,2026-07-20T15:19:44+00:00
+ORD-040133,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T01:03:40+00:00
+ORD-040134,3,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T10:59:50+00:00
+ORD-040135,5,2,Wireless Mouse,peripherals,4,49.50,198.00,cancelled,2026-07-20T06:00:05+00:00
+ORD-040136,10,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T04:07:40+00:00
+ORD-040137,9,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T17:46:48+00:00
+ORD-040138,8,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T09:00:45+00:00
+ORD-040139,2,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T09:02:59+00:00
+ORD-040140,6,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T12:22:39+00:00
+ORD-040141,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T23:40:36+00:00
+ORD-040142,10,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T04:09:44+00:00
+ORD-040143,6,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T07:59:54+00:00
+ORD-040144,7,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T09:33:40+00:00
+ORD-040145,1,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T19:57:35+00:00
+ORD-040146,10,6,Desk Speakers Pair,audio,1,89.00,89.00,cancelled,2026-07-20T23:41:50+00:00
+ORD-040147,8,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T07:01:12+00:00
+ORD-040148,6,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T00:49:44+00:00
+ORD-040149,8,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T14:50:49+00:00
+ORD-040150,7,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T19:51:18+00:00
+ORD-040151,7,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T23:47:21+00:00
+ORD-040152,8,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T09:54:03+00:00
+ORD-040153,10,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T15:07:53+00:00
+ORD-040154,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T08:34:58+00:00
+ORD-040155,2,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T01:39:48+00:00
+ORD-040156,8,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T02:26:16+00:00
+ORD-040157,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T03:00:01+00:00
+ORD-040158,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T13:05:19+00:00
+ORD-040159,2,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T22:02:23+00:00
+ORD-040160,2,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T04:12:09+00:00
+ORD-040161,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T07:57:45+00:00
+ORD-040162,7,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T15:23:48+00:00
+ORD-040163,7,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T17:37:20+00:00
+ORD-040164,5,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T19:18:09+00:00
+ORD-040165,1,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T12:57:55+00:00
+ORD-040166,10,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T00:24:15+00:00
+ORD-040167,6,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T02:27:37+00:00
+ORD-040168,8,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T22:57:53+00:00
+ORD-040169,6,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T19:09:19+00:00
+ORD-040170,5,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T00:53:50+00:00
+ORD-040171,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T20:09:17+00:00
+ORD-040172,7,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T22:23:59+00:00
+ORD-040173,4,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T07:52:48+00:00
+ORD-040174,10,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T05:46:09+00:00
+ORD-040175,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,completed,2026-07-20T06:59:04+00:00
+ORD-040176,9,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T18:16:42+00:00
+ORD-040177,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T22:00:18+00:00
+ORD-040178,10,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T21:01:07+00:00
+ORD-040179,3,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T13:27:28+00:00
+ORD-040180,3,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T22:21:19+00:00
+ORD-040181,9,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T08:40:46+00:00
+ORD-040182,3,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T19:01:24+00:00
+ORD-040183,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T03:18:21+00:00
+ORD-040184,9,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T08:11:33+00:00
+ORD-040185,6,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T22:09:58+00:00
+ORD-040186,10,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T18:21:44+00:00
+ORD-040187,8,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T10:14:58+00:00
+ORD-040188,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T22:07:08+00:00
+ORD-040189,5,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T22:59:31+00:00
+ORD-040190,4,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T14:58:25+00:00
+ORD-040191,10,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T19:28:51+00:00
+ORD-040192,5,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T19:49:06+00:00
+ORD-040193,5,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T07:48:13+00:00
+ORD-040194,4,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T16:53:09+00:00
+ORD-040195,7,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T19:18:35+00:00
+ORD-040196,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T12:06:07+00:00
+ORD-040197,2,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T12:42:55+00:00
+ORD-040198,6,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,refunded,2026-07-20T06:15:53+00:00
+ORD-040199,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T08:36:04+00:00
+ORD-040200,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T16:59:19+00:00
+ORD-040201,8,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T13:20:24+00:00
+ORD-040202,9,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T17:45:34+00:00
+ORD-040203,4,4,34in Ultrawide Monitor,displays,1,579.00,579.00,completed,2026-07-20T17:28:01+00:00
+ORD-040204,5,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T23:03:14+00:00
+ORD-040205,9,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T05:21:13+00:00
+ORD-040206,3,2,Wireless Mouse,peripherals,4,49.50,198.00,refunded,2026-07-20T15:44:50+00:00
+ORD-040207,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T15:08:09+00:00
+ORD-040208,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T22:49:56+00:00
+ORD-040209,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T17:18:10+00:00
+ORD-040210,5,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T00:48:29+00:00
+ORD-040211,4,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T07:04:26+00:00
+ORD-040212,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T07:06:58+00:00
+ORD-040213,4,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T11:02:36+00:00
+ORD-040214,2,2,Wireless Mouse,peripherals,5,49.50,247.50,pending,2026-07-20T16:15:20+00:00
+ORD-040215,5,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T03:14:28+00:00
+ORD-040216,9,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T17:09:17+00:00
+ORD-040217,2,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T08:52:57+00:00
+ORD-040218,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T06:26:32+00:00
+ORD-040219,7,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T05:30:37+00:00
+ORD-040220,3,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T18:54:55+00:00
+ORD-040221,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T00:20:01+00:00
+ORD-040222,7,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T19:28:07+00:00
+ORD-040223,5,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T19:33:56+00:00
+ORD-040224,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T05:22:17+00:00
+ORD-040225,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T10:47:17+00:00
+ORD-040226,8,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T12:09:27+00:00
+ORD-040227,7,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T15:10:28+00:00
+ORD-040228,5,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T06:48:13+00:00
+ORD-040229,9,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T19:25:14+00:00
+ORD-040230,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T10:09:11+00:00
+ORD-040231,10,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T17:40:08+00:00
+ORD-040232,10,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T10:09:05+00:00
+ORD-040233,10,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T20:24:07+00:00
+ORD-040234,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T21:25:18+00:00
+ORD-040235,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T15:29:36+00:00
+ORD-040236,10,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T21:31:58+00:00
+ORD-040237,4,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T17:43:54+00:00
+ORD-040238,9,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T04:18:09+00:00
+ORD-040239,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T23:18:56+00:00
+ORD-040240,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T17:18:26+00:00
+ORD-040241,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T23:10:47+00:00
+ORD-040242,1,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T10:44:00+00:00
+ORD-040243,7,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T23:16:38+00:00
+ORD-040244,8,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T13:24:22+00:00
+ORD-040245,9,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T18:49:40+00:00
+ORD-040246,4,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T18:28:50+00:00
+ORD-040247,4,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T07:27:45+00:00
+ORD-040248,2,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T19:51:05+00:00
+ORD-040249,7,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T16:03:54+00:00
+ORD-040250,1,4,34in Ultrawide Monitor,displays,1,579.00,579.00,completed,2026-07-20T18:20:23+00:00
+ORD-040251,9,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T06:49:59+00:00
+ORD-040252,1,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T04:56:40+00:00
+ORD-040253,1,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T18:16:42+00:00
+ORD-040254,7,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T23:37:21+00:00
+ORD-040255,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T13:33:17+00:00
+ORD-040256,1,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T06:29:58+00:00
+ORD-040257,5,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T16:10:07+00:00
+ORD-040258,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T11:11:54+00:00
+ORD-040259,7,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T13:15:07+00:00
+ORD-040260,8,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T11:33:38+00:00
+ORD-040261,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T11:21:47+00:00
+ORD-040262,6,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T17:58:29+00:00
+ORD-040263,8,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T08:33:19+00:00
+ORD-040264,7,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T10:39:51+00:00
+ORD-040265,4,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T20:55:04+00:00
+ORD-040266,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T03:36:49+00:00
+ORD-040267,3,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T13:39:40+00:00
+ORD-040268,9,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T18:51:13+00:00
+ORD-040269,9,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T08:24:22+00:00
+ORD-040270,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T07:31:05+00:00
+ORD-040271,9,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T12:20:24+00:00
+ORD-040272,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T23:18:31+00:00
+ORD-040273,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T08:30:37+00:00
+ORD-040274,2,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T07:10:20+00:00
+ORD-040275,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T23:12:18+00:00
+ORD-040276,9,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T10:41:23+00:00
+ORD-040277,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T02:39:01+00:00
+ORD-040278,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T12:17:09+00:00
+ORD-040279,9,2,Wireless Mouse,peripherals,5,49.50,247.50,pending,2026-07-20T19:55:35+00:00
+ORD-040280,5,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T12:58:57+00:00
+ORD-040281,8,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T06:46:24+00:00
+ORD-040282,4,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T15:25:46+00:00
+ORD-040283,8,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T18:22:19+00:00
+ORD-040284,7,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T02:03:16+00:00
+ORD-040285,4,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T15:58:15+00:00
+ORD-040286,1,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T17:07:58+00:00
+ORD-040287,9,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T02:43:43+00:00
+ORD-040288,1,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T15:52:49+00:00
+ORD-040289,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T19:46:12+00:00
+ORD-040290,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T15:59:25+00:00
+ORD-040291,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T21:48:47+00:00
+ORD-040292,8,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T18:30:38+00:00
+ORD-040293,8,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T17:41:58+00:00
+ORD-040294,5,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T03:10:32+00:00
+ORD-040295,9,2,Wireless Mouse,peripherals,4,49.50,198.00,cancelled,2026-07-20T01:45:39+00:00
+ORD-040296,1,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T06:52:32+00:00
+ORD-040297,9,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T04:25:54+00:00
+ORD-040298,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T22:07:48+00:00
+ORD-040299,4,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T01:47:41+00:00
+ORD-040300,1,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T03:33:16+00:00
+ORD-040301,6,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T13:12:35+00:00
+ORD-040302,8,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T11:27:46+00:00
+ORD-040303,7,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T10:56:33+00:00
+ORD-040304,7,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T19:47:48+00:00
+ORD-040305,8,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T02:47:33+00:00
+ORD-040306,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T09:56:55+00:00
+ORD-040307,4,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T08:53:32+00:00
+ORD-040308,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,refunded,2026-07-20T02:45:25+00:00
+ORD-040309,4,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T16:55:53+00:00
+ORD-040310,1,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T01:44:12+00:00
+ORD-040311,6,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T02:53:48+00:00
+ORD-040312,8,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T22:31:50+00:00
+ORD-040313,8,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T04:23:53+00:00
+ORD-040314,8,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T00:52:01+00:00
+ORD-040315,4,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T07:43:29+00:00
+ORD-040316,1,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T06:08:52+00:00
+ORD-040317,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T15:51:27+00:00
+ORD-040318,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T09:32:47+00:00
+ORD-040319,10,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T21:03:03+00:00
+ORD-040320,2,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T11:44:17+00:00
+ORD-040321,3,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T23:00:39+00:00
+ORD-040322,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T18:59:41+00:00
+ORD-040323,5,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T21:06:01+00:00
+ORD-040324,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T01:08:41+00:00
+ORD-040325,10,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T02:02:08+00:00
+ORD-040326,2,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T06:43:39+00:00
+ORD-040327,4,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T05:07:15+00:00
+ORD-040328,6,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T15:46:45+00:00
+ORD-040329,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T09:20:03+00:00
+ORD-040330,7,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T23:55:09+00:00
+ORD-040331,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T23:43:19+00:00
+ORD-040332,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T17:01:53+00:00
+ORD-040333,10,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T21:01:24+00:00
+ORD-040334,7,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T22:48:42+00:00
+ORD-040335,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T16:07:24+00:00
+ORD-040336,7,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T13:09:23+00:00
+ORD-040337,5,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T15:51:46+00:00
+ORD-040338,3,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T20:33:06+00:00
+ORD-040339,10,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T14:11:03+00:00
+ORD-040340,10,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T01:30:35+00:00
+ORD-040341,10,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T16:30:28+00:00
+ORD-040342,4,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T23:47:00+00:00
+ORD-040343,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T14:10:44+00:00
+ORD-040344,5,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T03:59:18+00:00
+ORD-040345,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T04:16:15+00:00
+ORD-040346,6,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T22:24:47+00:00
+ORD-040347,5,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T14:31:54+00:00
+ORD-040348,5,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T08:07:28+00:00
+ORD-040349,9,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T19:14:39+00:00
+ORD-040350,4,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T05:51:30+00:00
+ORD-040351,1,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T10:16:06+00:00
+ORD-040352,2,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T21:43:27+00:00
+ORD-040353,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,pending,2026-07-20T19:07:24+00:00
+ORD-040354,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,cancelled,2026-07-20T08:20:06+00:00
+ORD-040355,10,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T11:57:10+00:00
+ORD-040356,7,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T19:47:25+00:00
+ORD-040357,3,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T06:35:14+00:00
+ORD-040358,9,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T07:09:13+00:00
+ORD-040359,4,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T16:31:39+00:00
+ORD-040360,9,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T03:08:45+00:00
+ORD-040361,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T07:59:43+00:00
+ORD-040362,7,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T04:49:52+00:00
+ORD-040363,9,4,34in Ultrawide Monitor,displays,1,579.00,579.00,refunded,2026-07-20T20:24:59+00:00
+ORD-040364,5,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T05:40:40+00:00
+ORD-040365,10,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T05:04:15+00:00
+ORD-040366,7,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T12:14:01+00:00
+ORD-040367,10,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T18:00:19+00:00
+ORD-040368,9,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T17:10:18+00:00
+ORD-040369,5,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T05:17:10+00:00
+ORD-040370,8,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T08:42:36+00:00
+ORD-040371,4,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T14:06:00+00:00
+ORD-040372,4,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T07:27:18+00:00
+ORD-040373,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T12:44:05+00:00
+ORD-040374,9,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T10:19:37+00:00
+ORD-040375,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T09:44:56+00:00
+ORD-040376,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T00:39:21+00:00
+ORD-040377,3,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T19:38:49+00:00
+ORD-040378,8,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T02:35:46+00:00
+ORD-040379,1,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T06:09:44+00:00
+ORD-040380,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T03:48:21+00:00
+ORD-040381,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T04:42:37+00:00
+ORD-040382,7,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T04:28:29+00:00
+ORD-040383,6,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T08:30:29+00:00
+ORD-040384,2,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T14:03:28+00:00
+ORD-040385,6,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T19:28:53+00:00
+ORD-040386,2,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T04:30:58+00:00
+ORD-040387,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T03:52:36+00:00
+ORD-040388,10,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T18:13:13+00:00
+ORD-040389,10,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T07:26:03+00:00
+ORD-040390,4,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T08:23:07+00:00
+ORD-040391,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T12:56:17+00:00
+ORD-040392,6,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T02:40:37+00:00
+ORD-040393,3,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T10:36:44+00:00
+ORD-040394,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T01:10:04+00:00
+ORD-040395,2,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T21:25:29+00:00
+ORD-040396,2,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T11:53:10+00:00
+ORD-040397,10,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T01:33:15+00:00
+ORD-040398,6,7,Standing Desk 120cm,furniture,4,449.00,-50.00,completed,2026-07-20T12:13:55+00:00
+ORD-040399,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T06:43:53+00:00
+ORD-040400,4,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T07:13:10+00:00
+ORD-040401,5,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T15:37:34+00:00
+ORD-040402,2,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T23:49:40+00:00
+ORD-040403,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T14:52:16+00:00
+ORD-040404,5,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T21:43:46+00:00
+ORD-040405,5,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T21:44:22+00:00
+ORD-040406,4,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T07:47:25+00:00
+ORD-040407,4,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T13:34:45+00:00
+ORD-040408,3,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T13:47:54+00:00
+ORD-040409,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T03:19:34+00:00
+ORD-040410,10,2,Wireless Mouse,peripherals,1,49.50,49.50,refunded,2026-07-20T15:34:02+00:00
+ORD-040411,5,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T16:06:18+00:00
+ORD-040412,7,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T08:27:35+00:00
+ORD-040413,2,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,cancelled,2026-07-20T06:12:51+00:00
+ORD-040414,6,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T13:56:29+00:00
+ORD-040415,9,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T14:25:06+00:00
+ORD-040416,6,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T22:12:27+00:00
+ORD-040417,8,4,34in Ultrawide Monitor,displays,1,579.00,579.00,refunded,2026-07-20T01:10:47+00:00
+ORD-040418,6,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T03:13:07+00:00
+ORD-040419,7,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T14:48:21+00:00
+ORD-040420,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T17:33:43+00:00
+ORD-040421,9,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T08:18:20+00:00
+ORD-040422,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T09:00:00+00:00
+ORD-040423,3,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T14:58:36+00:00
+ORD-040424,7,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T08:09:38+00:00
+ORD-040425,5,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T23:41:33+00:00
+ORD-040426,10,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T14:23:44+00:00
+ORD-040427,8,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,completed,2026-07-20T10:08:22+00:00
+ORD-040428,9,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T21:35:20+00:00
+ORD-040429,10,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T19:26:02+00:00
+ORD-040430,10,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T06:33:49+00:00
+ORD-040431,8,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T21:58:57+00:00
+ORD-040432,7,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T03:27:52+00:00
+ORD-040433,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T15:34:57+00:00
+ORD-040434,1,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T12:48:25+00:00
+ORD-040435,4,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T02:36:36+00:00
+ORD-040436,8,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T03:48:40+00:00
+ORD-040437,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T06:52:19+00:00
+ORD-040438,1,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T08:33:15+00:00
+ORD-040439,5,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T05:56:43+00:00
+ORD-040440,10,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T15:12:45+00:00
+ORD-040441,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T00:51:38+00:00
+ORD-040442,3,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T00:53:21+00:00
+ORD-040443,8,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T13:04:17+00:00
+ORD-040444,6,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T06:11:14+00:00
+ORD-040445,7,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T23:26:54+00:00
+ORD-040446,4,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T04:55:51+00:00
+ORD-040447,1,3,27in 1440p Monitor,displays,4,319.99,1279.96,cancelled,2026-07-20T01:33:47+00:00
+ORD-040448,8,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T14:31:44+00:00
+ORD-040449,3,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T21:26:15+00:00
+ORD-040450,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,cancelled,2026-07-20T22:10:42+00:00
+ORD-040451,8,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T08:35:50+00:00
+ORD-040452,1,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T07:38:05+00:00
+ORD-040453,7,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T18:34:55+00:00
+ORD-040454,3,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T01:36:28+00:00
+ORD-040455,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T12:46:32+00:00
+ORD-040456,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T11:28:44+00:00
+ORD-040457,9,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T03:22:24+00:00
+ORD-040458,3,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T21:09:20+00:00
+ORD-040459,1,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T15:29:46+00:00
+ORD-040460,3,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T00:06:35+00:00
+ORD-040461,6,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T15:55:12+00:00
+ORD-040462,5,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T12:23:08+00:00
+ORD-040463,5,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T18:30:07+00:00
+ORD-040464,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T01:50:36+00:00
+ORD-040465,7,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T04:38:09+00:00
+ORD-040466,3,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T11:56:56+00:00
+ORD-040467,5,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T15:52:17+00:00
+ORD-040468,6,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T22:10:36+00:00
+ORD-040469,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T00:20:45+00:00
+ORD-040470,10,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T16:24:13+00:00
+ORD-040471,10,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T22:26:07+00:00
+ORD-040472,9,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T17:14:50+00:00
+ORD-040473,6,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T11:54:14+00:00
+ORD-040474,4,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T12:07:53+00:00
+ORD-040475,4,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T07:12:25+00:00
+ORD-040476,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T08:59:16+00:00
+ORD-040477,1,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T19:03:13+00:00
+ORD-040478,1,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T03:31:38+00:00
+ORD-040479,7,2,Wireless Mouse,peripherals,5,49.50,247.50,refunded,2026-07-20T12:24:10+00:00
+ORD-040480,6,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T22:39:23+00:00
+ORD-040481,3,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T13:23:51+00:00
+ORD-040482,5,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T18:49:49+00:00
+ORD-040483,9,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T17:55:58+00:00
+ORD-040484,1,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T01:02:27+00:00
+ORD-040485,2,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T06:32:27+00:00
+ORD-040486,1,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T14:29:59+00:00
+ORD-040487,5,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T23:45:10+00:00
+ORD-040488,10,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T15:38:55+00:00
+ORD-040489,4,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T23:11:44+00:00
+ORD-040490,6,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T20:01:33+00:00
+ORD-040491,6,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T08:15:16+00:00
+ORD-040492,5,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T04:45:02+00:00
+ORD-040493,8,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T13:03:12+00:00
+ORD-040494,10,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T03:43:02+00:00
+ORD-040495,10,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T21:04:24+00:00
+ORD-040496,10,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T06:52:59+00:00
+ORD-040497,8,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T09:33:48+00:00
+ORD-040498,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T05:49:27+00:00
+ORD-040499,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T01:54:18+00:00
+ORD-040500,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T02:00:35+00:00
+ORD-040501,8,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T15:29:18+00:00
+ORD-040502,6,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T17:21:32+00:00
+ORD-040503,1,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T07:48:33+00:00
+ORD-040504,4,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T01:59:10+00:00
+ORD-040505,1,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T20:16:55+00:00
+ORD-040506,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T04:26:57+00:00
+ORD-040507,6,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T17:04:17+00:00
+ORD-040508,7,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T16:05:56+00:00
+ORD-040509,3,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T19:54:05+00:00
+ORD-040510,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T05:36:51+00:00
+ORD-040511,8,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T21:36:00+00:00
+ORD-040512,2,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T00:52:30+00:00
+ORD-040513,9,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T13:28:45+00:00
+ORD-040514,2,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T07:27:21+00:00
+ORD-040515,2,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T22:33:53+00:00
+ORD-040516,8,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T02:00:20+00:00
+ORD-040517,1,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T11:23:03+00:00
+ORD-040518,7,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,completed,2026-07-20T17:43:30+00:00
+ORD-040519,3,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T07:06:50+00:00
+ORD-040520,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T20:44:21+00:00
+ORD-040521,6,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T18:46:01+00:00
+ORD-040522,7,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T09:36:49+00:00
+ORD-040523,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,pending,2026-07-20T07:03:49+00:00
+ORD-040524,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T14:11:30+00:00
+ORD-040525,7,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T08:24:37+00:00
+ORD-040526,7,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T07:42:44+00:00
+ORD-040527,2,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T03:17:34+00:00
+ORD-040528,10,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T18:52:48+00:00
+ORD-040529,6,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T00:32:42+00:00
+ORD-040530,8,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T09:40:16+00:00
+ORD-040531,10,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T07:31:05+00:00
+ORD-040532,1,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T02:40:13+00:00
+ORD-040533,1,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T04:05:49+00:00
+ORD-040534,8,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T07:21:11+00:00
+ORD-040535,7,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T01:04:25+00:00
+ORD-040536,3,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T08:53:44+00:00
+ORD-040537,3,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T15:51:05+00:00
+ORD-040538,7,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T02:19:14+00:00
+ORD-040539,1,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T19:27:37+00:00
+ORD-040540,1,7,Standing Desk 120cm,furniture,3,449.00,1347.00,completed,2026-07-20T17:56:21+00:00
+ORD-040541,5,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,pending,2026-07-20T11:47:18+00:00
+ORD-040542,10,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T23:40:55+00:00
+ORD-040543,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T03:23:02+00:00
+ORD-040544,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,pending,2026-07-20T11:34:24+00:00
+ORD-040545,5,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T19:03:17+00:00
+ORD-040546,2,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T06:52:26+00:00
+ORD-040547,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T15:17:38+00:00
+ORD-040548,4,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T06:43:10+00:00
+ORD-040549,7,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T07:38:42+00:00
+ORD-040550,4,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T01:38:49+00:00
+ORD-040551,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T04:18:54+00:00
+ORD-040552,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T17:19:28+00:00
+ORD-040553,6,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T13:24:03+00:00
+ORD-040554,6,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T21:24:49+00:00
+ORD-040555,7,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T01:30:28+00:00
+ORD-040556,10,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T05:37:16+00:00
+ORD-040557,8,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T01:28:08+00:00
+ORD-040558,6,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T23:29:29+00:00
+ORD-040559,9,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T04:45:58+00:00
+ORD-040560,3,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T05:09:13+00:00
+ORD-040561,3,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T19:05:26+00:00
+ORD-040562,9,7,Standing Desk 120cm,furniture,3,449.00,1347.00,completed,2026-07-20T09:46:05+00:00
+ORD-040563,3,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T03:15:39+00:00
+ORD-040564,1,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T05:07:24+00:00
+ORD-040565,8,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T10:39:49+00:00
+ORD-040566,2,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T10:54:55+00:00
+ORD-040567,3,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T21:49:44+00:00
+ORD-040568,8,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T04:23:02+00:00
+ORD-040569,1,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T18:47:45+00:00
+ORD-040570,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T12:53:55+00:00
+ORD-040571,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T20:12:55+00:00
+ORD-040572,3,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T21:42:58+00:00
+ORD-040573,7,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T11:46:10+00:00
+ORD-040574,7,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T20:56:51+00:00
+ORD-040575,5,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T15:36:27+00:00
+ORD-040576,4,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T20:28:44+00:00
+ORD-040577,6,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T07:38:29+00:00
+ORD-040578,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T20:53:59+00:00
+ORD-040579,7,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T19:05:18+00:00
+ORD-040580,5,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T21:26:54+00:00
+ORD-040581,3,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T16:18:04+00:00
+ORD-040582,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T05:05:28+00:00
+ORD-040583,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T06:32:25+00:00
+ORD-040584,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T17:19:19+00:00
+ORD-040585,5,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T02:42:08+00:00
+ORD-040586,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,pending,2026-07-20T12:22:22+00:00
+ORD-040587,10,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T21:48:54+00:00
+ORD-040588,4,3,27in 1440p Monitor,displays,3,319.99,959.97,refunded,2026-07-20T01:03:39+00:00
+ORD-040589,6,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T05:27:09+00:00
+ORD-040590,6,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T06:10:40+00:00
+ORD-040591,9,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T16:24:24+00:00
+ORD-040592,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T03:00:12+00:00
+ORD-040593,9,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T19:16:10+00:00
+ORD-040594,2,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T00:06:57+00:00
+ORD-040595,10,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T17:35:56+00:00
+ORD-040596,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T16:14:42+00:00
+ORD-040597,1,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T12:44:29+00:00
+ORD-040598,7,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T09:16:55+00:00
+ORD-040599,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T23:07:10+00:00
+ORD-040600,7,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T09:17:42+00:00
+ORD-040601,2,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T06:15:03+00:00
+ORD-040602,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T01:11:18+00:00
+ORD-040603,2,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T07:34:54+00:00
+ORD-040604,2,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T16:45:41+00:00
+ORD-040605,3,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T17:58:17+00:00
+ORD-040606,3,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T09:35:37+00:00
+ORD-040607,2,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T17:47:50+00:00
+ORD-040608,7,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T14:01:32+00:00
+ORD-040609,1,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T09:54:39+00:00
+ORD-040610,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T17:42:22+00:00
+ORD-040611,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T23:20:01+00:00
+ORD-040612,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T12:54:03+00:00
+ORD-040613,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T05:07:36+00:00
+ORD-040614,5,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T05:48:01+00:00
+ORD-040615,8,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T05:57:38+00:00
+ORD-040616,1,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T06:48:52+00:00
+ORD-040617,3,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T12:39:27+00:00
+ORD-040618,10,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T15:58:18+00:00
+ORD-040619,8,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T11:00:11+00:00
+ORD-040620,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T17:48:04+00:00
+ORD-040621,6,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T16:30:43+00:00
+ORD-040622,1,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T23:22:16+00:00
+ORD-040623,5,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T03:38:02+00:00
+ORD-040624,3,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T18:11:12+00:00
+ORD-040625,3,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T13:14:18+00:00
+ORD-040626,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T21:43:32+00:00
+ORD-040627,4,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T15:48:54+00:00
+ORD-040628,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T02:13:14+00:00
+ORD-040629,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T01:03:15+00:00
+ORD-040630,1,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T23:09:13+00:00
+ORD-040631,4,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T20:15:45+00:00
+ORD-040632,10,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T06:33:37+00:00
+ORD-040633,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T09:18:53+00:00
+ORD-040634,2,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T00:08:07+00:00
+ORD-040635,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T08:29:27+00:00
+ORD-040636,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T00:36:08+00:00
+ORD-040637,8,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T19:38:20+00:00
+ORD-040638,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T15:31:26+00:00
+ORD-040639,8,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T18:02:05+00:00
+ORD-040640,1,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T04:32:14+00:00
+ORD-040641,10,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T17:38:46+00:00
+ORD-040642,7,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T20:18:35+00:00
+ORD-040643,1,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T06:54:32+00:00
+ORD-040644,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T12:37:14+00:00
+ORD-040645,4,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T09:47:36+00:00
+ORD-040646,4,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T01:13:39+00:00
+ORD-040647,10,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T18:50:35+00:00
+ORD-040648,6,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T16:10:16+00:00
+ORD-040649,3,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T17:28:54+00:00
+ORD-040650,5,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T06:24:18+00:00
+ORD-040651,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T18:11:36+00:00
+ORD-040652,5,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T14:27:25+00:00
+ORD-040653,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T01:43:51+00:00
+ORD-040654,1,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T17:53:24+00:00
+ORD-040655,8,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T04:47:44+00:00
+ORD-040656,5,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T08:58:11+00:00
+ORD-040657,3,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T07:21:50+00:00
+ORD-040658,3,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T02:29:30+00:00
+ORD-040659,2,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T18:20:44+00:00
+ORD-040660,10,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T20:02:38+00:00
+ORD-040661,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T06:55:58+00:00
+ORD-040662,9,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T20:44:29+00:00
+ORD-040663,6,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T06:34:54+00:00
+ORD-040664,4,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T05:49:09+00:00
+ORD-040665,9,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T18:23:38+00:00
+ORD-040666,6,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T06:41:58+00:00
+ORD-040667,7,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T04:45:09+00:00
+ORD-040668,1,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T05:28:15+00:00
+ORD-040669,9,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T17:13:02+00:00
+ORD-040670,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T18:23:00+00:00
+ORD-040671,2,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T12:30:28+00:00
+ORD-040672,5,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T03:17:17+00:00
+ORD-040673,5,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T22:21:37+00:00
+ORD-040674,9,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T23:02:24+00:00
+ORD-040675,4,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T23:55:52+00:00
+ORD-040676,3,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T00:13:13+00:00
+ORD-040677,1,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T15:31:22+00:00
+ORD-040678,4,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T15:31:41+00:00
+ORD-040679,9,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,cancelled,2026-07-20T14:24:16+00:00
+ORD-040680,9,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T20:56:56+00:00
+ORD-040681,4,7,Standing Desk 120cm,furniture,5,449.00,2245.00,cancelled,2026-07-20T09:02:57+00:00
+ORD-040682,3,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T02:56:06+00:00
+ORD-040683,10,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T04:23:05+00:00
+ORD-040684,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T11:29:11+00:00
+ORD-040685,7,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T19:16:02+00:00
+ORD-040686,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T06:02:44+00:00
+ORD-040687,6,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,pending,2026-07-20T07:23:18+00:00
+ORD-040688,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T20:42:18+00:00
+ORD-040689,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T09:55:04+00:00
+ORD-040690,3,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T05:09:10+00:00
+ORD-040691,2,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T14:54:07+00:00
+ORD-040692,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T17:06:58+00:00
+ORD-040693,5,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T19:51:41+00:00
+ORD-040694,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T12:46:37+00:00
+ORD-040695,5,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T07:32:28+00:00
+ORD-040696,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T15:40:40+00:00
+ORD-040697,8,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T06:50:43+00:00
+ORD-040698,8,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T06:24:17+00:00
+ORD-040699,8,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T05:50:20+00:00
+ORD-040700,9,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T13:32:04+00:00
+ORD-040701,3,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T21:07:20+00:00
+ORD-040702,8,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T02:44:05+00:00
+ORD-040703,1,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T04:18:24+00:00
+ORD-040704,8,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T05:16:53+00:00
+ORD-040705,8,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T11:17:12+00:00
+ORD-040706,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T04:35:06+00:00
+ORD-040707,2,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T09:57:55+00:00
+ORD-040708,5,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T00:19:44+00:00
+ORD-040709,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T19:33:11+00:00
+ORD-040710,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T02:42:58+00:00
+ORD-040711,5,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T18:37:02+00:00
+ORD-040712,2,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T23:09:32+00:00
+ORD-040713,6,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T04:10:57+00:00
+ORD-040714,9,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T13:17:48+00:00
+ORD-040715,3,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T09:59:07+00:00
+ORD-040716,3,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T21:55:32+00:00
+ORD-040717,6,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T20:02:54+00:00
+ORD-040718,7,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,completed,2026-07-20T01:30:42+00:00
+ORD-040719,4,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T23:21:19+00:00
+ORD-040720,9,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T02:29:01+00:00
+ORD-040721,6,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T14:46:24+00:00
+ORD-040722,2,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T02:11:24+00:00
+ORD-040723,1,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T11:56:43+00:00
+ORD-040724,8,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T22:44:56+00:00
+ORD-040725,10,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T03:43:06+00:00
+ORD-040726,10,3,27in 1440p Monitor,displays,3,319.99,959.97,refunded,2026-07-20T09:14:57+00:00
+ORD-040727,6,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T01:15:56+00:00
+ORD-040728,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T12:05:38+00:00
+ORD-040729,9,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T12:30:42+00:00
+ORD-040730,1,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T01:48:19+00:00
+ORD-040731,6,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T12:25:35+00:00
+ORD-040732,2,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T16:51:49+00:00
+ORD-040733,2,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T12:06:06+00:00
+ORD-040734,6,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T23:05:36+00:00
+ORD-040735,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T10:38:15+00:00
+ORD-040736,3,2,Wireless Mouse,peripherals,4,49.50,198.00,completed,2026-07-20T22:42:29+00:00
+ORD-040737,6,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T12:57:23+00:00
+ORD-040738,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T12:03:00+00:00
+ORD-040739,5,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,cancelled,2026-07-20T07:08:39+00:00
+ORD-040740,7,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T23:56:44+00:00
+ORD-040741,5,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,pending,2026-07-20T17:21:23+00:00
+ORD-040742,7,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T14:17:42+00:00
+ORD-040743,9,6,Desk Speakers Pair,audio,1,89.00,89.00,cancelled,2026-07-20T00:54:32+00:00
+ORD-040744,6,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T13:04:35+00:00
+ORD-040745,5,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T21:10:18+00:00
+ORD-040746,8,4,34in Ultrawide Monitor,displays,3,579.00,-50.00,refunded,2026-07-20T02:22:10+00:00
+ORD-040747,4,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T00:38:54+00:00
+ORD-040748,6,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T19:05:33+00:00
+ORD-040749,6,3,27in 1440p Monitor,displays,4,319.99,1279.96,cancelled,2026-07-20T17:16:23+00:00
+ORD-040750,2,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T09:34:44+00:00
+ORD-040751,9,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T16:36:56+00:00
+ORD-040752,8,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T02:49:43+00:00
+ORD-040753,1,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T16:20:13+00:00
+ORD-040754,1,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T10:25:08+00:00
+ORD-040755,10,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T08:51:48+00:00
+ORD-040756,7,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T04:23:34+00:00
+ORD-040757,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T03:08:12+00:00
+ORD-040758,3,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T14:00:55+00:00
+ORD-040759,4,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T18:03:24+00:00
+ORD-040760,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T01:50:13+00:00
+ORD-040761,3,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T19:42:25+00:00
+ORD-040762,1,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T02:44:41+00:00
+ORD-040763,4,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T07:53:42+00:00
+ORD-040764,1,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T09:38:33+00:00
+ORD-040765,1,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T15:42:28+00:00
+ORD-040766,2,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T20:55:44+00:00
+ORD-040767,1,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T09:53:03+00:00
+ORD-040768,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T01:44:03+00:00
+ORD-040769,9,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T00:52:24+00:00
+ORD-040770,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T05:16:13+00:00
+ORD-040771,2,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T05:38:08+00:00
+ORD-040772,6,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T02:49:36+00:00
+ORD-040773,2,7,Standing Desk 120cm,furniture,5,449.00,2245.00,cancelled,2026-07-20T19:31:36+00:00
+ORD-040774,1,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T06:51:09+00:00
+ORD-040775,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T13:23:55+00:00
+ORD-040776,6,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T04:33:39+00:00
+ORD-040777,7,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T12:20:33+00:00
+ORD-040778,4,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T13:33:29+00:00
+ORD-040779,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T21:16:32+00:00
+ORD-040780,8,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T11:49:02+00:00
+ORD-040781,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T16:12:11+00:00
+ORD-040782,3,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T18:39:02+00:00
+ORD-040783,7,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T22:05:16+00:00
+ORD-040784,1,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T15:02:03+00:00
+ORD-040785,2,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T02:11:23+00:00
+ORD-040786,2,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T19:31:32+00:00
+ORD-040787,2,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T23:25:33+00:00
+ORD-040788,3,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T01:41:43+00:00
+ORD-040789,5,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T10:47:30+00:00
+ORD-040790,5,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T15:14:25+00:00
+ORD-040791,5,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T10:56:22+00:00
+ORD-040792,5,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T15:28:57+00:00
+ORD-040793,7,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T12:41:42+00:00
+ORD-040794,7,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T08:43:21+00:00
+ORD-040795,7,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T11:08:03+00:00
+ORD-040796,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T02:07:08+00:00
+ORD-040797,4,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T18:35:42+00:00
+ORD-040798,1,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T10:10:21+00:00
+ORD-040799,2,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T23:12:25+00:00
+ORD-040800,2,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T09:11:07+00:00
+ORD-040801,5,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T13:10:10+00:00
+ORD-040802,10,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,not-a-valid-date
+ORD-040803,10,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T17:28:26+00:00
+ORD-040804,7,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T01:58:48+00:00
+ORD-040805,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T06:05:15+00:00
+ORD-040806,7,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T11:59:52+00:00
+ORD-040807,4,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T03:18:54+00:00
+ORD-040808,1,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T20:10:11+00:00
+ORD-040809,1,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T02:32:43+00:00
+ORD-040810,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T12:01:58+00:00
+ORD-040811,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T12:40:01+00:00
+ORD-040812,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T07:29:39+00:00
+ORD-040813,5,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T23:52:51+00:00
+ORD-040814,4,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T16:44:51+00:00
+ORD-040815,8,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T09:53:16+00:00
+ORD-040816,4,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T08:45:53+00:00
+ORD-040817,10,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T10:16:28+00:00
+ORD-040818,9,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T05:21:51+00:00
+ORD-040819,6,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T23:49:18+00:00
+ORD-040820,9,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T17:02:25+00:00
+ORD-040821,6,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T17:09:55+00:00
+ORD-040822,3,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T20:55:41+00:00
+ORD-040823,10,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T07:50:56+00:00
+ORD-040824,1,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T13:04:57+00:00
+ORD-040825,3,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T05:10:05+00:00
+ORD-040826,10,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T16:48:25+00:00
+ORD-040827,3,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T20:04:04+00:00
+ORD-040828,1,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T13:03:41+00:00
+ORD-040829,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T18:06:26+00:00
+ORD-040830,9,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T14:57:37+00:00
+ORD-040831,1,2,Wireless Mouse,peripherals,1,49.50,49.50,completed,2026-07-20T06:04:51+00:00
+ORD-040832,10,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T19:20:41+00:00
+ORD-040833,7,4,34in Ultrawide Monitor,displays,1,579.00,579.00,refunded,2026-07-20T08:28:59+00:00
+ORD-040834,6,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T15:40:18+00:00
+ORD-040835,1,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T14:41:59+00:00
+ORD-040836,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T15:58:08+00:00
+ORD-040837,7,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T09:45:20+00:00
+ORD-040838,7,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,completed,2026-07-20T06:54:52+00:00
+ORD-040839,3,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T13:48:28+00:00
+ORD-040840,9,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T17:43:49+00:00
+ORD-040841,4,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T01:06:52+00:00
+ORD-040842,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T20:03:10+00:00
+ORD-040843,9,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T09:08:20+00:00
+ORD-040844,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T12:43:04+00:00
+ORD-040845,9,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T19:05:55+00:00
+ORD-040846,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T21:01:30+00:00
+ORD-040847,4,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T13:42:02+00:00
+ORD-040848,8,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T23:35:21+00:00
+ORD-040849,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T05:09:25+00:00
+ORD-040850,9,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T05:37:07+00:00
+ORD-040851,10,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T14:45:10+00:00
+ORD-040852,6,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T12:45:14+00:00
+ORD-040853,7,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T14:42:18+00:00
+ORD-040854,9,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T20:41:07+00:00
+ORD-040855,9,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T08:11:04+00:00
+ORD-040856,1,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T18:51:34+00:00
+ORD-040857,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T07:58:51+00:00
+ORD-040858,6,2,Wireless Mouse,peripherals,1,49.50,49.50,refunded,2026-07-20T07:05:19+00:00
+ORD-040859,7,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T20:06:55+00:00
+ORD-040860,3,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T22:09:10+00:00
+ORD-040861,4,2,Wireless Mouse,peripherals,4,49.50,198.00,completed,2026-07-20T22:30:28+00:00
+ORD-040862,6,8,Ergonomic Chair,furniture,3,612.75,1838.25,cancelled,2026-07-20T05:43:45+00:00
+ORD-040863,9,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T05:51:31+00:00
+ORD-040864,2,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T06:35:55+00:00
+ORD-040865,10,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T11:29:06+00:00
+ORD-040866,9,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,refunded,2026-07-20T13:33:52+00:00
+ORD-040867,4,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T12:35:10+00:00
+ORD-040868,5,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T09:41:26+00:00
+ORD-040869,2,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,pending,2026-07-20T09:42:38+00:00
+ORD-040870,3,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T02:05:54+00:00
+ORD-040871,8,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T02:58:08+00:00
+ORD-040872,3,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T03:43:29+00:00
+ORD-040873,2,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T19:09:59+00:00
+ORD-040874,10,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T18:23:10+00:00
+ORD-040875,4,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T22:43:02+00:00
+ORD-040876,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T21:29:08+00:00
+ORD-040877,10,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T02:46:57+00:00
+ORD-040878,8,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T05:28:56+00:00
+ORD-040879,9,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T15:40:07+00:00
+ORD-040880,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T17:15:18+00:00
+ORD-040881,10,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T11:35:56+00:00
+ORD-040882,1,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T18:51:00+00:00
+ORD-040883,7,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T14:21:47+00:00
+ORD-040884,9,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T00:21:35+00:00
+ORD-040885,7,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,completed,2026-07-20T16:21:34+00:00
+ORD-040886,6,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T11:29:24+00:00
+ORD-040887,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T02:45:34+00:00
+ORD-040888,4,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T08:13:20+00:00
+ORD-040889,9,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T16:21:57+00:00
+ORD-040890,10,3,27in 1440p Monitor,displays,4,319.99,1279.96,pending,2026-07-20T01:09:40+00:00
+ORD-040891,9,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T22:50:45+00:00
+ORD-040892,8,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T19:43:29+00:00
+ORD-040893,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T00:33:40+00:00
+ORD-040894,7,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T05:15:07+00:00
+ORD-040895,2,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T23:15:53+00:00
+ORD-040896,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T13:02:49+00:00
+ORD-040897,6,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T06:02:01+00:00
+ORD-040898,6,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T18:39:04+00:00
+ORD-040899,5,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T00:07:02+00:00
+ORD-040900,5,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T13:30:25+00:00
+ORD-040901,9,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T02:32:29+00:00
+ORD-040902,7,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T05:39:05+00:00
+ORD-040903,8,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T11:52:31+00:00
+ORD-040904,6,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T06:20:03+00:00
+ORD-040905,3,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T23:11:50+00:00
+ORD-040906,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T10:21:20+00:00
+ORD-040907,1,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T03:40:10+00:00
+ORD-040908,7,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T06:14:05+00:00
+ORD-040909,3,7,Standing Desk 120cm,furniture,3,449.00,1347.00,completed,2026-07-20T14:08:00+00:00
+ORD-040910,8,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T02:40:40+00:00
+ORD-040911,5,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T10:39:37+00:00
+ORD-040912,9,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T10:47:36+00:00
+ORD-040913,5,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T01:48:24+00:00
+ORD-040914,7,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T14:37:04+00:00
+ORD-040915,10,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T14:22:02+00:00
+ORD-040916,1,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T00:40:44+00:00
+ORD-040917,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T09:43:36+00:00
+ORD-040918,2,5,Over-ear Headphones,audio,3,199.95,599.85,cancelled,2026-07-20T04:04:33+00:00
+ORD-040919,4,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T16:15:57+00:00
+ORD-040920,3,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T06:11:21+00:00
+ORD-040921,8,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T06:39:46+00:00
+ORD-040922,1,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T16:45:07+00:00
+ORD-040923,4,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T18:24:08+00:00
+ORD-040924,4,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T01:01:00+00:00
+ORD-040925,5,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T12:30:52+00:00
+ORD-040926,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T10:26:01+00:00
+ORD-040927,5,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T06:00:25+00:00
+ORD-040928,2,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T20:54:07+00:00
+ORD-040929,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T01:24:34+00:00
+ORD-040930,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T09:31:20+00:00
+ORD-040931,9,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T23:34:41+00:00
+ORD-040932,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,completed,2026-07-20T09:10:37+00:00
+ORD-040933,5,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T07:51:02+00:00
+ORD-040934,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T04:40:24+00:00
+ORD-040935,2,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T05:43:12+00:00
+ORD-040936,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T00:22:06+00:00
+ORD-040937,2,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T04:32:13+00:00
+ORD-040938,9,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T18:02:47+00:00
+ORD-040939,10,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T15:24:05+00:00
+ORD-040940,1,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T17:41:01+00:00
+ORD-040941,2,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T06:15:55+00:00
+ORD-040942,6,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T09:38:50+00:00
+ORD-040943,10,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T13:17:07+00:00
+ORD-040944,7,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T09:29:20+00:00
+ORD-040945,4,2,Wireless Mouse,peripherals,2,49.50,99.00,pending,2026-07-20T20:30:50+00:00
+ORD-040946,6,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T09:42:08+00:00
+ORD-040947,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T17:47:16+00:00
+ORD-040948,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T18:22:12+00:00
+ORD-040949,7,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T02:52:48+00:00
+ORD-040950,5,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T09:35:31+00:00
+ORD-040951,2,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T11:41:37+00:00
+ORD-040952,4,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T17:48:03+00:00
+ORD-040953,5,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T09:11:18+00:00
+ORD-040954,1,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T20:05:28+00:00
+ORD-040955,7,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T08:01:06+00:00
+ORD-040956,3,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T09:42:38+00:00
+ORD-040957,8,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T04:25:52+00:00
+ORD-040958,5,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T14:35:05+00:00
+ORD-040959,10,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T13:31:01+00:00
+ORD-040960,10,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T09:34:51+00:00
+ORD-040961,1,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T09:07:47+00:00
+ORD-040962,7,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T00:27:32+00:00
+ORD-040963,7,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T00:01:51+00:00
+ORD-040964,1,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T16:34:29+00:00
+ORD-040965,1,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T05:00:23+00:00
+ORD-040966,10,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T08:13:28+00:00
+ORD-040967,10,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,completed,2026-07-20T18:25:09+00:00
+ORD-040968,4,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T01:29:40+00:00
+ORD-040969,2,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T18:21:03+00:00
+ORD-040970,6,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T03:50:38+00:00
+ORD-040971,8,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T17:40:32+00:00
+ORD-040972,3,7,Standing Desk 120cm,furniture,5,449.00,2245.00,cancelled,2026-07-20T15:51:39+00:00
+ORD-040973,2,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,completed,2026-07-20T01:43:28+00:00
+ORD-040974,6,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T00:45:58+00:00
+ORD-040975,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T17:11:21+00:00
+ORD-040976,2,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T22:38:37+00:00
+ORD-040977,8,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T18:32:53+00:00
+ORD-040978,10,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T23:58:21+00:00
+ORD-040979,6,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T00:23:20+00:00
+ORD-040980,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T00:59:02+00:00
+ORD-040981,3,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T11:07:31+00:00
+ORD-040982,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T00:37:24+00:00
+ORD-040983,2,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T08:52:47+00:00
+ORD-040984,4,8,Ergonomic Chair,furniture,2,612.75,1225.50,refunded,2026-07-20T19:39:39+00:00
+ORD-040985,1,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T14:39:58+00:00
+ORD-040986,7,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T19:21:23+00:00
+ORD-040987,9,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T06:57:34+00:00
+ORD-040988,9,2,Wireless Mouse,peripherals,4,49.50,198.00,cancelled,2026-07-20T19:48:14+00:00
+ORD-040989,2,4,34in Ultrawide Monitor,displays,1,579.00,579.00,completed,2026-07-20T00:59:05+00:00
+ORD-040990,10,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T14:19:34+00:00
+ORD-040991,9,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T01:28:42+00:00
+ORD-040992,3,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T17:39:23+00:00
+ORD-040993,2,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T22:25:11+00:00
+ORD-040994,7,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T00:52:33+00:00
+ORD-040995,7,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T08:36:32+00:00
+ORD-040996,7,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T22:37:23+00:00
+ORD-040997,3,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T14:23:33+00:00
+ORD-040998,5,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T07:39:48+00:00
+ORD-040999,1,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T08:56:09+00:00
+ORD-041000,1,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T03:39:11+00:00
+ORD-041001,8,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T22:54:06+00:00
+ORD-041002,2,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T20:32:14+00:00
+ORD-041003,1,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T00:35:39+00:00
+ORD-041004,7,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T13:58:53+00:00
+ORD-041005,1,5,Over-ear Headphones,audio,4,199.95,799.80,cancelled,2026-07-20T19:10:22+00:00
+ORD-041006,2,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T17:29:40+00:00
+ORD-041007,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T05:41:18+00:00
+ORD-041008,6,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T11:07:44+00:00
+ORD-041009,7,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T15:41:31+00:00
+ORD-041010,10,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T14:12:47+00:00
+ORD-041011,10,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T11:31:40+00:00
+ORD-041012,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T02:00:53+00:00
+ORD-041013,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T05:45:25+00:00
+ORD-041014,4,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T16:01:38+00:00
+ORD-041015,1,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T06:10:14+00:00
+ORD-041016,1,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T15:00:10+00:00
+ORD-041017,6,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,cancelled,2026-07-20T00:54:55+00:00
+ORD-041018,3,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T09:20:08+00:00
+ORD-041019,3,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T22:40:22+00:00
+ORD-041020,7,8,Ergonomic Chair,furniture,3,612.75,1838.25,completed,2026-07-20T19:56:12+00:00
+ORD-041021,3,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T22:06:13+00:00
+ORD-041022,7,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T23:55:07+00:00
+ORD-041023,8,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T09:37:44+00:00
+ORD-041024,2,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T13:49:17+00:00
+ORD-041025,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T19:40:21+00:00
+ORD-041026,6,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T04:15:23+00:00
+ORD-041027,5,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T21:59:27+00:00
+ORD-041028,3,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T21:23:21+00:00
+ORD-041029,6,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T05:00:04+00:00
+ORD-041030,3,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T10:47:08+00:00
+ORD-041031,4,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,refunded,2026-07-20T08:00:05+00:00
+ORD-041032,6,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T13:46:04+00:00
+ORD-041033,6,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T11:47:22+00:00
+ORD-041034,3,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T03:48:00+00:00
+ORD-041035,2,3,27in 1440p Monitor,displays,3,319.99,959.97,refunded,2026-07-20T03:42:00+00:00
+ORD-041036,8,5,Over-ear Headphones,audio,2,199.95,399.90,refunded,2026-07-20T09:58:07+00:00
+ORD-041037,7,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T01:15:45+00:00
+ORD-041038,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T22:55:59+00:00
+ORD-041039,4,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T16:48:29+00:00
+ORD-041040,4,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T16:33:01+00:00
+ORD-041041,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T04:27:30+00:00
+ORD-041042,6,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T05:53:52+00:00
+ORD-041043,5,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T01:44:48+00:00
+ORD-041044,3,2,Wireless Mouse,peripherals,4,49.50,198.00,refunded,2026-07-20T03:16:22+00:00
+ORD-041045,9,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T07:01:23+00:00
+ORD-041046,2,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T20:36:56+00:00
+ORD-041047,5,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T08:39:58+00:00
+ORD-041048,1,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,completed,2026-07-20T21:29:03+00:00
+ORD-041049,4,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T11:40:22+00:00
+ORD-041050,10,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T05:19:06+00:00
+ORD-041051,3,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T08:07:54+00:00
+ORD-041052,7,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T12:39:36+00:00
+ORD-041053,8,2,Wireless Mouse,peripherals,1,49.50,49.50,refunded,2026-07-20T09:44:19+00:00
+ORD-041054,4,3,27in 1440p Monitor,displays,2,319.99,639.98,cancelled,2026-07-20T16:22:02+00:00
+ORD-041055,1,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T10:46:59+00:00
+ORD-041056,9,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T07:00:39+00:00
+ORD-041057,3,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T14:07:55+00:00
+ORD-041058,10,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T05:41:04+00:00
+ORD-041059,10,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T02:07:17+00:00
+ORD-041060,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T02:03:25+00:00
+ORD-041061,5,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T04:03:26+00:00
+ORD-041062,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T20:23:44+00:00
+ORD-041063,4,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T02:34:59+00:00
+ORD-041064,7,2,Wireless Mouse,peripherals,5,49.50,247.50,pending,2026-07-20T00:16:34+00:00
+ORD-041065,2,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T15:22:11+00:00
+ORD-041066,8,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T06:56:24+00:00
+ORD-041067,4,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T22:34:01+00:00
+ORD-041068,7,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T00:38:01+00:00
+ORD-041069,2,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T15:37:28+00:00
+ORD-041070,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T08:15:55+00:00
+ORD-041071,4,5,Over-ear Headphones,audio,4,199.95,799.80,refunded,2026-07-20T01:42:07+00:00
+ORD-041072,9,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T16:36:34+00:00
+ORD-041073,6,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T17:31:44+00:00
+ORD-041074,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T17:20:00+00:00
+ORD-041075,6,6,Desk Speakers Pair,audio,1,89.00,89.00,cancelled,2026-07-20T11:20:54+00:00
+ORD-041076,5,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T21:50:50+00:00
+ORD-041077,3,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T04:05:26+00:00
+ORD-041078,3,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T21:34:49+00:00
+ORD-041079,10,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T14:17:58+00:00
+ORD-041080,5,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T13:55:18+00:00
+ORD-041081,2,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T15:05:06+00:00
+ORD-041082,6,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T14:02:33+00:00
+ORD-041083,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T13:21:09+00:00
+ORD-041084,10,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T19:18:55+00:00
+ORD-041085,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T00:53:09+00:00
+ORD-041086,5,2,Wireless Mouse,peripherals,1,49.50,49.50,refunded,2026-07-20T07:19:45+00:00
+ORD-041087,7,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T09:51:34+00:00
+ORD-041088,6,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T18:18:10+00:00
+ORD-041089,3,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T10:18:08+00:00
+ORD-041090,4,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T02:21:01+00:00
+ORD-041091,6,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,completed,2026-07-20T03:28:12+00:00
+ORD-041092,7,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T01:23:55+00:00
+ORD-041093,4,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T17:04:45+00:00
+ORD-041094,7,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T15:06:21+00:00
+ORD-041095,3,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T19:45:28+00:00
+ORD-041096,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T09:20:53+00:00
+ORD-041097,7,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T01:52:21+00:00
+ORD-041098,4,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T19:16:04+00:00
+ORD-041099,10,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T05:06:14+00:00
+ORD-041100,5,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T10:00:57+00:00
+ORD-041101,1,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T19:51:58+00:00
+ORD-041102,4,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T12:29:52+00:00
+ORD-041103,4,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T12:21:38+00:00
+ORD-041104,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T17:23:15+00:00
+ORD-041105,5,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T18:13:02+00:00
+ORD-041106,8,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T13:52:02+00:00
+ORD-041107,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T23:16:46+00:00
+ORD-041108,8,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T22:18:03+00:00
+ORD-041109,8,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,refunded,2026-07-20T03:01:02+00:00
+ORD-041110,8,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T11:56:36+00:00
+ORD-041111,4,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T01:47:04+00:00
+ORD-041112,1,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T16:48:46+00:00
+ORD-041113,6,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T22:04:14+00:00
+ORD-041114,8,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T10:53:12+00:00
+ORD-041115,8,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T15:51:21+00:00
+ORD-041116,8,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T16:58:29+00:00
+ORD-041117,7,5,Over-ear Headphones,audio,3,199.95,599.85,pending,2026-07-20T12:29:43+00:00
+ORD-041118,7,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T10:09:34+00:00
+ORD-041119,4,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T01:26:10+00:00
+ORD-041120,4,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T12:02:47+00:00
+ORD-041121,10,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T02:28:34+00:00
+ORD-041122,5,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,cancelled,2026-07-20T10:29:32+00:00
+ORD-041123,6,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T23:19:13+00:00
+ORD-041124,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,cancelled,2026-07-20T22:05:39+00:00
+ORD-041125,4,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T10:14:04+00:00
+ORD-041126,3,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T22:30:26+00:00
+ORD-041127,5,7,Standing Desk 120cm,furniture,1,449.00,449.00,completed,2026-07-20T18:29:33+00:00
+ORD-041128,6,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T03:49:42+00:00
+ORD-041129,3,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T13:30:50+00:00
+ORD-041130,2,8,Ergonomic Chair,furniture,3,612.75,1838.25,refunded,2026-07-20T12:23:49+00:00
+ORD-041131,2,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T00:01:05+00:00
+ORD-041132,9,6,Desk Speakers Pair,audio,3,89.00,267.00,refunded,2026-07-20T02:59:07+00:00
+ORD-041133,10,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T10:15:23+00:00
+ORD-041134,5,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,cancelled,2026-07-20T16:27:02+00:00
+ORD-041135,7,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T03:15:20+00:00
+ORD-041136,6,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T01:30:17+00:00
+ORD-041137,7,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T09:52:32+00:00
+ORD-041138,3,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T22:46:28+00:00
+ORD-041139,10,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T14:57:30+00:00
+ORD-041140,4,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T23:44:18+00:00
+ORD-041141,9,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T22:40:45+00:00
+ORD-041142,6,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T17:53:13+00:00
+ORD-041143,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T13:14:31+00:00
+ORD-041144,4,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T20:32:24+00:00
+ORD-041145,4,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T14:32:08+00:00
+ORD-041146,2,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T21:20:20+00:00
+ORD-041147,1,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T10:51:20+00:00
+ORD-041148,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,refunded,2026-07-20T16:13:18+00:00
+ORD-041149,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,pending,2026-07-20T16:40:52+00:00
+ORD-041150,1,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T10:45:27+00:00
+ORD-041151,7,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T21:04:35+00:00
+ORD-041152,8,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T10:25:04+00:00
+ORD-041153,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,cancelled,2026-07-20T20:36:55+00:00
+ORD-041154,10,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T19:39:44+00:00
+ORD-041155,1,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T22:04:55+00:00
+ORD-041156,5,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T21:28:39+00:00
+ORD-041157,5,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T08:15:20+00:00
+ORD-041158,5,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T16:18:45+00:00
+ORD-041159,1,3,27in 1440p Monitor,displays,3,319.99,959.97,completed,2026-07-20T06:25:15+00:00
+ORD-041160,6,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T10:09:44+00:00
+ORD-041161,4,8,Ergonomic Chair,furniture,1,612.75,612.75,cancelled,2026-07-20T04:59:26+00:00
+ORD-041162,5,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T10:35:16+00:00
+ORD-041163,1,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T10:40:53+00:00
+ORD-041164,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T03:20:13+00:00
+ORD-041165,4,6,Desk Speakers Pair,audio,1,89.00,89.00,completed,2026-07-20T01:22:54+00:00
+ORD-041166,7,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T00:14:27+00:00
+ORD-041167,10,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T08:47:54+00:00
+ORD-041168,9,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T19:38:23+00:00
+ORD-041169,3,7,Standing Desk 120cm,furniture,2,449.00,898.00,cancelled,2026-07-20T08:04:47+00:00
+ORD-041170,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T09:51:45+00:00
+ORD-041171,3,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T15:40:36+00:00
+ORD-041172,6,2,Wireless Mouse,peripherals,1,49.50,49.50,refunded,2026-07-20T13:14:25+00:00
+ORD-041173,1,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T06:34:56+00:00
+ORD-041174,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T23:59:28+00:00
+ORD-041175,6,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T12:28:15+00:00
+ORD-041176,5,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T03:11:36+00:00
+ORD-041177,3,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,completed,2026-07-20T23:32:06+00:00
+ORD-041178,8,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T20:23:42+00:00
+ORD-041179,7,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T00:25:44+00:00
+ORD-041180,1,3,27in 1440p Monitor,displays,1,319.99,319.99,cancelled,2026-07-20T11:49:46+00:00
+ORD-041181,2,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T00:22:11+00:00
+ORD-041182,1,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T12:41:51+00:00
+ORD-041183,4,7,Standing Desk 120cm,furniture,4,449.00,1796.00,pending,2026-07-20T05:43:51+00:00
+ORD-041184,10,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T23:20:16+00:00
+ORD-041185,1,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T21:58:07+00:00
+ORD-041186,8,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T03:53:43+00:00
+ORD-041187,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T08:16:35+00:00
+ORD-041188,3,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T15:08:41+00:00
+ORD-041189,4,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T10:02:42+00:00
+ORD-041190,2,8,Ergonomic Chair,furniture,5,612.75,3063.75,refunded,2026-07-20T23:56:11+00:00
+ORD-041191,4,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T16:29:38+00:00
+ORD-041192,8,3,27in 1440p Monitor,displays,1,319.99,319.99,refunded,2026-07-20T12:01:12+00:00
+ORD-041193,5,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T01:25:12+00:00
+ORD-041194,1,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T17:36:24+00:00
+ORD-041195,5,5,Over-ear Headphones,audio,2,199.95,399.90,pending,2026-07-20T12:07:40+00:00
+ORD-041196,7,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T11:26:35+00:00
+ORD-041197,1,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T13:01:21+00:00
+ORD-041198,9,4,34in Ultrawide Monitor,displays,1,579.00,579.00,completed,2026-07-20T13:48:52+00:00
+ORD-041199,9,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T20:15:27+00:00
+ORD-041200,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T01:50:04+00:00
+ORD-041201,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T09:11:50+00:00
+ORD-041202,3,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,pending,2026-07-20T14:15:24+00:00
+ORD-041203,2,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T08:00:14+00:00
+ORD-041204,4,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T05:42:54+00:00
+ORD-041205,2,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,refunded,2026-07-20T03:08:58+00:00
+ORD-041206,4,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T00:41:44+00:00
+ORD-041207,3,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T15:16:20+00:00
+ORD-041208,1,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T21:08:37+00:00
+ORD-041209,7,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T09:37:50+00:00
+ORD-041210,2,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T07:46:23+00:00
+ORD-041211,1,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,completed,2026-07-20T12:57:15+00:00
+ORD-041212,4,6,Desk Speakers Pair,audio,4,89.00,356.00,refunded,2026-07-20T07:21:23+00:00
+ORD-041213,3,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T11:29:40+00:00
+ORD-041214,1,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T13:22:43+00:00
+ORD-041215,4,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T17:45:03+00:00
+ORD-041216,5,5,Over-ear Headphones,audio,1,199.95,199.95,cancelled,2026-07-20T05:22:04+00:00
+ORD-041217,6,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T00:33:00+00:00
+ORD-041218,7,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T08:56:30+00:00
+ORD-041219,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,refunded,2026-07-20T02:36:14+00:00
+ORD-041220,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T22:23:43+00:00
+ORD-041221,9,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T00:25:48+00:00
+ORD-041222,4,6,Desk Speakers Pair,audio,1,89.00,89.00,pending,2026-07-20T13:56:34+00:00
+ORD-041223,8,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T01:24:33+00:00
+ORD-041224,2,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T08:09:34+00:00
+ORD-041225,8,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T17:44:49+00:00
+ORD-041226,10,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T22:55:04+00:00
+ORD-041227,10,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T06:18:43+00:00
+ORD-041228,4,4,34in Ultrawide Monitor,displays,1,579.00,579.00,completed,2026-07-20T09:29:09+00:00
+ORD-041229,5,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T13:45:00+00:00
+ORD-041230,8,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T00:10:34+00:00
+ORD-041231,2,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,pending,2026-07-20T04:59:11+00:00
+ORD-041232,4,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,refunded,2026-07-20T12:55:22+00:00
+ORD-041233,6,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T13:06:54+00:00
+ORD-041234,2,2,Wireless Mouse,peripherals,1,49.50,49.50,completed,2026-07-20T05:46:16+00:00
+ORD-041235,4,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,completed,2026-07-20T13:37:03+00:00
+ORD-041236,5,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T06:27:37+00:00
+ORD-041237,10,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,pending,2026-07-20T17:26:18+00:00
+ORD-041238,1,3,27in 1440p Monitor,displays,4,319.99,1279.96,refunded,2026-07-20T08:55:37+00:00
+ORD-041239,4,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T01:52:11+00:00
+ORD-041240,8,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T04:01:40+00:00
+ORD-041241,1,5,Over-ear Headphones,audio,5,199.95,999.75,pending,2026-07-20T08:54:12+00:00
+ORD-041242,8,6,Desk Speakers Pair,audio,4,89.00,356.00,cancelled,2026-07-20T03:55:25+00:00
+ORD-041243,8,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T18:55:43+00:00
+ORD-041244,8,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T21:03:22+00:00
+ORD-041245,7,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,refunded,2026-07-20T10:38:26+00:00
+ORD-041246,1,2,Wireless Mouse,peripherals,5,49.50,247.50,cancelled,2026-07-20T07:59:52+00:00
+ORD-041247,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,pending,2026-07-20T11:26:30+00:00
+ORD-041248,2,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T01:10:38+00:00
+ORD-041249,4,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T22:23:13+00:00
+ORD-041250,9,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T02:32:54+00:00
+ORD-041251,7,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T03:32:59+00:00
+ORD-041252,7,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T21:56:26+00:00
+ORD-041253,4,8,Ergonomic Chair,furniture,2,612.75,1225.50,completed,2026-07-20T13:45:37+00:00
+ORD-041254,2,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T17:23:03+00:00
+ORD-041255,4,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T19:09:11+00:00
+ORD-041256,9,7,Standing Desk 120cm,furniture,1,449.00,449.00,pending,2026-07-20T16:22:14+00:00
+ORD-041257,6,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,completed,2026-07-20T06:18:47+00:00
+ORD-041258,2,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T16:49:15+00:00
+ORD-041259,3,5,Over-ear Headphones,audio,1,199.95,199.95,refunded,2026-07-20T00:00:23+00:00
+ORD-041260,4,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T14:39:03+00:00
+ORD-041261,7,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T01:28:09+00:00
+ORD-041262,4,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T20:29:29+00:00
+ORD-041263,1,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T12:24:29+00:00
+ORD-041264,7,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T08:24:45+00:00
+ORD-041265,8,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T00:49:36+00:00
+ORD-041266,9,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T18:43:11+00:00
+ORD-041267,3,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T14:21:27+00:00
+ORD-041268,3,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,pending,2026-07-20T02:42:52+00:00
+ORD-041269,8,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T13:22:20+00:00
+ORD-041270,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T03:43:10+00:00
+ORD-041271,3,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T23:29:50+00:00
+ORD-041272,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T10:13:46+00:00
+ORD-041273,4,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T02:00:32+00:00
+ORD-041274,9,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T00:49:55+00:00
+ORD-041275,2,2,Wireless Mouse,peripherals,2,49.50,99.00,completed,2026-07-20T20:15:10+00:00
+ORD-041276,9,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T20:14:01+00:00
+ORD-041277,5,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T20:25:56+00:00
+ORD-041278,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T04:52:17+00:00
+ORD-041279,7,5,Over-ear Headphones,audio,2,199.95,399.90,completed,2026-07-20T09:02:54+00:00
+ORD-041280,10,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T14:54:08+00:00
+ORD-041281,1,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T01:42:06+00:00
+ORD-041282,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T04:57:22+00:00
+ORD-041283,2,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T04:08:11+00:00
+ORD-041284,4,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T13:56:47+00:00
+ORD-041285,4,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,cancelled,2026-07-20T04:10:02+00:00
+ORD-041286,7,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T16:28:57+00:00
+ORD-041287,8,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T13:25:24+00:00
+ORD-041288,6,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,completed,2026-07-20T23:41:42+00:00
+ORD-041289,4,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T22:58:50+00:00
+ORD-041290,6,2,Wireless Mouse,peripherals,4,49.50,198.00,cancelled,2026-07-20T15:20:57+00:00
+ORD-041291,6,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T23:35:34+00:00
+ORD-041292,4,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T02:24:31+00:00
+ORD-041293,10,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T06:27:41+00:00
+ORD-041294,1,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T11:06:23+00:00
+ORD-041295,7,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T07:05:14+00:00
+ORD-041296,10,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T05:43:49+00:00
+ORD-041297,9,7,Standing Desk 120cm,furniture,5,449.00,2245.00,cancelled,2026-07-20T04:34:31+00:00
+ORD-041298,10,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,completed,2026-07-20T23:07:34+00:00
+ORD-041299,10,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T18:53:15+00:00
+ORD-041300,6,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T13:22:41+00:00
+ORD-041301,3,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,pending,2026-07-20T01:12:29+00:00
+ORD-041302,2,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T17:59:50+00:00
+ORD-041303,1,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T00:22:22+00:00
+ORD-041304,4,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T15:40:57+00:00
+ORD-041305,6,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,cancelled,2026-07-20T19:25:11+00:00
+ORD-041306,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T09:35:57+00:00
+ORD-041307,1,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T16:07:19+00:00
+ORD-041308,2,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T00:11:17+00:00
+ORD-041309,6,3,27in 1440p Monitor,displays,3,319.99,959.97,refunded,2026-07-20T22:38:01+00:00
+ORD-041310,7,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,pending,2026-07-20T14:23:38+00:00
+ORD-041311,10,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T22:55:06+00:00
+ORD-041312,8,8,Ergonomic Chair,furniture,2,612.75,1225.50,cancelled,2026-07-20T18:29:03+00:00
+ORD-041313,4,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T05:09:12+00:00
+ORD-041314,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T19:57:49+00:00
+ORD-041315,3,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,refunded,2026-07-20T08:22:51+00:00
+ORD-041316,2,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T03:47:48+00:00
+ORD-041317,5,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T10:21:32+00:00
+ORD-041318,2,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T08:01:48+00:00
+ORD-041319,5,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T22:58:11+00:00
+ORD-041320,8,7,Standing Desk 120cm,furniture,1,449.00,449.00,refunded,2026-07-20T23:11:48+00:00
+ORD-041321,4,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T07:47:26+00:00
+ORD-041322,4,6,Desk Speakers Pair,audio,2,89.00,178.00,completed,2026-07-20T14:22:17+00:00
+ORD-041323,7,2,Wireless Mouse,peripherals,3,49.50,148.50,completed,2026-07-20T03:11:12+00:00
+ORD-041324,10,6,Desk Speakers Pair,audio,2,89.00,178.00,refunded,2026-07-20T10:07:54+00:00
+ORD-041325,8,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T22:31:07+00:00
+ORD-041326,6,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T17:03:52+00:00
+ORD-041327,9,8,Ergonomic Chair,furniture,2,612.75,1225.50,pending,2026-07-20T15:28:41+00:00
+ORD-041328,6,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T21:56:21+00:00
+ORD-041329,8,2,Wireless Mouse,peripherals,5,49.50,247.50,refunded,2026-07-20T08:28:50+00:00
+ORD-041330,9,2,Wireless Mouse,peripherals,2,49.50,99.00,cancelled,2026-07-20T17:50:13+00:00
+ORD-041331,3,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T00:57:34+00:00
+ORD-041332,10,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T17:11:13+00:00
+ORD-041333,3,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T14:57:42+00:00
+ORD-041334,4,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T20:06:37+00:00
+ORD-041335,10,6,Desk Speakers Pair,audio,1,89.00,89.00,cancelled,2026-07-20T05:13:38+00:00
+ORD-041336,2,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T19:47:07+00:00
+ORD-041337,4,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,completed,2026-07-20T08:10:02+00:00
+ORD-041338,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,cancelled,2026-07-20T00:57:07+00:00
+ORD-041339,7,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,refunded,2026-07-20T00:59:19+00:00
+ORD-041340,9,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T03:16:58+00:00
+ORD-041341,6,6,Desk Speakers Pair,audio,5,89.00,445.00,completed,2026-07-20T06:28:20+00:00
+ORD-041342,9,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T09:12:23+00:00
+ORD-041343,5,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,completed,2026-07-20T15:44:29+00:00
+ORD-041344,7,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T18:42:28+00:00
+ORD-041345,1,2,Wireless Mouse,peripherals,3,49.50,148.50,refunded,2026-07-20T07:22:41+00:00
+ORD-041346,6,2,Wireless Mouse,peripherals,1,49.50,49.50,cancelled,2026-07-20T08:56:12+00:00
+ORD-041347,3,7,Standing Desk 120cm,furniture,4,449.00,1796.00,completed,2026-07-20T21:58:13+00:00
+ORD-041348,8,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,cancelled,2026-07-20T21:50:34+00:00
+ORD-041349,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T16:41:04+00:00
+ORD-041350,9,8,Ergonomic Chair,furniture,1,612.75,612.75,pending,2026-07-20T04:21:57+00:00
+ORD-041351,1,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T22:16:27+00:00
+ORD-041352,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,pending,2026-07-20T06:47:40+00:00
+ORD-041353,10,3,27in 1440p Monitor,displays,2,319.99,639.98,pending,2026-07-20T01:31:06+00:00
+ORD-041354,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T01:25:36+00:00
+ORD-041355,1,2,Wireless Mouse,peripherals,3,49.50,148.50,completed,2026-07-20T11:28:10+00:00
+ORD-041356,1,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,pending,2026-07-20T10:54:45+00:00
+ORD-041357,6,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T03:43:23+00:00
+ORD-041358,4,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T12:34:45+00:00
+ORD-041359,7,2,Wireless Mouse,peripherals,1,49.50,49.50,pending,2026-07-20T12:36:14+00:00
+ORD-041360,10,3,27in 1440p Monitor,displays,1,319.99,319.99,pending,2026-07-20T00:07:50+00:00
+ORD-041361,8,3,27in 1440p Monitor,displays,5,319.99,1599.95,cancelled,2026-07-20T00:54:12+00:00
+ORD-041362,6,8,Ergonomic Chair,furniture,4,612.75,2451.00,refunded,2026-07-20T09:26:14+00:00
+ORD-041363,5,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T07:46:15+00:00
+ORD-041364,7,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,cancelled,2026-07-20T10:53:39+00:00
+ORD-041365,4,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T05:23:17+00:00
+ORD-041366,8,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T21:55:50+00:00
+ORD-041367,8,3,27in 1440p Monitor,displays,2,319.99,639.98,completed,2026-07-20T07:29:11+00:00
+ORD-041368,10,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T01:51:28+00:00
+ORD-041369,7,6,Desk Speakers Pair,audio,5,89.00,445.00,cancelled,2026-07-20T22:31:46+00:00
+ORD-041370,9,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,completed,2026-07-20T09:13:25+00:00
+ORD-041371,10,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T07:43:43+00:00
+ORD-041372,3,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,refunded,2026-07-20T02:12:05+00:00
+ORD-041373,5,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T15:50:49+00:00
+ORD-041374,6,8,Ergonomic Chair,furniture,4,612.75,2451.00,completed,2026-07-20T21:26:27+00:00
+ORD-041375,7,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T22:11:21+00:00
+ORD-041376,10,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T07:01:28+00:00
+ORD-041377,1,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T03:51:25+00:00
+ORD-041378,10,3,27in 1440p Monitor,displays,4,319.99,1279.96,cancelled,2026-07-20T21:21:39+00:00
+ORD-041379,1,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T13:00:36+00:00
+ORD-041380,1,2,Wireless Mouse,peripherals,3,49.50,148.50,cancelled,2026-07-20T00:23:10+00:00
+ORD-041381,9,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T20:07:56+00:00
+ORD-041382,6,4,34in Ultrawide Monitor,displays,1,579.00,579.00,cancelled,2026-07-20T12:57:57+00:00
+ORD-041383,7,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T10:12:32+00:00
+ORD-041384,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T15:56:05+00:00
+ORD-041385,10,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T18:48:38+00:00
+ORD-041386,10,4,34in Ultrawide Monitor,displays,1,579.00,579.00,pending,2026-07-20T08:08:38+00:00
+ORD-041387,5,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,refunded,2026-07-20T15:33:27+00:00
+ORD-041388,4,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,completed,2026-07-20T05:11:47+00:00
+ORD-041389,3,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T19:25:14+00:00
+ORD-041390,10,2,Wireless Mouse,peripherals,4,49.50,198.00,refunded,2026-07-20T04:44:22+00:00
+ORD-041391,5,8,Ergonomic Chair,furniture,4,612.75,2451.00,pending,2026-07-20T19:37:08+00:00
+ORD-041392,4,3,27in 1440p Monitor,displays,3,319.99,959.97,pending,2026-07-20T18:07:52+00:00
+ORD-041393,7,2,Wireless Mouse,peripherals,5,49.50,247.50,refunded,2026-07-20T10:19:12+00:00
+ORD-041394,2,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T17:06:59+00:00
+ORD-041395,3,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T16:31:04+00:00
+ORD-041396,1,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T08:28:56+00:00
+ORD-041397,10,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T08:56:30+00:00
+ORD-041398,4,6,Desk Speakers Pair,audio,5,89.00,445.00,pending,2026-07-20T04:13:06+00:00
+ORD-041399,10,3,27in 1440p Monitor,displays,5,319.99,1599.95,pending,2026-07-20T21:20:27+00:00
+ORD-041400,6,7,Standing Desk 120cm,furniture,4,449.00,1796.00,refunded,2026-07-20T12:47:59+00:00
+ORD-041401,7,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T03:20:36+00:00
+ORD-041402,8,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T03:41:52+00:00
+ORD-041403,1,7,Standing Desk 120cm,furniture,3,449.00,1347.00,pending,2026-07-20T14:32:19+00:00
+ORD-041404,1,2,Wireless Mouse,peripherals,3,49.50,148.50,pending,2026-07-20T13:05:58+00:00
+ORD-041405,10,9,USB-C Hub 8-in-1,accessories,2,39.99,79.98,pending,2026-07-20T20:48:46+00:00
+ORD-041406,6,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T10:11:38+00:00
+ORD-041407,8,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,refunded,2026-07-20T06:45:42+00:00
+ORD-041408,1,3,27in 1440p Monitor,displays,3,319.99,959.97,cancelled,2026-07-20T15:35:07+00:00
+ORD-041409,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T05:39:46+00:00
+ORD-041410,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T08:40:41+00:00
+ORD-041411,7,3,27in 1440p Monitor,displays,4,319.99,1279.96,completed,2026-07-20T13:31:26+00:00
+ORD-041412,9,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T12:39:40+00:00
+ORD-041413,3,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T21:01:57+00:00
+ORD-041414,8,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T13:18:31+00:00
+ORD-041415,1,6,Desk Speakers Pair,audio,4,89.00,356.00,pending,2026-07-20T09:11:23+00:00
+ORD-041416,8,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,cancelled,2026-07-20T14:19:46+00:00
+ORD-041417,7,6,Desk Speakers Pair,audio,2,89.00,178.00,pending,2026-07-20T09:45:40+00:00
+ORD-041418,5,8,Ergonomic Chair,furniture,1,612.75,612.75,completed,2026-07-20T13:46:41+00:00
+ORD-041419,9,4,34in Ultrawide Monitor,displays,2,579.00,1158.00,cancelled,2026-07-20T03:53:40+00:00
+ORD-041420,1,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T14:29:00+00:00
+ORD-041421,4,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T00:03:35+00:00
+ORD-041422,10,1,Mechanical Keyboard 75%,peripherals,5,129.00,645.00,cancelled,2026-07-20T10:27:44+00:00
+ORD-041423,6,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T19:31:06+00:00
+ORD-041424,1,7,Standing Desk 120cm,furniture,3,449.00,1347.00,completed,2026-07-20T04:23:44+00:00
+ORD-041425,2,4,34in Ultrawide Monitor,displays,4,579.00,2316.00,pending,2026-07-20T20:25:24+00:00
+ORD-041426,8,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,refunded,2026-07-20T08:09:01+00:00
+ORD-041427,3,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T15:57:33+00:00
+ORD-041428,1,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T19:51:36+00:00
+ORD-041429,6,7,Standing Desk 120cm,furniture,3,449.00,1347.00,cancelled,2026-07-20T10:08:25+00:00
+ORD-041430,6,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,completed,2026-07-20T18:31:43+00:00
+ORD-041431,7,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,pending,2026-07-20T14:10:04+00:00
+ORD-041432,9,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T22:37:55+00:00
+ORD-041433,1,5,Over-ear Headphones,audio,5,199.95,999.75,cancelled,2026-07-20T05:15:36+00:00
+ORD-041434,3,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,cancelled,2026-07-20T15:04:56+00:00
+ORD-041435,6,5,Over-ear Headphones,audio,4,199.95,799.80,pending,2026-07-20T01:04:44+00:00
+ORD-041436,5,5,Over-ear Headphones,audio,1,199.95,199.95,completed,2026-07-20T07:18:12+00:00
+ORD-041437,4,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,completed,2026-07-20T00:49:33+00:00
+ORD-041438,5,5,Over-ear Headphones,audio,3,199.95,599.85,refunded,2026-07-20T14:03:02+00:00
+ORD-041439,7,6,Desk Speakers Pair,audio,2,89.00,178.00,cancelled,2026-07-20T09:09:30+00:00
+ORD-041440,5,1,Mechanical Keyboard 75%,peripherals,4,129.00,516.00,pending,2026-07-20T19:29:43+00:00
+ORD-041441,10,6,Desk Speakers Pair,audio,3,89.00,267.00,pending,2026-07-20T00:34:18+00:00
+ORD-041442,9,5,Over-ear Headphones,audio,2,199.95,399.90,cancelled,2026-07-20T17:43:46+00:00
+ORD-041443,3,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T12:10:03+00:00
+ORD-041444,5,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,completed,2026-07-20T17:25:20+00:00
+ORD-041445,8,7,Standing Desk 120cm,furniture,3,449.00,1347.00,refunded,2026-07-20T08:33:44+00:00
+ORD-041446,10,2,Wireless Mouse,peripherals,4,49.50,198.00,pending,2026-07-20T03:47:53+00:00
+ORD-041447,9,8,Ergonomic Chair,furniture,1,612.75,612.75,refunded,2026-07-20T15:45:09+00:00
+ORD-041448,7,2,Wireless Mouse,peripherals,5,49.50,247.50,completed,2026-07-20T22:39:48+00:00
+ORD-041449,10,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T05:24:15+00:00
+ORD-041450,2,8,Ergonomic Chair,furniture,4,612.75,2451.00,cancelled,2026-07-20T15:14:50+00:00
+ORD-041451,2,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,cancelled,2026-07-20T20:17:57+00:00
+ORD-041452,7,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T10:43:45+00:00
+ORD-041453,9,10,Laptop Stand Aluminium,accessories,4,27.50,110.00,completed,2026-07-20T07:18:18+00:00
+ORD-041454,6,7,Standing Desk 120cm,furniture,2,449.00,898.00,refunded,2026-07-20T12:14:25+00:00
+ORD-041455,6,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T20:56:05+00:00
+ORD-041456,6,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T19:16:03+00:00
+ORD-041457,2,9,USB-C Hub 8-in-1,accessories,1,39.99,39.99,pending,2026-07-20T10:23:41+00:00
+ORD-041458,7,6,Desk Speakers Pair,audio,3,89.00,267.00,cancelled,2026-07-20T22:20:47+00:00
+ORD-041459,10,7,Standing Desk 120cm,furniture,5,449.00,2245.00,completed,2026-07-20T11:18:24+00:00
+ORD-041460,6,2,Wireless Mouse,peripherals,5,49.50,247.50,pending,2026-07-20T08:27:26+00:00
+ORD-041461,9,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T04:10:25+00:00
+ORD-041462,5,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,cancelled,2026-07-20T19:12:31+00:00
+ORD-041463,1,6,Desk Speakers Pair,audio,4,89.00,356.00,completed,2026-07-20T21:45:22+00:00
+ORD-041464,10,4,34in Ultrawide Monitor,displays,5,579.00,2895.00,refunded,2026-07-20T17:00:45+00:00
+ORD-041465,2,8,Ergonomic Chair,furniture,5,612.75,3063.75,completed,2026-07-20T02:09:54+00:00
+ORD-041466,10,1,Mechanical Keyboard 75%,peripherals,3,129.00,387.00,pending,2026-07-20T05:29:13+00:00
+ORD-041467,5,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,cancelled,2026-07-20T03:17:18+00:00
+ORD-041468,10,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T23:28:58+00:00
+ORD-041469,5,8,Ergonomic Chair,furniture,3,612.75,1838.25,pending,2026-07-20T12:13:52+00:00
+ORD-041470,9,7,Standing Desk 120cm,furniture,2,449.00,898.00,completed,2026-07-20T18:08:02+00:00
+ORD-041471,10,9,USB-C Hub 8-in-1,accessories,5,39.99,199.95,refunded,2026-07-20T17:59:51+00:00
+ORD-041472,1,10,Laptop Stand Aluminium,accessories,3,27.50,82.50,refunded,2026-07-20T19:48:34+00:00
+ORD-041473,10,1,Mechanical Keyboard 75%,peripherals,1,129.00,129.00,completed,2026-07-20T21:57:08+00:00
+ORD-041474,3,10,Laptop Stand Aluminium,accessories,5,27.50,137.50,completed,2026-07-20T03:43:08+00:00
+ORD-041475,3,5,Over-ear Headphones,audio,3,199.95,599.85,completed,2026-07-20T07:19:05+00:00
+ORD-041476,7,9,USB-C Hub 8-in-1,accessories,4,39.99,159.96,refunded,2026-07-20T10:25:37+00:00
+ORD-041477,4,5,Over-ear Headphones,audio,4,199.95,799.80,completed,2026-07-20T02:00:27+00:00
+ORD-041478,2,5,Over-ear Headphones,audio,1,199.95,199.95,pending,2026-07-20T08:47:01+00:00
+ORD-041479,4,8,Ergonomic Chair,furniture,5,612.75,3063.75,cancelled,2026-07-20T09:26:27+00:00
+ORD-041480,1,2,Wireless Mouse,peripherals,3,49.50,148.50,completed,2026-07-20T03:09:11+00:00
+ORD-041481,2,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,cancelled,2026-07-20T05:44:19+00:00
+ORD-041482,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,refunded,2026-07-20T13:44:20+00:00
+ORD-041483,8,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,cancelled,2026-07-20T18:04:42+00:00
+ORD-041484,2,6,Desk Speakers Pair,audio,5,89.00,445.00,refunded,2026-07-20T14:18:40+00:00
+ORD-041485,5,6,Desk Speakers Pair,audio,3,89.00,267.00,completed,2026-07-20T22:48:25+00:00
+ORD-041486,1,3,27in 1440p Monitor,displays,5,319.99,1599.95,completed,2026-07-20T01:52:41+00:00
+ORD-041487,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,pending,2026-07-20T05:52:34+00:00
+ORD-041488,8,5,Over-ear Headphones,audio,5,199.95,999.75,refunded,2026-07-20T16:27:09+00:00
+ORD-041489,2,10,Laptop Stand Aluminium,accessories,2,27.50,55.00,refunded,2026-07-20T13:32:47+00:00
+ORD-041490,4,6,Desk Speakers Pair,audio,1,89.00,89.00,refunded,2026-07-20T06:19:39+00:00
+ORD-041491,5,1,Mechanical Keyboard 75%,peripherals,2,129.00,258.00,refunded,2026-07-20T06:35:52+00:00
+ORD-041492,2,4,34in Ultrawide Monitor,displays,3,579.00,1737.00,refunded,2026-07-20T11:02:12+00:00
+ORD-041493,10,7,Standing Desk 120cm,furniture,1,449.00,449.00,cancelled,2026-07-20T18:55:48+00:00
+ORD-041494,10,2,Wireless Mouse,peripherals,2,49.50,99.00,refunded,2026-07-20T00:23:49+00:00
+ORD-041495,6,7,Standing Desk 120cm,furniture,4,449.00,1796.00,cancelled,2026-07-20T16:37:28+00:00
+ORD-041496,10,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,completed,2026-07-20T17:57:21+00:00
+ORD-041497,5,7,Standing Desk 120cm,furniture,5,449.00,2245.00,refunded,2026-07-20T13:00:59+00:00
+ORD-041498,3,8,Ergonomic Chair,furniture,5,612.75,3063.75,pending,2026-07-20T21:59:12+00:00
+ORD-041499,9,3,27in 1440p Monitor,displays,2,319.99,639.98,refunded,2026-07-20T05:47:50+00:00
+ORD-041500,4,5,Over-ear Headphones,audio,5,199.95,999.75,completed,2026-07-20T07:08:50+00:00
+ORD-041501,2,3,27in 1440p Monitor,displays,1,319.99,319.99,completed,2026-07-20T17:31:31+00:00
+ORD-041502,2,9,USB-C Hub 8-in-1,accessories,3,39.99,119.97,pending,2026-07-20T11:03:53+00:00
+ORD-041503,3,10,Laptop Stand Aluminium,accessories,1,27.50,27.50,completed,2026-07-20T17:22:23+00:00
