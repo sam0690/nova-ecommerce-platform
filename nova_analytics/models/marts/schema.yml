@@ -67,3 +67,27 @@ models:
           metrics:
             total_quantity:
               type: sum
+
+  - name: dim_customers
+    description: Customer dimension, one row per customer, joined to fct_orders on customer_id.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+        meta:
+          dimension:
+            type: number
+      - name: name
+        meta:
+          dimension:
+            type: string
+            label: Customer Name
+      - name: country
+        meta:
+          dimension:
+            type: string
+      - name: signup_date
+        meta:
+          dimension:
+            type: date

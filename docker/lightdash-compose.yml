@@ -72,8 +72,8 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      # Your dbt project, so Lightdash can read the models and their meta: blocks.
-      - ../nova_analytics:/usr/app/dbt:ro
+      # Your dbt project. NOT :ro — `dbt deps` writes dbt_packages/ and logs/ in here.
+      - ../nova_analytics:/usr/app/dbt:z   # :z relabels for SELinux (Fedora enforcing)
 
 volumes:
   lightdash_pgdata:
