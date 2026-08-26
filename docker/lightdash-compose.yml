@@ -1,0 +1,55 @@
+# Lightdash BI, kept separate from the project's teaching docker-compose.yml.
+#   docker compose -f docker/lightdash-compose.yml up -d --wait
+services:
+  # Lightdash's OWN database: users, saved charts, dashboards.
+  # Nothing to do with the `nova` warehouse — do not point Lightdash's PG* vars at nova.
+  lightdash-db:
+    image: postgres:16
+    container_name: lightdash-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: lightdash
+      POSTGRES_PASSWORD: lightdash
+      POSTGRES_DB: lightdash
+    volumes:
+      - lightdash_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lightdash -d lightdash"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  lightdash:
+    image: lightdash/lightdash:latest
+    container_name: lightdash
+    restart: unless-stopped
+    depends_on:
+      lightdash-db:
+        condition: service_healthy
+    env_file: .env.lightdash
+    environment:
+      # Metadata DB — the service above, not the warehouse.
+      PGHOST: lightdash-db
+      PGPORT: 5432
+      PGUSER: lightdash
+      PGPASSWORD: lightdash
+      PGDATABASE: lightdash
+      SITE_URL: http://localhost:8080
+      SECURE_COOKIES: "false"        # plain http on localhost
+      DBT_PROJECT_DIR: /usr/app/dbt
+    ports:
+      - "8080:8080"
+    volumes:
+      # Your dbt project, so Lightdash can read the models and their meta: blocks.
+      - ../nova_analytics:/usr/app/dbt:ro
+
+volumes:
+  lightdash_pgdata:
+
+# Your warehouse's network, created by the root docker-compose.yml.
+# Joining it means Lightdash reaches Postgres at host `postgres`, port 5432 —
+# container-to-container, so the host firewall/VPN is never in the path.
+networks:
+  default:
+    name: nova-ecommerce-platform_default
+    external: true

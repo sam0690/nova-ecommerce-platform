@@ -8,3 +8,10 @@ logs/
 docs/SETUP.md
 CLAUDE.md
 PROGRESS.md
+docker/.env.lightdash
+
+# Generated order data — reproduce with `python scripts/generte_orders_data.py` (seed 42).
+# The *_bad.csv fixture is hand-made and NOT regenerated, so it stays tracked.
+data/orders_*.csv
+!data/orders_*_bad.csv
+data/dead_letter_*.jsonl
