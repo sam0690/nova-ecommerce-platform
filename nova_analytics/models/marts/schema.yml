@@ -3,25 +3,67 @@ version: 2
 models:
   - name: fct_orders
     description: One row per order line, sourced from the CSV ETL.
+    meta:
+      metrics:
+        avg_order_value:
+          type: number
+          sql: ${total_revenue} / NULLIF(${total_orders}, 0)
+      joins:
+        - join: dim_customers
+          sql_on: ${fct_orders.customer_id} = ${dim_customers.customer_id}
     columns:
       - name: order_id
         data_tests:
           - unique
           - not_null
+        meta:
+          metrics:
+            total_orders:
+              type: count_distinct
       - name: amount
         data_tests:
           - not_null
+        meta:
+          metrics:
+            total_revenue:
+              type: sum
+              filters:
+                - status: completed
+            gross_amount:
+              type: sum
       - name: order_date
         data_tests:
           - not_null
+        meta:
+          dimension:
+            type: date
       - name: status
         data_tests:
           - accepted_values:
               arguments:
                 values: [pending, completed, cancelled, refunded]
+        meta:
+          dimension:
+            type: string
       - name: customer_id
         data_tests:
           - relationships:
               arguments:
                 to: source('shop', 'customers')
                 field: id
+        meta:
+          dimension:
+            type: number
+      - name: category
+        meta:
+          dimension:
+            type: string
+      - name: product_name
+        meta:
+          dimension:
+            type: string
+      - name: quantity
+        meta:
+          metrics:
+            total_quantity:
+              type: sum
