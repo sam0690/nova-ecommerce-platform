@@ -1,0 +1,186 @@
+# Airflow 3.3, kept separate from the project's teaching docker-compose.yml.
+#   docker compose -f docker/airflow-compose.yml up -d --wait
+#   UI: http://localhost:8081   (8080 is Lightdash)
+#
+# This is the OFFICIAL compose from the Airflow docs with everything we don't
+# need deleted: no Redis, no Celery worker, no Flower, no triggerer. Those exist
+# to run tasks on separate machines. We run on one laptop, so LocalExecutor —
+# the scheduler forks a subprocess per task — is the whole story.
+
+# Every Airflow service runs the same image with the same env and mounts.
+# YAML anchors (&name / *name) let us write that once instead of four times.
+x-airflow-common: &airflow-common
+  image: apache/airflow:3.3.1
+  # Airflow's own secrets, gitignored. Copy .env.airflow.example to create it.
+  # The warehouse credentials come from the project's existing .env rather than
+  # being duplicated here. Step 14 replaces this with an Airflow Connection —
+  # this is the "it works, and we know why it's temporary" version.
+  env_file:
+    - .env.airflow
+    - ../.env
+  environment: &airflow-common-env
+    # LocalExecutor: run tasks as subprocesses of the scheduler. The alternative,
+    # CeleryExecutor, needs Redis + worker containers to hand tasks to other hosts.
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+
+    # Airflow's OWN database: DAG runs, task state, connections. Nothing to do
+    # with the `nova` warehouse — same separation as lightdash-db.
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db/airflow
+
+    # Airflow 3 split the UI/API out as "api-server", and tasks call back into it
+    # to report state. This is the address they call. Container-to-container, so
+    # port 8080 here is correct even though the host maps it to 8081.
+    AIRFLOW__CORE__EXECUTION_API_SERVER_URL: http://airflow-apiserver:8080/execution/
+
+    # Username/password login. Airflow 3's default auth manager instead generates
+    # a random password into a file on every start, which is fine for a demo and
+    # annoying for a project you come back to.
+    AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+
+    # Don't ship 50 tutorial DAGs into the UI. We want an empty list, so the
+    # first DAG that appears is one we wrote.
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+
+    # A new DAG shows up paused. You unpause it deliberately — otherwise adding a
+    # DAG with catchup enabled immediately kicks off months of backfill runs.
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+
+    # Our code, importable from inside a task.
+    PYTHONPATH: /opt/airflow/nova
+
+    # Whose localhost is it? The ETL's .env says localhost:5434 because that's
+    # where YOUR terminal finds Postgres. A container is not your terminal: it
+    # reaches the warehouse over the shared Docker network as postgres:5432.
+    # load_dotenv() does not overwrite variables that are already set, so these win.
+    POSTGRES_HOST: postgres
+    POSTGRES_PORT: '5432'
+
+    # ponytail: installs on every container start (~20s x4). Build a Dockerfile
+    # FROM apache/airflow when the wait gets annoying or the list grows past ~3.
+    _PIP_ADDITIONAL_REQUIREMENTS: 'psycopg[binary]'
+
+  volumes:
+    - ../dags:/opt/airflow/dags:z            # :z relabels for SELinux (Fedora enforcing)
+    - ../logs/airflow:/opt/airflow/logs:z    # task logs, readable from the host
+    - ../ingestion:/opt/airflow/nova/ingestion:z
+    - ../src:/opt/airflow/nova/src:z         # src.models — csv_loader imports it
+    - ../data:/opt/airflow/nova/data:z       # the daily CSVs the ETL reads
+    - ../nova_analytics:/opt/airflow/nova/nova_analytics:z   # dbt project, needed from step 11
+
+  # Run as you, not as root, so files the container writes into the mounts above
+  # stay editable from your terminal. 1000 is your uid (`id -u`); 0 is the group
+  # the Airflow image expects to own /opt/airflow.
+  user: "1000:0"
+
+  depends_on: &airflow-common-depends-on
+    airflow-db:
+      condition: service_healthy
+
+services:
+  airflow-db:
+    image: postgres:16
+    container_name: airflow-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # Runs once and exits. Creates the schema and the admin user, then gets out of
+  # the way. The other three services wait for it to finish successfully.
+  airflow-init:
+    <<: *airflow-common
+    container_name: airflow-init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        mkdir -p /opt/airflow/logs
+        chown -R 1000:0 /opt/airflow/logs
+        # The image entrypoint reads the _AIRFLOW_* vars below and does the work;
+        # `airflow version` is just a cheap command to make it run.
+        /entrypoint airflow version
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'        # create/upgrade Airflow's own tables
+      _AIRFLOW_WWW_USER_CREATE: 'true'   # username comes from .env.airflow
+      _PIP_ADDITIONAL_REQUIREMENTS: ''   # init doesn't run our code; skip the install
+    user: "0:0"                          # root, so the chown above is allowed
+
+  # The web UI and the API that running tasks report their state to.
+  airflow-apiserver:
+    <<: *airflow-common
+    container_name: airflow-apiserver
+    command: api-server
+    ports:
+      - "8081:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/api/v2/monitor/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    restart: unless-stopped
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  # Decides what should run now and runs it. With LocalExecutor the tasks are
+  # subprocesses of this container — so this is where your task logs come from.
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow-scheduler
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    restart: unless-stopped
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  # Reads dags/, parses the Python, writes what it found to the database.
+  # Airflow 3 made this its own process: a DAG file with an import error or an
+  # infinite loop can no longer take the scheduler down with it. When a new DAG
+  # doesn't appear in the UI, this container's logs are where the answer is.
+  airflow-dag-processor:
+    <<: *airflow-common
+    container_name: airflow-dag-processor
+    command: dag-processor
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type DagProcessorJob --hostname "$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    restart: unless-stopped
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+# ponytail: no triggerer. It only runs deferrable operators, and we have none.
+# Add it the day a sensor should release its worker slot while it waits.
+
+volumes:
+  airflow_pgdata:
+
+# The warehouse's network, created by the root docker-compose.yml. Joining it is
+# what lets a task reach the warehouse at postgres:5432 — container to container,
+# so the host firewall and the VPN are never in the path.
+networks:
+  default:
+    name: nova-ecommerce-platform_default
+    external: true
