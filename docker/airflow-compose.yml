@@ -11,13 +11,15 @@
 # YAML anchors (&name / *name) let us write that once instead of four times.
 x-airflow-common: &airflow-common
   image: apache/airflow:3.3.1
-  # Airflow's own secrets, gitignored. Copy .env.airflow.example to create it.
-  # The warehouse credentials come from the project's existing .env rather than
-  # being duplicated here. Step 14 replaces this with an Airflow Connection —
-  # this is the "it works, and we know why it's temporary" version.
+  # Airflow's OWN secrets, gitignored: the Fernet key that encrypts Connection
+  # passwords in the metadata DB, the JWT secret the services authenticate to
+  # each other with, and the admin login. Copy .env.airflow.example to create it.
+  #
+  # The project's ../.env used to be listed here too, which put the warehouse
+  # password into the environment of all four containers. Step 14 removed it:
+  # the credentials now come from the `nova_warehouse` Airflow Connection.
   env_file:
     - .env.airflow
-    - ../.env
   environment: &airflow-common-env
     # LocalExecutor: run tasks as subprocesses of the scheduler. The alternative,
     # CeleryExecutor, needs Redis + worker containers to hand tasks to other hosts.
@@ -48,6 +50,9 @@ x-airflow-common: &airflow-common
     # Our code, importable from inside a task.
     PYTHONPATH: /opt/airflow/nova
 
+    # Use the repo's profiles.yml, not the image's empty ~/.dbt.
+    DBT_PROFILES_DIR: /opt/airflow/nova/nova_analytics
+
     # Whose localhost is it? The ETL's .env says localhost:5434 because that's
     # where YOUR terminal finds Postgres. A container is not your terminal: it
     # reaches the warehouse over the shared Docker network as postgres:5432.
@@ -57,7 +62,7 @@ x-airflow-common: &airflow-common
 
     # ponytail: installs on every container start (~20s x4). Build a Dockerfile
     # FROM apache/airflow when the wait gets annoying or the list grows past ~3.
-    _PIP_ADDITIONAL_REQUIREMENTS: 'psycopg[binary]'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'psycopg[binary] dbt-postgres'
 
   volumes:
     - ../dags:/opt/airflow/dags:z            # :z relabels for SELinux (Fedora enforcing)
@@ -142,7 +147,7 @@ services:
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
       interval: 30s
-      timeout: 10s
+      timeout: 30s
       retries: 5
       start_period: 60s
     restart: unless-stopped
@@ -162,7 +167,7 @@ services:
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type DagProcessorJob --hostname "$${HOSTNAME}"']
       interval: 30s
-      timeout: 10s
+      timeout: 30s
       retries: 5
       start_period: 60s
     restart: unless-stopped

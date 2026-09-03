@@ -1,0 +1,24 @@
+# Connection for dbt. Deliberately env-driven so ONE file is correct from both
+# your terminal and inside the Airflow container — the values differ, the file
+# doesn't. This is the same trick the ETL uses (see docker/airflow-compose.yml):
+#
+#   your terminal    POSTGRES_HOST=localhost  POSTGRES_PORT=5434   (from .env)
+#   in a container   POSTGRES_HOST=postgres   POSTGRES_PORT=5432   (compose wins)
+#
+# The defaults below are the host-side values, so `dbt build` from your terminal
+# works with nothing exported except the password.
+#
+# No password here. Never commit credentials — it comes from .env, which is
+# gitignored, and which compose already loads into every Airflow service.
+nova_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('POSTGRES_HOST', 'localhost') }}"
+      port: "{{ env_var('POSTGRES_PORT', '5434') | int }}"
+      user: "{{ env_var('POSTGRES_USER', 'nova') }}"
+      pass: "{{ env_var('POSTGRES_PASSWORD') }}"
+      dbname: "{{ env_var('POSTGRES_DB', 'nova') }}"
+      schema: analytics
+      threads: 2

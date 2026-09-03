@@ -16,3 +16,6 @@ docker/.env.airflow
 data/orders_*.csv
 !data/orders_*_bad.csv
 data/dead_letter_*.jsonl
+
+# Personal work log — never committed.
+logs.md
