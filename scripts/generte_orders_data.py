@@ -159,7 +159,7 @@ def main():
     random.seed(42)
 
     start_date = date(2026, 7, 1)
-    days = 56
+    days = 117   # 2026-07-01 .. 2026-10-25
 
     # Weekday rhythm: quiet midweek, busy weekend. Monday=0.
     weekday_volume = [1700, 1600, 1650, 1800, 2100, 2500, 2300]
