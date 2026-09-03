@@ -3,9 +3,9 @@ from pathlib import Path
 from ingestion.csv_ingestion.etl import run_etl
 
 
-def test_run_etl() -> None:
+def test_run_etl(tmp_path: Path) -> None:
     csv_path = Path("data/orders_2026-08-01.csv")
-    dlq_path = Path("data/dead_letter_2026-08-01.jsonl")
+    dlq_path = tmp_path / "dead_letter.jsonl"
 
     staging_count, fact_count = run_etl(
         csv_path,
