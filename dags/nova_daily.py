@@ -101,8 +101,21 @@ def nova_daily():
 	def dbt_build() -> str:
 		return "dbt build --project-dir /opt/airflow/nova/nova_analytics"
 
+	@task.bash(
+		env={
+			"POSTGRES_HOST": "{{ conn.nova_warehouse.host }}",
+                        "POSTGRES_PORT": "{{ conn.nova_warehouse.port }}",
+                        "POSTGRES_DB": "{{ conn.nova_warehouse.schema }}",
+                        "POSTGRES_USER": "{{ conn.nova_warehouse.login }}",
+                        "POSTGRES_PASSWORD": "{{ conn.nova_warehouse.password }}",
+		},
+		append_env=True
+	)
+	def soda_scan() -> str:
+		return "soda scan -d nova -c /opt/airflow/nova/soda/configuration.yml /opt/airflow/nova/soda/checks.yml" 
+
 	# The edge. Calling a task returns a handle; >> makes the dependency.
 	# dbt now cannot start unless the load succeeded.
-	run_daily_etl() >> dbt_build()
+	run_daily_etl() >> dbt_build() >> soda_scan()
 
 nova_daily()

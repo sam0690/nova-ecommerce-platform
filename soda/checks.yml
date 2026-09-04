@@ -1,0 +1,42 @@
+checks for fct_orders:
+  - invalid_count(category) = 0:
+      valid values:
+        - accessories
+        - audio
+        - displays
+        - furniture
+        - peripherals
+
+  - freshness(order_date) < 26h:
+      name: orders freshness
+
+  - orders_count_vs_7day_avg >= 70:
+      name: orders count vs previous 7-day average
+      orders_count_vs_7day_avg query: |
+        WITH daily_counts AS (
+            SELECT
+                DATE(order_date) AS order_day,
+                COUNT(*) AS order_count
+            FROM analytics.fct_orders
+            GROUP BY DATE(order_date)
+        ),
+        latest AS (
+            SELECT
+                MAX(order_day) AS latest_day
+            FROM daily_counts
+        ),
+        baseline AS (
+            SELECT AVG(order_count) AS avg_orders
+            FROM daily_counts, latest
+            WHERE order_day < latest.latest_day
+              AND order_day >= latest.latest_day - 7
+        ),
+        latest_count AS (
+            SELECT order_count
+            FROM daily_counts, latest
+            WHERE order_day = latest.latest_day
+        )
+        SELECT
+            (latest_count.order_count::numeric / baseline.avg_orders) * 100
+        FROM latest_count
+        CROSS JOIN baseline;

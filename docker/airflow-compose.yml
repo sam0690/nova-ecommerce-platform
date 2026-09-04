@@ -62,7 +62,7 @@ x-airflow-common: &airflow-common
 
     # ponytail: installs on every container start (~20s x4). Build a Dockerfile
     # FROM apache/airflow when the wait gets annoying or the list grows past ~3.
-    _PIP_ADDITIONAL_REQUIREMENTS: 'psycopg[binary] dbt-postgres'
+    _PIP_ADDITIONAL_REQUIREMENTS: 'psycopg[binary] dbt-postgres soda-core-postgres'
 
   volumes:
     - ../dags:/opt/airflow/dags:z            # :z relabels for SELinux (Fedora enforcing)
@@ -71,6 +71,7 @@ x-airflow-common: &airflow-common
     - ../src:/opt/airflow/nova/src:z         # src.models — csv_loader imports it
     - ../data:/opt/airflow/nova/data:z       # the daily CSVs the ETL reads
     - ../nova_analytics:/opt/airflow/nova/nova_analytics:z   # dbt project, needed from step 11
+    - ../soda:/opt/airflow/nova/soda:z       #soda data quality checks
 
   # Run as you, not as root, so files the container writes into the mounts above
   # stay editable from your terminal. 1000 is your uid (`id -u`); 0 is the group
