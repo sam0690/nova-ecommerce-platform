@@ -9,6 +9,13 @@ from airflow.sdk.bases.hook import BaseHook
 
 logger = logging.getLogger(__name__)
 
+# Where docker/airflow-compose.yml mounts ../data. Deliberately a constant and
+# NOT an Airflow Variable: this only changes when the mount changes, which is a
+# code change anyway. Variables earn their keep for values that must change
+# WITHOUT a deploy — a threshold someone tunes, a feature flag — at the cost of
+# being hidden state that git cannot see.
+DATA_DIR = Path("/opt/airflow/nova/data")
+
 def alert(context):
 	"""Called by Airflow when a task gives up — i.e. after the LAST retry.
 
@@ -47,7 +54,7 @@ def alert(context):
 		# The ceiling. Without this, backoff on a long-lived DAG can grow into
 		# hours and your alert arrives tomorrow.
 		"max_retry_delay": timedelta(minutes=10),
-		# Fires once, after retries are exhausted. Inherited by both tasks.
+		# Fires once, after retries are exhausted. Inherited by all three tasks.
 		"on_failure_callback": alert,
 	},
 )
@@ -70,8 +77,8 @@ def nova_daily():
 
 		logical_date = context["logical_date"].strftime("%Y-%m-%d")
 
-		input_path = Path("/opt/airflow/nova/data") / f"orders_{logical_date}.csv"
-		dlq_path = Path("/opt/airflow/nova/data") / f"dead_letter_{logical_date}.jsonl"
+		input_path = DATA_DIR / f"orders_{logical_date}.csv"
+		dlq_path = DATA_DIR / f"dead_letter_{logical_date}.jsonl"
 
 		staging_count, fact_count = run_etl(
 			input_path=input_path,
@@ -115,6 +122,12 @@ def nova_daily():
 			"POSTGRES_PASSWORD": "{{ conn.nova_warehouse.password }}",
 		},
 		append_env=True,
+		# Overrides default_args. Retries are a bet that the failure is
+		# transient; a failed quality check is not — the data is short, and
+		# rescanning it fails identically three times while the alert sits
+		# ~6 minutes behind the problem. dbt_build hits the same warehouse
+		# seconds earlier, so a genuine connection blip fails there first.
+		retries=0,
 	)
 	def soda_scan() -> str:
 		return "soda scan -d nova -c /opt/airflow/nova/soda/configuration.yml /opt/airflow/nova/soda/checks.yml"

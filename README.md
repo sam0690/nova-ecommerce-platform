@@ -51,23 +51,33 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**4. Run it**
+**4. Generate the sample data**
 
 ```bash
-python ingestion/rest_api/db.py
+python scripts/generte_orders_data.py
 ```
 
-Creates the `products` table, upserts a row, and prints it back. Run it twice — the row
-count stays at 1 while the timestamp advances. That's the pipeline being idempotent.
+`data/orders_*.csv` is gitignored, so a fresh clone has none. The generator is seeded, so
+this reproduces the same 117 days every time.
+
+**5. Run it**
+
+```bash
+python -m ingestion.csv_ingestion.etl 2026-09-05
+```
+
+Validates one day of orders, loads them into `shop.stg_orders`, then merges into
+`shop.fact_orders`. Run it twice — the fact row count does not move the second time.
+That's the pipeline being idempotent.
 
 ## Daily use
 
 ```bash
-docker compose up -d --wait      # start
-source .venv/bin/activate        # activate
-python ingestion/rest_api/db.py  # run
+docker compose up -d --wait                        # start
+source .venv/bin/activate                          # activate
+python -m ingestion.csv_ingestion.etl 2026-09-05   # load a day
 
-docker compose stop              # finish — data is kept
+docker compose stop                                # finish — data is kept
 ```
 
 ## Verifying
@@ -129,18 +139,28 @@ database name after first boot:
 
 ```bash
 docker compose down -v && docker compose up -d --wait
-python ingestion/rest_api/db.py
+
+for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql sql/migrations/003_orders_etl.sql; do
+  PGPASSWORD="$POSTGRES_PASSWORD" psql -h "$POSTGRES_HOST" -p "$POSTGRES_PORT" \
+    -U "$POSTGRES_USER" -d "$POSTGRES_DB" -v ON_ERROR_STOP=1 -f "$file"
+done
 ```
 
 ## Layout
 
 ```
 ingestion/
-  rest_api/db.py       connect, create products, upsert, read back
+  csv_ingestion/       the CSV pipeline: validate, batch, stage, load facts
+  rest_api/            the API pipeline: cursor pagination into the same tables
   kafka/  postgres_cdc/
-sql/  transformation/  dbt/  dags/  tests/  config/  scripts/  notebooks/
+dags/nova_daily.py     load -> dbt build -> soda scan, daily
+nova_analytics/        dbt project (staging + marts)
+soda/                  data quality checks run after dbt
+scripts/               data generator, and a fake API to ingest from
+sql/  tests/  notebooks/  transformation/  config/
 docker-compose.yml     Postgres 16 + named volume + healthcheck
-requirements.txt       psycopg 3, python-dotenv, requests
+docker/                Airflow and Lightdash stacks
+.github/workflows/     CI: pytest + dbt build on every push
 ```
 
 Most directories are placeholders holding only a `README.md` — Git doesn't track empty

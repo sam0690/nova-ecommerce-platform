@@ -255,8 +255,9 @@ Honest scope boundaries rather than hidden defects:
   match the ten seeded customers. Nothing enforces that at the database level.
 - **Default credentials.** `POSTGRES_PASSWORD=changeme`; MinIO uses `minioadmin`. Acceptable for a
   local-only stack, unacceptable if anything is ever exposed.
-- **`ingestion/rest_api/` is abandoned** — an earlier parallel track that was never completed and
-  does not import. `tests/test_staging.py` and `tests/test_fact_loader.py` are known-broken.
+- **The API source reads the same CSVs.** `ingestion/rest_api/` is live as of Step 19, but the
+  endpoint it pulls from is `scripts/fake_orders_api.py` serving `data/orders_*.csv` over HTTP.
+  It exercises real pagination against a real socket; it is not a real vendor.
 
 ---
 
