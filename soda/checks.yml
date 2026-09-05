@@ -10,6 +10,14 @@ checks for fct_orders:
   - freshness(order_date) < 26h:
       name: orders freshness
 
+  # Percentage of the previous 7 days' average. Below 70 means the latest day
+  # lost nearly a third of its usual volume, which dbt's tests cannot see —
+  # unique/not_null/accepted_values all pass happily on a day that is 98% short.
+  #
+  # Catches a SHORT day, not a MISSING one: the baseline is measured against
+  # MAX(order_day), so if a load never runs at all this compares the last day
+  # that DID land against its own predecessors and passes. The freshness check
+  # above is the only thing covering that case.
   - orders_count_vs_7day_avg >= 70:
       name: orders count vs previous 7-day average
       orders_count_vs_7day_avg query: |
@@ -36,7 +44,17 @@ checks for fct_orders:
             FROM daily_counts, latest
             WHERE order_day = latest.latest_day
         )
+        -- A warehouse with fewer than two days of data (CI, a fresh restore)
+        -- has no prior days, so AVG over an empty set returns NULL and the
+        -- whole expression collapses to NULL — Soda then has no value to
+        -- compare and the check errors. COALESCE reports 100 instead: no
+        -- baseline is not an anomaly. NULLIF is belt-and-braces, since
+        -- COUNT(*) per day is never 0 and the divisor cannot truly be zero.
         SELECT
-            (latest_count.order_count::numeric / baseline.avg_orders) * 100
+            COALESCE(
+                (latest_count.order_count::numeric
+                    / NULLIF(baseline.avg_orders, 0)) * 100,
+                100
+            )
         FROM latest_count
         CROSS JOIN baseline;

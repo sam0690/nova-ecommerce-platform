@@ -101,21 +101,27 @@ def nova_daily():
 	def dbt_build() -> str:
 		return "dbt build --project-dir /opt/airflow/nova/nova_analytics"
 
+	# The quality gate. dbt tests assert SHAPE — unique, not_null, valid
+	# categories — and all of them pass on a day that lost 98% of its rows.
+	# Soda asserts REALITY: is the data fresh, and is there enough of it.
+	# Same templated env as dbt_build; the scan needs the warehouse too.
+	# A failing check exits non-zero, which fails the task. That is the gate.
 	@task.bash(
 		env={
 			"POSTGRES_HOST": "{{ conn.nova_warehouse.host }}",
-                        "POSTGRES_PORT": "{{ conn.nova_warehouse.port }}",
-                        "POSTGRES_DB": "{{ conn.nova_warehouse.schema }}",
-                        "POSTGRES_USER": "{{ conn.nova_warehouse.login }}",
-                        "POSTGRES_PASSWORD": "{{ conn.nova_warehouse.password }}",
+			"POSTGRES_PORT": "{{ conn.nova_warehouse.port }}",
+			"POSTGRES_DB": "{{ conn.nova_warehouse.schema }}",
+			"POSTGRES_USER": "{{ conn.nova_warehouse.login }}",
+			"POSTGRES_PASSWORD": "{{ conn.nova_warehouse.password }}",
 		},
-		append_env=True
+		append_env=True,
 	)
 	def soda_scan() -> str:
-		return "soda scan -d nova -c /opt/airflow/nova/soda/configuration.yml /opt/airflow/nova/soda/checks.yml" 
+		return "soda scan -d nova -c /opt/airflow/nova/soda/configuration.yml /opt/airflow/nova/soda/checks.yml"
 
-	# The edge. Calling a task returns a handle; >> makes the dependency.
-	# dbt now cannot start unless the load succeeded.
+	# The edges. Calling a task returns a handle; >> makes the dependency.
+	# Strictly linear: dbt cannot start unless the load succeeded, and the
+	# scan cannot start unless dbt rebuilt the marts it reads.
 	run_daily_etl() >> dbt_build() >> soda_scan()
 
 nova_daily()
