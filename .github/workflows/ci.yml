@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: nova
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      # No .env on a runner. These are the same five variables the ETL, the
+      # tests and dbt all read; the service container above is the warehouse.
+      # Plain text is correct here — that database lives inside this job and
+      # dies with it. Real credentials would come from GitHub Secrets.
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: nova
+
+      # dbt looks in ~/.dbt/profiles.yml by default, which does not exist here.
+      # Same fix as docker/airflow-compose.yml, repo-relative.
+      DBT_PROFILES_DIR: nova_analytics
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          pip install dbt-postgres
+
+      - name: Generate data
+        # data/orders_*.csv is gitignored, so the runner has none. seed 42 in
+        # main() makes this byte-identical to what is on the laptop.
+        run: python scripts/generte_orders_data.py
+
+      - name: Run tests
+        # conftest.py overrides POSTGRES_DB to nova_test and builds it here.
+        run: pytest -q
+
+      - name: Apply database schema
+        # ON_ERROR_STOP=1 because psql exits 0 on a failed statement otherwise,
+        # which would let a broken schema through to dbt.
+        run: |
+          for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql sql/migrations/003_orders_etl.sql; do
+            PGPASSWORD="$POSTGRES_PASSWORD" psql \
+              -h "$POSTGRES_HOST" \
+              -p "$POSTGRES_PORT" \
+              -U "$POSTGRES_USER" \
+              -d "$POSTGRES_DB" \
+              -v ON_ERROR_STOP=1 \
+              -f "$file"
+          done
+
+      - name: Run ETL
+        # A fixed day, so the row counts dbt tests against are reproducible.
+        run: python -m ingestion.csv_ingestion.etl 2026-09-05
+
+      - name: dbt build
+        run: dbt build --project-dir nova_analytics
