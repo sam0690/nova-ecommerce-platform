@@ -91,3 +91,67 @@ models:
         meta:
           dimension:
             type: date
+
+  - name: dim_date
+    description: Date dimension, one row per calendar day from 2025-01-01 to 2026-12-31.
+    columns:
+      - name: date_key
+        description: YYYYMMDD integer. Surrogate key facts join on.
+        data_tests:
+          - unique
+          - not_null
+        meta:
+          dimension:
+            type: number
+            label: Date Key
+      - name: full_date
+        data_tests:
+          - unique
+          - not_null
+        meta:
+          dimension:
+            type: date
+            label: Date
+      - name: year
+        meta:
+          dimension:
+            type: number
+      - name: quarter
+        meta:
+          dimension:
+            type: number
+            label: Quarter
+      - name: month
+        meta:
+          dimension:
+            type: number
+      - name: month_name
+        meta:
+          dimension:
+            type: string
+            label: Month Name
+      - name: day_of_month
+        meta:
+          dimension:
+            type: number
+            label: Day of Month
+      - name: day_of_week
+        meta:
+          dimension:
+            type: number
+            label: Day of Week
+      - name: day_name
+        meta:
+          dimension:
+            type: string
+            label: Day Name
+      - name: is_weekend
+        meta:
+          dimension:
+            type: boolean
+            label: Is Weekend
+      - name: iso_week
+        meta:
+          dimension:
+            type: number
+            label: ISO Week

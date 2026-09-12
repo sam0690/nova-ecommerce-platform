@@ -1,0 +1,23 @@
+snapshots:
+  - name: scd_customers
+    description: >
+      SCD Type 2 history for shop.customers. One row per customer per version;
+      the open row has dbt_valid_to = 'infinity'.
+    relation: source('shop', 'customers')
+    config:
+      unique_key: id
+      strategy: check
+      # shop.customers has no updated_at, so the timestamp strategy is not
+      # available -- dbt has to hash these columns and compare run to run.
+      #
+      # id is the natural key, not an attribute. signup_date is immutable:
+      # if it ever changes that is a correction, not history, and a new
+      # version row would be noise.
+      check_cols:
+        - name
+        - email
+        - country
+      # Without this the open row's dbt_valid_to is NULL, which makes the
+      # point-in-time join (order_date BETWEEN valid_from AND valid_to)
+      # silently drop every current customer.
+      dbt_valid_to_current: "'infinity'::timestamptz"
