@@ -1,0 +1,60 @@
+# Unit tests for the fct_orders lookback window.
+#
+# These are NOT data tests. A data test runs against whatever is in the
+# warehouse and asks "is what's there correct?". The dangerous failure here is
+# a row that is *absent* -- a backfill older than the window -- and there is
+# nothing for a data test to assert on. A unit test feeds the model fixed fake
+# rows and checks the exact output, so "it correctly did not appear" becomes
+# something you can assert.
+#
+# Both tests set this.MAX(order_date) = 2026-09-06, so the 7-day window opens
+# at 2026-08-30. No fixture sits exactly on that boundary: the comparison is
+# `>=` and testing the edge is a separate thought.
+
+unit_tests:
+
+  - name: late_arrival_inside_window_is_reprocessed
+    description: >
+      An order that landed after the last run but is dated inside the 7-day
+      window is picked up. This is the whole reason the window exists -- a bare
+      MAX(order_date) watermark would skip it.
+    model: fct_orders
+    # Without this the is_incremental() block is skipped entirely and the
+    # window never runs, so the test would pass no matter what it contains.
+    overrides:
+      macros:
+        is_incremental: true
+    given:
+      - input: source('shop', 'fact_orders')
+        rows:
+          - {order_id: 'A-1', order_date: '2026-09-06'}
+          - {order_id: 'A-2', order_date: '2026-09-02'}
+      - input: this
+        rows:
+          - {order_id: 'A-1', order_date: '2026-09-06'}
+    expect:
+      rows:
+        - {order_id: 'A-1', order_date: '2026-09-06'}
+        - {order_id: 'A-2', order_date: '2026-09-02'}
+
+  - name: backfill_older_than_window_is_dropped
+    description: >
+      An order dated before the window does NOT appear, and nothing errors.
+      This is the model's stated ceiling, and it fails silently -- replaying a
+      date older than a week needs `dbt build --full-refresh --select
+      fct_orders`. This test is the only thing that holds that comment honest.
+    model: fct_orders
+    overrides:
+      macros:
+        is_incremental: true
+    given:
+      - input: source('shop', 'fact_orders')
+        rows:
+          - {order_id: 'A-1', order_date: '2026-09-06'}
+          - {order_id: 'A-3', order_date: '2026-08-01'}
+      - input: this
+        rows:
+          - {order_id: 'A-1', order_date: '2026-09-06'}
+    expect:
+      rows:
+        - {order_id: 'A-1', order_date: '2026-09-06'}
