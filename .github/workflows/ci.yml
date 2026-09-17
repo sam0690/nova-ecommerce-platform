@@ -80,5 +80,14 @@ jobs:
         # A fixed day, so the row counts dbt tests against are reproducible.
         run: python -m ingestion.csv_ingestion.etl 2026-09-05
 
+      # Unit tests on an incremental model introspect the model's own relation to
+      # type the `this` fixture, and dbt schedules them BEFORE the model they
+      # test. On a fresh database that relation does not exist yet and the test
+      # fails to compile, taking the model down with it. Building the models
+      # once first is the cheapest way out. Locally this is invisible --
+      # analytics.fct_orders has existed since Step 22.
+      - name: dbt run (seed the relations unit tests introspect)
+        run: dbt run --project-dir nova_analytics
+
       - name: dbt build
         run: dbt build --project-dir nova_analytics
