@@ -14,6 +14,7 @@ what the one before it turned up.
 | v2 Phase 1 | Orchestration — Airflow | done |
 | v2 Phase 2 | Second source, quality gates, CI | done |
 | v2 Phase 3 | Scale and historical correctness | done (Steps 21–29) |
+| v3 Block 1 | Track A1 — returns as first-class events | Step 30 done, 31–33 open |
 | v2 Phase 4 | Streaming — Debezium CDC → Kafka | **resequenced, see below** |
 | v2 Phase 5 | Object storage, Parquet/Iceberg | stretch, unchanged |
 | v3 Tracks A–E | Domain depth, behaviour, reliability, serving, ingestion | not started |
@@ -52,7 +53,11 @@ The problem, concretely: 39,553 orders carry `status = 'refunded'` and **not one
 refund date**. `total_revenue` filters to `status = 'completed'`, so a refunded July order
 contributes zero to July. The system already restates history — silently, and nobody chose it.
 
-**Step 30 — give the refund its own date and grain.**
+**Step 30 — give the refund its own date and grain.** ✅ **done 2026-09-19** (`a6aa170`).
+`shop.refunds` created and backfilled: 39,553 rows, **12,754 of them land in a month other than
+their order's** — 32% of refunds, and the size of the restatement problem. Grain is one refund per
+order, enforced by `order_id` as PK. Rows are laptop-only; a fresh environment runs
+`python -m scripts.backfill_refunds` after the migration. Detail in PROGRESS.md.
 `sql/migrations/004_refunds.sql`, `scripts/backfill_refunds.py`. A refund becomes a business
 event with its own event date, backfilled from orders already loaded with a seeded lag wide
 enough that many refunds cross a month boundary. Not in the CSV generator — we are not

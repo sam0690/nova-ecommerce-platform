@@ -140,7 +140,8 @@ database name after first boot:
 ```bash
 docker compose down -v && docker compose up -d --wait
 
-for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql sql/migrations/003_orders_etl.sql; do
+for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql \
+            sql/migrations/003_orders_etl.sql sql/migrations/004_refunds.sql; do
   PGPASSWORD="$POSTGRES_PASSWORD" psql -h "$POSTGRES_HOST" -p "$POSTGRES_PORT" \
     -U "$POSTGRES_USER" -d "$POSTGRES_DB" -v ON_ERROR_STOP=1 -f "$file"
 done

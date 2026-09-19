@@ -21,7 +21,7 @@ Eight weeks of e-commerce order data (2026-07-01 → 2026-08-25) flows through f
         │
         │  2. LOAD  (INSERT ... ON CONFLICT DO NOTHING)
         ▼
- shop.fact_orders           ← durable fact table, 124,322 rows / 56 days
+ shop.fact_orders           ← durable fact table, 157,803 rows / 68 days
         │
         │  3. TRANSFORM  (dbt: sources → models, 8 data tests)
         ▼
@@ -115,12 +115,17 @@ every batch ever loaded and the fact load re-scanned all of it on every run.
 
 `sql/ddl/001_shop.sql` and `002_seed.sql` create and seed the source tables
 (`customers`, `products`, `orders`, `order_items`). `sql/migrations/003_orders_etl.sql` adds the
-ETL's two tables.
+ETL's two tables, and `004_refunds.sql` adds the refund event table.
 
 | Table | Purpose |
 |---|---|
 | `shop.stg_orders` | Transient staging; all columns text; cleared each run |
 | `shop.fact_orders` | Durable fact; typed; PK `order_id`; CHECKs on amount and quantity |
+| `shop.refunds` | Refund events; PK `order_id` (one refund per order); `refund_date` separate from `order_date` |
+
+`refunds` exists because a refund is an event with its own date, not a status flag on the order.
+Storing it as a flag meant a September refund silently reduced July's revenue — **restatement**,
+happening by accident. Its rows come from `scripts/backfill_refunds.py`, not from the CSVs.
 
 `fact_orders` also carries `loaded_at` and `source_file` — **lineage columns** that record when a
 row arrived and which file it came from. They make "where did this row come from?" answerable

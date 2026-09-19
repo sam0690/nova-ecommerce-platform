@@ -77,14 +77,28 @@ docker compose ps
 docker compose exec -T postgres psql -U nova -d nova < sql/ddl/001_shop.sql
 docker compose exec -T postgres psql -U nova -d nova < sql/ddl/002_seed.sql
 docker compose exec -T postgres psql -U nova -d nova < sql/migrations/003_orders_etl.sql
+docker compose exec -T postgres psql -U nova -d nova < sql/migrations/004_refunds.sql
 ```
 
 **Check:**
 
 ```bash
 docker compose exec -T postgres psql -U nova -d nova -c '\dt shop.*'
-# → customers, products, orders, order_items, stg_orders, fact_orders
+# → customers, products, orders, order_items, stg_orders, fact_orders, refunds
 ```
+
+`refunds` is created empty. It is filled from orders already in `fact_orders`, so it is populated
+**after** the first load, not here:
+
+```bash
+python -m scripts.backfill_refunds
+# → 39553 refunded orders, 39553 rows inserted
+# → 12754 refunds land in a different month than their order
+```
+
+Rerunnable — a second run inserts 0. Note the invocation: `python scripts/backfill_refunds.py`
+fails with `ModuleNotFoundError: No module named 'ingestion'`, because running a script puts the
+script's own directory on `sys.path` and not the repo root. `-m` from the repo root is the fix.
 
 ---
 
