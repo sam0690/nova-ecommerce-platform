@@ -281,9 +281,14 @@ Open **http://localhost:8080**.
 
 5. **Test and deploy.** All three steps should go green.
 
-**Check:** open `fct_orders`. The sidebar should list metrics `total_revenue`, `gross_amount`,
-`total_orders`, `total_quantity`, `avg_order_value`, and `order_date` should offer
-day/week/month granularity.
+**Check:** open `fct_orders`. The sidebar should list metrics `gross_amount`, `total_orders` and
+`total_quantity`, and `order_date` should offer day/week/month granularity.
+
+> **Section 10 below is kept as first written and is out of date on one point.** `total_revenue`
+> and `avg_order_value` were removed from `fct_orders` in Step 33 — the first was the restated
+> figure by accident. Revenue now lives on `fct_revenue_events`: use `net_revenue` grouped by
+> **Event Date** wherever a chart below says `total_revenue`, and `avg_order_value` from that same
+> model. The policy and its cost are stated in `schema.yml`.
 
 ---
 

@@ -174,16 +174,26 @@ guards the entry point.
 
 Metrics and dimensions are declared in `schema.yml` under `meta:` and read by Lightdash:
 
-| Metric | Definition | Note |
-|---|---|---|
-| `total_revenue` | `sum(amount)` **filtered to `status = completed`** | the business definition of revenue |
-| `gross_amount` | `sum(amount)`, unfiltered | enables the by-status comparison |
-| `total_orders` | `count_distinct(order_id)` | |
-| `total_quantity` | `sum(quantity)` | |
-| `avg_order_value` | `${total_revenue} / NULLIF(${total_orders}, 0)` | model-level, derived from the other two |
+| Metric | Model | Definition | Note |
+|---|---|---|---|
+| `net_revenue` | `fct_revenue_events` | `sum(signed_amount)` | **official revenue by Event Date (as booked)**; by Order Date it is restated |
+| `gross_revenue` | `fct_revenue_events` | `sum(signed_amount)` filtered to `event_type = booking` | before refunds |
+| `booked_orders` | `fct_revenue_events` | `count_distinct(order_id)` filtered to bookings | denominator for revenue-derived metrics |
+| `avg_order_value` | `fct_revenue_events` | `${gross_revenue} / NULLIF(${booked_orders}, 0)` | model-level |
+| `net_revenue_by_attribution` | `revenue_by_month_attribution` | `sum(net_revenue)` | long format, for the as-booked vs restated chart |
+| `gross_amount` | `fct_orders` | `sum(amount)`, unfiltered | **not revenue** — all statuses, for by-status comparison |
+| `total_orders` | `fct_orders` | `count_distinct(order_id)` | all statuses |
+| `total_quantity` | `fct_orders` | `sum(quantity)` | |
+
+**`total_revenue` was removed in Step 33**, along with the `avg_order_value` derived from it. It
+was `sum(amount)` filtered to `status = 'completed'`, which made it the *restated* figure by
+accident — a refunded order stops being `completed`, so a September refund silently reduced July.
+The policy is now stated on `fct_revenue_events` in `schema.yml`: official revenue is net revenue
+by **Event Date**, so closed months stay closed. Restated is the same metric by Order Date, correct
+for cohort work, never the headline.
 
 This is the point of the whole exercise. **Revenue is defined once.** Rather than every analyst
-remembering to add `WHERE status = 'completed'`, the filter is welded into the metric, so no chart
+remembering which filter to apply, the definition is welded into the metric, so no chart
 can quietly disagree about what revenue means. `gross_amount` exists so the excluded value is still
 answerable — "how much are we losing to cancellations and refunds?" is 92.7M vs 23.2M.
 

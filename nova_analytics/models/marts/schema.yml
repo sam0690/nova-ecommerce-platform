@@ -2,12 +2,10 @@ version: 2
 
 models:
   - name: fct_orders
-    description: One row per order line, sourced from the CSV ETL.
+    description: >
+      One row per order line, sourced from the CSV ETL. Order counts and
+      quantities live here; REVENUE DOES NOT -- see fct_revenue_events.
     meta:
-      metrics:
-        avg_order_value:
-          type: number
-          sql: ${total_revenue} / NULLIF(${total_orders}, 0)
       joins:
         - join: dim_customers
           sql_on: ${fct_orders.customer_id} = ${dim_customers.customer_id}
@@ -25,12 +23,20 @@ models:
           - not_null
         meta:
           metrics:
-            total_revenue:
-              type: sum
-              filters:
-                - status: completed
+            # `total_revenue` (sum of amount filtered to status = 'completed')
+            # was removed here in Step 33, with `avg_order_value` which was
+            # derived from it. It was the RESTATED number by accident: a
+            # refunded order stops being 'completed', so a September refund
+            # silently reduced July. Nobody chose that, and it sat in the
+            # dropdown under a friendly name where anyone could pick it and be
+            # wrong. Revenue is defined once, on fct_revenue_events.
             gross_amount:
               type: sum
+              label: Gross Amount (all statuses)
+              description: >
+                Sum of amount across every status, cancelled and pending
+                included. NOT revenue -- an order total, useful for
+                by-status comparisons only.
       - name: order_date
         data_tests:
           - not_null
@@ -161,6 +167,24 @@ models:
       One row per revenue event -- a booking and a refund are two events, not
       one order with a flag. Carries both event_date and order_date so the same
       sum can be asked as-booked or restated.
+
+      REVENUE POLICY (decided Step 33): official revenue is NET REVENUE BY
+      EVENT DATE -- as booked. A refund reduces the month it was issued in, so
+      a closed month stays closed and a number already reported never moves.
+      What that costs us: a month takes a hit for refunds on orders it never
+      booked, so a bad refund month looks like a bad sales month. Restated --
+      the same metric by Order Date -- is the legitimate answer to "what was
+      this cohort actually worth", and is the only correct choice for cohort
+      and LTV work. It is never the headline figure.
+      Any revenue number quoted without saying which date it is attributed to
+      is incomplete. Chart: "Net Revenue: As Booked vs Restated".
+    meta:
+      metrics:
+        avg_order_value:
+          type: number
+          label: Avg Order Value
+          description: Gross booked revenue per booked order. Refunds excluded -- this is what an order was worth when placed.
+          sql: ${gross_revenue} / NULLIF(${booked_orders}, 0)
     columns:
       - name: event_id
         description: order_id + event_type. The grain, stated.
@@ -180,6 +204,13 @@ models:
         meta:
           dimension:
             type: string
+          metrics:
+            booked_orders:
+              type: count_distinct
+              label: Booked Orders
+              description: Distinct orders that were actually booked. Replaces fct_orders.total_orders as the denominator for revenue-derived metrics.
+              filters:
+                - event_type: booking
       - name: event_type
         data_tests:
           - accepted_values:
@@ -214,8 +245,10 @@ models:
               type: sum
               label: Net Revenue
               description: >
-                Bookings minus refunds. By Event Date this is as-booked, by
-                Order Date it is restated -- the dimension picks the policy.
+                OFFICIAL REVENUE, when grouped by Event Date (as booked).
+                Bookings minus refunds. Grouped by Order Date it is the
+                restated figure instead -- correct for cohort work, never the
+                headline. The dimension picks the policy, so always state it.
             gross_revenue:
               type: sum
               label: Gross Revenue
