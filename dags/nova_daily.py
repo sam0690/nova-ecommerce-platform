@@ -39,6 +39,18 @@ def alert(context):
 	dag_id="nova_daily",
 	schedule="@daily",
 	start_date=datetime(2026,7,1),
+	# catchup=True: on start, Airflow creates a run for every interval since
+	# start_date with no run yet, oldest first, and max_active_runs=1 walks them
+	# one at a time. That is how the gap between the last load and today fills
+	# itself instead of someone replaying dates by hand.
+	#
+	# Expect the early catch-up runs to FAIL the soda gate, and expect it:
+	# `freshness(order_date) < 26h` compares MAX(order_date) against NOW, and a
+	# run replaying an old logical date lands data that is legitimately two weeks
+	# stale. FRESHNESS CHECKS ARE MEANINGLESS DURING A BACKFILL -- they measure
+	# wall-clock lag and a backfill deliberately has some. The load, the refunds
+	# and dbt all succeed; only the gate trips, once per replayed day, each
+	# firing a PIPELINE_ALERT. Runs go green as the replayed dates reach today.
 	catchup=True,
 	max_active_runs=1,
 	# default_args is inherited by EVERY task in this DAG, so dbt_build gets the
