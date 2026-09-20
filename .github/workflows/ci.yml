@@ -66,7 +66,8 @@ jobs:
         # ON_ERROR_STOP=1 because psql exits 0 on a failed statement otherwise,
         # which would let a broken schema through to dbt.
         run: |
-          for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql sql/migrations/003_orders_etl.sql; do
+          for file in sql/ddl/001_shop.sql sql/ddl/002_seed.sql \
+                      sql/migrations/003_orders_etl.sql sql/migrations/004_refunds.sql; do
             PGPASSWORD="$POSTGRES_PASSWORD" psql \
               -h "$POSTGRES_HOST" \
               -p "$POSTGRES_PORT" \
@@ -79,6 +80,17 @@ jobs:
       - name: Run ETL
         # A fixed day, so the row counts dbt tests against are reproducible.
         run: python -m ingestion.csv_ingestion.etl 2026-09-05
+
+      # shop.refunds is created empty by 004 and filled from orders already in
+      # fact_orders, so this has to come AFTER the ETL, not with the schema.
+      # Without it fct_revenue_events cannot build at all -- the source relation
+      # does not exist -- and revenue_events_reconcile_to_completed would go red
+      # on every refunded order that arrived with no refund row.
+      #
+      # This is the daily DAG's gap too: backfill_refunds.py is a one-shot that
+      # nothing schedules. CI papers over it here; Step 33 decides who owns it.
+      - name: Backfill refunds
+        run: python -m scripts.backfill_refunds
 
       # Unit tests on an incremental model introspect the model's own relation to
       # type the `this` fixture, and dbt schedules them BEFORE the model they
