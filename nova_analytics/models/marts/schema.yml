@@ -222,3 +222,37 @@ models:
               description: Booked revenue before any refund is subtracted.
               filters:
                 - event_type: booking
+
+  - name: revenue_by_month_attribution
+    description: >
+      Net revenue per month, once per attribution policy. Long format: the
+      attribution column is the pivot that puts as-booked and restated on one
+      shared axis.
+    columns:
+      - name: month
+        data_tests:
+          - not_null
+        meta:
+          dimension:
+            type: date
+            label: Month
+      - name: attribution
+        description: as_booked = the month the event happened. restated = the month the order was placed.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [as_booked, restated]
+        meta:
+          dimension:
+            type: string
+            label: Attribution
+      - name: net_revenue
+        data_tests:
+          - not_null
+        meta:
+          metrics:
+            net_revenue_by_attribution:
+              type: sum
+              label: Net Revenue
+              description: Bookings minus refunds, attributed by the policy in the Attribution field.
