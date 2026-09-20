@@ -14,7 +14,7 @@ what the one before it turned up.
 | v2 Phase 1 | Orchestration — Airflow | done |
 | v2 Phase 2 | Second source, quality gates, CI | done |
 | v2 Phase 3 | Scale and historical correctness | done (Steps 21–29) |
-| v3 Block 1 | Track A1 — returns as first-class events | Step 30 done, 31–33 open |
+| v3 Block 1 | Track A1 — returns as first-class events | Steps 30–31 done, 32–33 open |
 | v2 Phase 4 | Streaming — Debezium CDC → Kafka | **resequenced, see below** |
 | v2 Phase 5 | Object storage, Parquet/Iceberg | stretch, unchanged |
 | v3 Tracks A–E | Domain depth, behaviour, reliability, serving, ingestion | not started |
@@ -65,11 +65,29 @@ regenerating the CSVs.
 *Acceptance:* refunds per month beside orders per month, and a count of refunds whose month
 differs from their order's month. That count is the size of the restatement problem.
 
-**Step 31 — three revenue metrics that disagree.**
-`gross_revenue`, `net_revenue_restated`, `net_revenue_as_booked` in the semantic layer.
-Concept: **restatement**. The same July, three defensible numbers, differing by exactly the
-refunds that crossed out of July.
-*Acceptance:* all three resolve for 2026 Q3 and the difference equals Step 30's crossing count.
+**Step 31 — three revenue metrics that disagree.** ✅ **done 2026-09-21** (`0ee857c`).
+Built as `fct_revenue_events` (one row per booking or refund, signed amount, carrying both
+`event_date` and `order_date`) plus two metrics — `net_revenue` and `gross_revenue`.
+
+*This step's acceptance criterion, as originally written, was untestable. Twice.* Recorded here
+because the mistake is more instructive than the step:
+
+- **"all three resolve for 2026 Q3"** — every order (2026-07-01→09-06) and every refund
+  (07-02→09-19) is inside Q3, so restated and as-booked are *identical* at the quarter grain.
+  Restatement is invisible at any grain coarse enough to contain both dates: a refund is a
+  transfer between two buckets, and if both buckets are in frame it nets to zero. The comparison
+  has to happen at the month.
+- **"the difference equals Step 30's crossing count"** — it cannot. A July→September refund
+  appears in *two* months' differences. The correct identity, per month M:
+  `restated(M) − as_booked(M) = refunds landing in M − refunds whose order was in M`. Verified to
+  the cent against `shop.refunds` without touching the model.
+- **Three metrics was also wrong.** `net_revenue_restated` and `net_revenue_as_booked` are not two
+  metrics — they are one sum under two different date dimensions. The names stay alive in Step 33,
+  where the choice between them is a policy rather than a column.
+
+*Verified:* monthly gross/restated/as-booked, total restated = total as-booked =
+29,496,512.65, difference 0.00. September as-booked is **negative** (−2,793,777.78): six days of
+orders absorbing three months of refunds. `dbt build` 29/29.
 
 **Step 32 — make the divergence visible.**
 A chart in Lightdash showing restated against as-booked over time. Concept: a number without
