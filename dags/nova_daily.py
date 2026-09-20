@@ -39,7 +39,7 @@ def alert(context):
 	dag_id="nova_daily",
 	schedule="@daily",
 	start_date=datetime(2026,7,1),
-	catchup=False,
+	catchup=True,
 	max_active_runs=1,
 	# default_args is inherited by EVERY task in this DAG, so dbt_build gets the
 	# same policy as the load without repeating it.
