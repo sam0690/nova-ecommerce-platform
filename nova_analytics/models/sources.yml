@@ -11,3 +11,9 @@ sources:
         description: Seeded customer dimension.
       - name: products
         description: Seeded product catalogue.
+      - name: refunds
+        description: >
+          One refund per refunded order, keyed on order_id. Backfilled by
+          scripts/backfill_refunds.py from orders already in fact_orders --
+          there is no refunds CSV and the daily DAG does not populate it, so a
+          fresh database has this table empty until the script is run.

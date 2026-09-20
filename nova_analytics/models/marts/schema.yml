@@ -155,3 +155,70 @@ models:
           dimension:
             type: number
             label: ISO Week
+
+  - name: fct_revenue_events
+    description: >
+      One row per revenue event -- a booking and a refund are two events, not
+      one order with a flag. Carries both event_date and order_date so the same
+      sum can be asked as-booked or restated.
+    columns:
+      - name: event_id
+        description: order_id + event_type. The grain, stated.
+        data_tests:
+          - unique
+          - not_null
+        meta:
+          dimension:
+            type: string
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_orders')
+                field: order_id
+        meta:
+          dimension:
+            type: string
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [booking, refund]
+        meta:
+          dimension:
+            type: string
+      - name: event_date
+        description: When the event happened. Group by this for AS-BOOKED revenue.
+        data_tests:
+          - not_null
+        meta:
+          dimension:
+            type: date
+            label: Event Date (as booked)
+      - name: order_date
+        description: When the order was placed. Group by this for RESTATED revenue.
+        data_tests:
+          - not_null
+        meta:
+          dimension:
+            type: date
+            label: Order Date (restated)
+      - name: signed_amount
+        description: Positive for a booking, negative for a refund.
+        data_tests:
+          - not_null
+        meta:
+          metrics:
+            net_revenue:
+              type: sum
+              label: Net Revenue
+              description: >
+                Bookings minus refunds. By Event Date this is as-booked, by
+                Order Date it is restated -- the dimension picks the policy.
+            gross_revenue:
+              type: sum
+              label: Gross Revenue
+              description: Booked revenue before any refund is subtracted.
+              filters:
+                - event_type: booking
