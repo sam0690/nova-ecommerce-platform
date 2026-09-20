@@ -94,10 +94,31 @@ A chart in Lightdash showing restated against as-booked over time. Concept: a nu
 a stated as-of date is not a number.
 *Acceptance:* the gap is visible without explanation.
 
-**Step 33 — state the policy and enforce it.**
-Document which metric the business uses and why, and add whatever test catches the wrong one
-being used silently.
-*Acceptance:* the choice is written down and something fails if it is violated.
+**Step 33 — state the policy and enforce it.** ✅ **done 2026-09-21** (`72a319d`, `a9f9843`).
+**Official revenue is net revenue by Event Date — as booked.** Closed periods stay closed; a
+number already reported never moves. Cost, stated alongside it: a month takes a hit for refunds
+on orders it never booked, so a bad refund month reads as a bad sales month. Restated is the same
+metric by Order Date, correct for cohort/LTV work, never the headline.
+
+Written inline in `schema.yml` on `fct_revenue_events`, not in a separate doc — the policy sits
+where the metric is defined, so it cannot be read without it.
+
+*Enforcement is deletion, not a test.* `total_revenue` (`sum(amount)` filtered to
+`status = 'completed'`) was removed from `fct_orders`: it was the restated figure **by accident**
+— a refunded order stops being `completed` — sitting in the Lightdash dropdown under a friendly
+name. `avg_order_value` was derived from it and moved to `fct_revenue_events` as
+`gross_revenue / booked_orders`, gross because what an order was worth when placed should not move
+when a refund arrives. New `booked_orders` metric; `total_orders` counts cancelled and pending and
+is wrong as a revenue denominator. `gross_amount` kept, relabelled "not revenue".
+Honest limit: nothing stops a *new* ambiguous metric being added tomorrow. Deletion removes
+today's wrong answer, not tomorrow's. `revenue_events_reconcile_to_completed` is the partial guard.
+
+**Step 33b — refund ingestion gets an owner.** `dags/nova_daily.py`: a `backfill_refunds` task
+between the load and `dbt_build`. It had to be before dbt, which reads `shop.refunds` as a source.
+Safe daily because the insert is `ON CONFLICT DO NOTHING`. Same question as 33, asked about the
+pipeline instead of the metric. **Not yet verified against a running scheduler** — see PROGRESS.md.
+
+*Block 1 (Track A1) is complete.*
 
 ## Block 2 — Track A3: late-arriving and backdated data (Steps 34–36)
 
