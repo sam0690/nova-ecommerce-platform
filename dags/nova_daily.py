@@ -88,6 +88,46 @@ def nova_daily():
 		print(f"Staging rows :{staging_count}")
 		print(f"fact count:{fact_count}")
 
+	# Refund ingestion, given an owner (Step 33b).
+	#
+	# Until now backfill_refunds.py was a one-shot someone ran by hand. That is
+	# fine for a backfill and wrong for a pipeline: every day the load brought
+	# in orders with status = 'refunded' and no matching row in shop.refunds,
+	# which makes fct_revenue_events understate refunds and turns
+	# revenue_events_reconcile_to_completed red. Deciding which metric is
+	# official (Step 33) and deciding who fills the table it reads are the same
+	# question asked twice.
+	#
+	# BEFORE dbt_build, deliberately: dbt reads shop.refunds as a source, so the
+	# refunds have to exist before the marts are rebuilt, not after.
+	#
+	# Safe to run every day: the insert is ON CONFLICT (order_id) DO NOTHING, so
+	# a rerun writes nothing and already-dated refunds never move. The script
+	# re-seeds its RNG each run and walks orders in order_id order, so existing
+	# rows are skipped and only genuinely new orders draw a lag.
+	#
+	# Known limitation, data-generation not pipeline: refund_date_for() never
+	# dates a refund in the future, so an order loaded today can only draw a lag
+	# of ~0 days. Refunds crossing a month boundary are an artifact of the
+	# original backfill against historical orders; the daily path will produce
+	# few. If that matters for a demo, widen the window in the script rather
+	# than here.
+	@task.bash(
+		env={
+			"POSTGRES_HOST": "{{ conn.nova_warehouse.host }}",
+			"POSTGRES_PORT": "{{ conn.nova_warehouse.port }}",
+			"POSTGRES_DB": "{{ conn.nova_warehouse.schema }}",
+			"POSTGRES_USER": "{{ conn.nova_warehouse.login }}",
+			"POSTGRES_PASSWORD": "{{ conn.nova_warehouse.password }}",
+		},
+		append_env=True,
+	)
+	def backfill_refunds() -> str:
+		# -m, not a path: PYTHONPATH is /opt/airflow/nova, and running the file
+		# directly would put scripts/ on sys.path instead of the repo root and
+		# fail on `import ingestion`.
+		return "python -m scripts.backfill_refunds"
+
 	# @task.bash: the function returns a COMMAND STRING, Airflow runs it.
 	# No date in here — dbt rebuilds the marts from whatever is in fact_orders,
 	# so this task is not date-parameterised the way the load is.
@@ -135,6 +175,6 @@ def nova_daily():
 	# The edges. Calling a task returns a handle; >> makes the dependency.
 	# Strictly linear: dbt cannot start unless the load succeeded, and the
 	# scan cannot start unless dbt rebuilt the marts it reads.
-	run_daily_etl() >> dbt_build() >> soda_scan()
+	run_daily_etl() >> backfill_refunds() >> dbt_build() >> soda_scan()
 
 nova_daily()
